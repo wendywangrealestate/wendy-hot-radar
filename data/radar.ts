@@ -11,7 +11,7 @@ export interface RadarItem {
   tags: string[];
   heat: number; // 热度 0-100
   points: string[]; // 总结图：3 条关键点
-  image: string; // 总结图路径 /summaries/<id>.png
+  image: string; // 总结图路径 /summaries/<id>.jpg
   title: string;
   summary: string;
   wendyNote: string; // Wendy 点评：这条情报对买卖/租赁决策意味着什么
@@ -32,7 +32,7 @@ export const radarItems: RadarItem[] = [
       "新增房源同比 -14.4%：卖家退场比买家更快",
       "均价 $1,006,409（同比 -5.1%），平均 51 天售出",
     ],
-    image: "/summaries/trreb-sep-2026.png",
+    image: "/summaries/trreb-sep-2026.jpg",
     title: "TRREB 9月数据：成交5040套同比-9%，新房源下滑更快",
     summary:
       "GTA 9月通过MLS成交5040套，同比下降9%；新增房源16500套，同比下降14.4%，降幅大于成交。平均成交价$1,006,409，同比-5.1%；MLS房价指数同比-4.7%。平均售出周期51天。TRREB形容买家处于“holding pattern”（观望等待），经济、通胀与借贷成本的不确定性持续压制交易。",
@@ -53,7 +53,7 @@ export const radarItems: RadarItem[] = [
       "10 月 28 日议息：市场押注加息概率约 1/3",
       "5 年固定最低 4.14%，反而高于浮动 3.44%",
     ],
-    image: "/summaries/boc-oct28-preview.png",
+    image: "/summaries/boc-oct28-preview.jpg",
     title: "10月28日央行议息前瞻：政策利率2.25%已连7次按兵不动",
     summary:
       "加拿大央行政策利率维持2.25%，商业银行最优惠利率（prime）4.45%。市场对10月28日加息的押注约三分之一，主流银行经济学家预计首次加息落在2027年。值得注意的是5年期固定利率最低约4.14%，反而高于5年浮动利率最低约3.44%——固定利率锚定国债收益率（3.53%），9月底曾触及3.73%的52周高点，lender已上调固定利率10-20个基点。",
@@ -74,7 +74,7 @@ export const radarItems: RadarItem[] = [
       "基准价 $527,200，同比 -6%",
       "Q1 零新盘开盘，已建成未售 4,295 套",
     ],
-    image: "/summaries/condo-buyers-market.png",
+    image: "/summaries/condo-buyers-market.jpg",
     title: "Condo去化6.3个月：GTA唯一明确的买方市场",
     summary:
       "Condo公寓库存去化周期6.3个月，远超6个月的买方市场分界线。基准价跌至$527,200，三个月-2%、同比-6%。更极端的是新房端：2026年Q1整个GTHA零新盘开盘（至少30年首次），已建成未售新condo达4295套，按过去12个月销量算够卖92个月。未售新condo叫价$1,189/平方英尺，而近三年内建成的二手同类单位仅$859/平方英尺，价差38%创纪录。",
@@ -95,7 +95,7 @@ export const radarItems: RadarItem[] = [
       "Condo 中位 $641,500（同比 -4.1%）",
       "预测 Q4 再跌 2%，明春或温和回升",
     ],
-    image: "/summaries/rlp-q3-2026.png",
+    image: "/summaries/rlp-q3-2026.jpg",
     title: "Royal LePage Q3：独立屋中位$1,364,400，预测Q4再跌2%",
     summary:
       "Q3 GTA独立屋价格中位数同比-2.8%至$1,364,400，condo中位-4.1%至$641,500。多伦多市内综合房价同比仅-0.5%至$1,071,500，但环比-4.4%。Royal LePage预测2026年Q4 GTA综合房价同比再跌2.0%，并预计随着库存收紧，销售会在年底至明春温和回升，但价格涨幅仍将温和且分化。",
@@ -116,7 +116,7 @@ export const radarItems: RadarItem[] = [
       "住房是选民最关心议题之一",
       "未来四年住房政策走向看这次",
     ],
-    image: "/summaries/to-municipal-election.png",
+    image: "/summaries/to-municipal-election.jpg",
     title: "多伦多市选临近：住房政策成选民最关心议题之一",
     summary:
       "TRREB主席Daniel Steinfeld表示，住房是选民心中最重要议题之一，10月的市政选举将决定GTA及Simcoe地区未来四年的住房政策——可负担性、住房供应、购房相关成本都可能影响买家需求与信心。",
@@ -137,7 +137,7 @@ export const radarItems: RadarItem[] = [
       "镇屋均价环比 +15.6%",
       "唯独 condo 缺席反弹：销量环比 -0.1%",
     ],
-    image: "/summaries/416-detached-rebound.png",
+    image: "/summaries/416-detached-rebound.jpg",
     title: "416区9月：半独立屋销量环比+32.7%，镇屋均价环比+15.6%",
     summary:
       "多伦多市（416）9月各房型环比出现分化回升：独立屋销量640套环比+16.4%、均价$1,562,966环比+2.4%；半独立屋销量环比+32.7%、均价$1,207,884环比+8.8%；镇屋均价$922,445环比+15.6%。唯独condo公寓销量884套环比-0.1%、均价$640,248环比-1.8%，是唯一没有9月反弹的房型。",
@@ -158,7 +158,7 @@ export const radarItems: RadarItem[] = [
       "5 年期收益率 9 月底触及 3.73% 高点",
       "lender 已上调固定利率 10–20 个基点",
     ],
-    image: "/summaries/fixed-rates-climb.png",
+    image: "/summaries/fixed-rates-climb.jpg",
     title: "央行没动，固定利率却在涨：5年期国债收益率逼近3.73%",
     summary:
       "固定按揭利率跟着加拿大国债收益率走，而非央行政策利率。5年期国债收益率9月28日触及3.73%的52周高点（能源驱动的通胀担忧引发全球债市抛售），lender随之上调固定利率约10-20个基点。目前3年固定约4.54%、5年固定约4.59%（broker渠道价）。",
@@ -179,7 +179,7 @@ export const radarItems: RadarItem[] = [
       "38% 价差创纪录",
       "开发商：不开新盘，取消的转长租",
     ],
-    image: "/summaries/precon-gap-38pct.png",
+    image: "/summaries/precon-gap-38pct.jpg",
     title: "楼花vs二手价差38%创纪录：开发商干脆不开了",
     summary:
       "Urbanation Q1 2026调查：GTHA新建condo销量246套创35年新低；零新盘开盘，至少30年首次；已建成未售4295套，按过去12个月销量够卖92个月；963个单位被取消，全部转为长租公寓。自2024年初以来，取消已从供应管道净移除7360个单位。",
@@ -200,7 +200,7 @@ export const radarItems: RadarItem[] = [
       "销售/新房源比 40.0%，卡在分界线上",
       "headline 会骗人：季调后市场更弱",
     ],
-    image: "/summaries/sa-september-weaker.png",
+    image: "/summaries/sa-september-weaker.jpg",
     title: "剔除季节因素后，9月其实更弱：季调销量环比-5.2%",
     summary:
       "9月历来是暑期后的上架潮，直接看环比会被日历骗。季调后：9月销量环比-5.2%至5174套，为过去一年第二大单月跌幅；新房源环比-3.8%；季调房价指数环比-0.5%至$924,600，回吐6-7月的小幅涨幅。季调销售/新房源比40.0%，恰好卡在买方市场分界线上。",

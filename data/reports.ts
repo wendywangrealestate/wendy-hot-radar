@@ -8,7 +8,7 @@ export interface Report {
   title: string;
   excerpt: string;
   points: string[]; // 总结图：关键点
-  image: string; // 总结图路径 /summaries/report-<slug>.png
+  image: string; // 总结图路径 /summaries/report-<slug>.jpg
   body: string[]; // 段落
   bullets?: { label: string; value: string }[];
 }
@@ -27,7 +27,7 @@ export const reports: Report[] = [
       "均价 $1,006,409（同比 -5.1%）",
       "销售/新房源比 40.0%：买方市场分界线",
     ],
-    image: "/summaries/report-gta-september-2026.png",
+    image: "/summaries/report-gta-september-2026.jpg",
     body: [
       "TRREB 公布的 9 月数据描绘了一个微妙的市场：GTA 通过 MLS 成交 5040 套，同比下降 9%；新增房源 16500 套，同比下降 14.4%。表面看是量价齐跌——平均成交价 $1,006,409，同比 -5.1%，MLS 房价指数同比 -4.7%——但真正的故事藏在两个降幅的差值里。",
       "卖家退场得比买家更快。新房源少了 14.4%，成交只少了 9%，于是销售/新房源比从去年同期的 28.7% 反而升到了 30.5%。季调后的口径更诚实：9 月销量环比 -5.2% 至 5174 套，是过去一年第二大单月跌幅；季调销售/新房源比 40.0%，恰好压在买方市场的分界线上。",
@@ -57,7 +57,7 @@ export const reports: Report[] = [
       "5 年固定 4.14% vs 浮动 3.44%",
       "下次议息 10 月 28 日（含货币政策报告）",
     ],
-    image: "/summaries/report-boc-october-2026-preview.png",
+    image: "/summaries/report-boc-october-2026-preview.jpg",
     body: [
       "先说结论：市场普遍预计 10 月 28 日央行维持 2.25% 不变（押注加息的概率约三分之一），主流银行经济学家的首次加息预期落在 2027 年。但“按兵不动”不等于“没有变化”——固定按揭利率已经先动了。",
       "固定利率锚定的是加拿大国债收益率，不是央行政策利率。5 年期国债收益率 9 月 28 日触及 3.73% 的 52 周高点（能源驱动的通胀担忧引发全球债市抛售），目前回落到 3.53% 附近，lender 已据此上调固定利率约 10-20 个基点。现在 broker 渠道 3 年固定约 4.54%、5 年固定约 4.59%。",
@@ -87,7 +87,7 @@ export const reports: Report[] = [
       "Q1 零新盘开盘（30 年首次）",
       "新盘/二手价差 38% 创纪录",
     ],
-    image: "/summaries/report-condo-q3-2026.png",
+    image: "/summaries/report-condo-q3-2026.jpg",
     body: [
       "GTA condo 公寓是当前唯一没有争议的买方市场：库存去化 6.3 个月，远超 6 个月的分界线；基准价 $527,200，三个月 -2%、同比 -6%；9 月是唯一没有迎来秋季小反弹的房型（销量环比 -0.1%）。对自住买家，这是全场议价权最强的位置：选择多、不着急、可以慢慢挑。",
       "但硬币的另一面是新房端。Urbanation 2026 年 Q1 调查：GTHA 新建 condo 销量 246 套，创 35 年新低；零新盘开盘，至少 30 年首次；已建成未售 4295 套，按过去 12 个月销量够卖 92 个月；963 个单位被取消，全部转为长租公寓。自 2024 年初以来，取消已从供应管道净移除 7360 个单位。",
