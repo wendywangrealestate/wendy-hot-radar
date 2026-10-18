@@ -18,6 +18,12 @@ export default function ReportsPage() {
             className="rise group rounded-2xl border border-line bg-panel p-6 transition-colors hover:border-heat-dim"
             style={{ animationDelay: `${i * 80}ms` }}
           >
+            <img
+              src={r.image}
+              alt={r.title}
+              loading="lazy"
+              className="mb-4 h-40 w-full rounded-xl border border-line object-cover object-top"
+            />
             <div className="flex items-center gap-2 text-xs text-muted">
               <span className="rounded-full bg-panel2 px-2.5 py-1 text-[11px] text-heat">{r.tag}</span>
               <span>{formatDateCN(r.date)}</span>

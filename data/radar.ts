@@ -1,5 +1,6 @@
 // 雷达信息流种子数据：每日精选的多伦多 GTA 地产动态
 // 字段约定：每条 = 一条"情报"，含信源、标签、热度与 Wendy 点评
+// points / image：总结图卡片用（scripts/shot-summaries.sh 截图生成）
 
 export interface RadarItem {
   id: string;
@@ -9,6 +10,8 @@ export interface RadarItem {
   firstHand: boolean; // 是否一手来源（官方/机构原始发布）
   tags: string[];
   heat: number; // 热度 0-100
+  points: string[]; // 总结图：3 条关键点
+  image: string; // 总结图路径 /summaries/<id>.png
   title: string;
   summary: string;
   wendyNote: string; // Wendy 点评：这条情报对买卖/租赁决策意味着什么
@@ -24,6 +27,12 @@ export const radarItems: RadarItem[] = [
     firstHand: true,
     tags: ["市场数据", "GTA"],
     heat: 39,
+    points: [
+      "成交 5,040 套，同比 -9%",
+      "新增房源同比 -14.4%：卖家退场比买家更快",
+      "均价 $1,006,409（同比 -5.1%），平均 51 天售出",
+    ],
+    image: "/summaries/trreb-sep-2026.png",
     title: "TRREB 9月数据：成交5040套同比-9%，新房源下滑更快",
     summary:
       "GTA 9月通过MLS成交5040套，同比下降9%；新增房源16500套，同比下降14.4%，降幅大于成交。平均成交价$1,006,409，同比-5.1%；MLS房价指数同比-4.7%。平均售出周期51天。TRREB形容买家处于“holding pattern”（观望等待），经济、通胀与借贷成本的不确定性持续压制交易。",
@@ -39,6 +48,12 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["利率", "贷款"],
     heat: 35,
+    points: [
+      "政策利率 2.25%，连续 7 次按兵不动",
+      "10 月 28 日议息：市场押注加息概率约 1/3",
+      "5 年固定最低 4.14%，反而高于浮动 3.44%",
+    ],
+    image: "/summaries/boc-oct28-preview.png",
     title: "10月28日央行议息前瞻：政策利率2.25%已连7次按兵不动",
     summary:
       "加拿大央行政策利率维持2.25%，商业银行最优惠利率（prime）4.45%。市场对10月28日加息的押注约三分之一，主流银行经济学家预计首次加息落在2027年。值得注意的是5年期固定利率最低约4.14%，反而高于5年浮动利率最低约3.44%——固定利率锚定国债收益率（3.53%），9月底曾触及3.73%的52周高点，lender已上调固定利率10-20个基点。",
@@ -54,6 +69,12 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["Condo", "买方市场"],
     heat: 32,
+    points: [
+      "库存去化 6.3 个月：明确的买方市场",
+      "基准价 $527,200，同比 -6%",
+      "Q1 零新盘开盘，已建成未售 4,295 套",
+    ],
+    image: "/summaries/condo-buyers-market.png",
     title: "Condo去化6.3个月：GTA唯一明确的买方市场",
     summary:
       "Condo公寓库存去化周期6.3个月，远超6个月的买方市场分界线。基准价跌至$527,200，三个月-2%、同比-6%。更极端的是新房端：2026年Q1整个GTHA零新盘开盘（至少30年首次），已建成未售新condo达4295套，按过去12个月销量算够卖92个月。未售新condo叫价$1,189/平方英尺，而近三年内建成的二手同类单位仅$859/平方英尺，价差38%创纪录。",
@@ -69,11 +90,17 @@ export const radarItems: RadarItem[] = [
     firstHand: true,
     tags: ["房价调查", "Q3"],
     heat: 24,
+    points: [
+      "GTA 独立屋中位 $1,364,400（同比 -2.8%）",
+      "Condo 中位 $641,500（同比 -4.1%）",
+      "预测 Q4 再跌 2%，明春或温和回升",
+    ],
+    image: "/summaries/rlp-q3-2026.png",
     title: "Royal LePage Q3：独立屋中位$1,364,400，预测Q4再跌2%",
     summary:
       "Q3 GTA独立屋价格中位数同比-2.8%至$1,364,400，condo中位-4.1%至$641,500。多伦多市内综合房价同比仅-0.5%至$1,071,500，但环比-4.4%。Royal LePage预测2026年Q4 GTA综合房价同比再跌2.0%，并预计随着库存收紧，销售会在年底至明春温和回升，但价格涨幅仍将温和且分化。",
     wendyNote:
-      "注意这个分化：家庭型物业（独立、半独立、镇屋）需求坚挺，condo持续疲软。Q4再跌2%的预测意味着年底前买家仍有窗口，但“库存收紧→明春回升”的判断也提醒卖家：熬过冬天，春天可能更好。买卖时机从来不是一个答案，要看你的物业类型。",
+      "注意这个分化：家庭型物业（独立屋系）需求坚挺，condo持续疲软。Q4再跌2%的预测意味着年底前买家仍有窗口，但“库存收紧→明春回升”的判断也提醒卖家：熬过冬天，春天可能更好。买卖时机从来不是一个答案，要看你的物业类型。",
     url: "https://www.newswire.ca/news-releases/conditions-support-a-housing-market-recovery-but-uncertainty-stalls-momentum-858225265.html",
   },
   {
@@ -84,6 +111,12 @@ export const radarItems: RadarItem[] = [
     firstHand: true,
     tags: ["政策", "市选"],
     heat: 18,
+    points: [
+      "10 月多伦多市政选举临近",
+      "住房是选民最关心议题之一",
+      "未来四年住房政策走向看这次",
+    ],
+    image: "/summaries/to-municipal-election.png",
     title: "多伦多市选临近：住房政策成选民最关心议题之一",
     summary:
       "TRREB主席Daniel Steinfeld表示，住房是选民心中最重要议题之一，10月的市政选举将决定GTA及Simcoe地区未来四年的住房政策——可负担性、住房供应、购房相关成本都可能影响买家需求与信心。",
@@ -99,6 +132,12 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["独立屋", "416"],
     heat: 20,
+    points: [
+      "半独立屋销量环比 +32.7%",
+      "镇屋均价环比 +15.6%",
+      "唯独 condo 缺席反弹：销量环比 -0.1%",
+    ],
+    image: "/summaries/416-detached-rebound.png",
     title: "416区9月：半独立屋销量环比+32.7%，镇屋均价环比+15.6%",
     summary:
       "多伦多市（416）9月各房型环比出现分化回升：独立屋销量640套环比+16.4%、均价$1,562,966环比+2.4%；半独立屋销量环比+32.7%、均价$1,207,884环比+8.8%；镇屋均价$922,445环比+15.6%。唯独condo公寓销量884套环比-0.1%、均价$640,248环比-1.8%，是唯一没有9月反弹的房型。",
@@ -114,6 +153,12 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["利率", "固定利率"],
     heat: 22,
+    points: [
+      "固定利率跟国债收益率走，不跟央行走",
+      "5 年期收益率 9 月底触及 3.73% 高点",
+      "lender 已上调固定利率 10–20 个基点",
+    ],
+    image: "/summaries/fixed-rates-climb.png",
     title: "央行没动，固定利率却在涨：5年期国债收益率逼近3.73%",
     summary:
       "固定按揭利率跟着加拿大国债收益率走，而非央行政策利率。5年期国债收益率9月28日触及3.73%的52周高点（能源驱动的通胀担忧引发全球债市抛售），lender随之上调固定利率约10-20个基点。目前3年固定约4.54%、5年固定约4.59%（broker渠道价）。",
@@ -129,9 +174,15 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["楼花", "新房"],
     heat: 26,
+    points: [
+      "未售新盘 $1,189/尺 vs 二手 $859/尺",
+      "38% 价差创纪录",
+      "开发商：不开新盘，取消的转长租",
+    ],
+    image: "/summaries/precon-gap-38pct.png",
     title: "楼花vs二手价差38%创纪录：开发商干脆不开了",
     summary:
-      "Urbanation Q1 2026调查：GTHA新建condo销量246套创35年新低，零新盘开盘；963个单位被取消，全部转为长租公寓；自2024年初以来，取消已从供应管道中净移除7360个单位。开发商转向精品/豪宅小盘，因为刚需盘的预售已凑不够融资门槛。",
+      "Urbanation Q1 2026调查：GTHA新建condo销量246套创35年新低；零新盘开盘，至少30年首次；已建成未售4295套，按过去12个月销量够卖92个月；963个单位被取消，全部转为长租公寓。自2024年初以来，取消已从供应管道净移除7360个单位。",
     wendyNote:
       "供应端在自我出清：取消的转长租、不开新盘，意味着2-3年后新房供应会断档。现在买楼花是逆势接飞刀——除非开发商信誉极强、价格真有折扣。反过来想：等这批库存消化完，稀缺性会回来。长线投资者可以开始做功课，但动手前务必算清持有成本。",
     url: "https://bigcityrealty.ca/blog/not-a-single-new-condo-launched-in-toronto-in-q1/",
@@ -144,11 +195,17 @@ export const radarItems: RadarItem[] = [
     firstHand: false,
     tags: ["市场数据", "解读"],
     heat: 21,
+    points: [
+      "季调销量环比 -5.2%，一年第二大跌幅",
+      "销售/新房源比 40.0%，卡在分界线上",
+      "headline 会骗人：季调后市场更弱",
+    ],
+    image: "/summaries/sa-september-weaker.png",
     title: "剔除季节因素后，9月其实更弱：季调销量环比-5.2%",
     summary:
-      "9月历来是暑期后的上架潮，直接看环比会被日历骗。季调后：9月销量环比-5.2%至5174套，为过去一年第二大单月跌幅；新房源环比-3.8%；季调房价指数环比-0.5%至$924,600，回吐6-7月的小幅涨幅。季调销售/新房源比40.0%，恰好卡在买方市场分界线（40%）上。",
+      "9月历来是暑期后的上架潮，直接看环比会被日历骗。季调后：9月销量环比-5.2%至5174套，为过去一年第二大单月跌幅；新房源环比-3.8%；季调房价指数环比-0.5%至$924,600，回吐6-7月的小幅涨幅。季调销售/新房源比40.0%，恰好卡在买方市场分界线上。",
     wendyNote:
-      " headline数字会骗人，季调后的才是真相：市场并没有迎来秋季反弹，而是在40%这条买方/卖方分界线上横盘。对买家这是好消息——时间站在你这边；对卖家则是提醒——定价必须基于最近90天的可比成交，而不是去年的高点，更不是2022年的峰值。",
+      "headline数字会骗人，季调后的才是真相：市场并没有迎来秋季反弹，而是在40%这条买方/卖方分界线上横盘。对买家这是好消息——时间站在你这边；对卖家则是提醒——定价必须基于最近90天的可比成交，而不是去年的高点，更不是2022年的峰值。",
     url: "https://www.homiesai.com/research/trreb-market-watch-september-2026",
   },
 ];

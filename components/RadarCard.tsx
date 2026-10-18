@@ -12,6 +12,12 @@ export default function RadarCard({ item, index }: { item: RadarItem; index: num
       className="rise rounded-2xl border border-line bg-panel p-5 transition-colors hover:border-heat-dim sm:p-6"
       style={{ animationDelay: `${Math.min(index * 70, 420)}ms` }}
     >
+      <img
+        src={item.image}
+        alt={item.title}
+        loading="lazy"
+        className="mb-4 h-44 w-full rounded-xl border border-line object-cover object-top"
+      />
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-muted">
         <span className="font-mono text-radar">{item.time}</span>
         <span>{item.source}</span>
