@@ -120,10 +120,16 @@ def render(card, out):
     print("rendered", out)
 
 def main():
-    cards = json.load(open("/tmp/cards.json"))
-    os.makedirs(os.path.expanduser("~/workspace/wendy-hot-radar/public/summaries"), exist_ok=True)
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input", default="/tmp/cards.json", help="卡片 JSON（数组）")
+    ap.add_argument("--outdir", default=os.path.expanduser("~/workspace/wendy-hot-radar/public/summaries"))
+    args = ap.parse_args()
+    data = json.load(open(args.input))
+    cards = data if isinstance(data, list) else [data]
+    os.makedirs(args.outdir, exist_ok=True)
     for c in cards:
-        render(c, os.path.expanduser(f"~/workspace/wendy-hot-radar/public/summaries/{c['file']}"))
+        render(c, os.path.join(args.outdir, c["file"]))
 
 if __name__ == "__main__":
     main()
