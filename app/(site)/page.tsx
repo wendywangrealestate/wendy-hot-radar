@@ -15,6 +15,28 @@ export default function Home() {
         <StatsStrip />
       </div>
 
+      <div className="mx-auto max-w-6xl px-4 pt-6 sm:px-6">
+        <Link
+          href="/data"
+          className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-panel px-5 py-4 transition-colors hover:border-heat/50 sm:px-6"
+        >
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-1 text-sm">
+            <span className="font-bold text-heat">GTA 关键数据</span>
+            <span className="text-muted">
+              均价 <span className="font-mono font-bold text-ink">$1,006,409</span>
+              <span className="text-xs">（同比 -5.1%）</span>
+            </span>
+            <span className="text-muted">
+              政策利率 <span className="font-mono font-bold text-ink">2.25%</span>
+            </span>
+            <span className="text-muted">
+              Condo 去化 <span className="font-mono font-bold text-ink">6.3 个月</span>
+            </span>
+          </div>
+          <span className="text-sm font-bold text-radar">查看市场数据 →</span>
+        </Link>
+      </div>
+
       <section id="feed" className="mx-auto max-w-6xl scroll-mt-20 px-4 py-12 sm:px-6">
         <div className="mb-8 flex items-end justify-between">
           <div>

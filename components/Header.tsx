@@ -6,6 +6,7 @@ import { useState } from "react";
 
 const nav = [
   { href: "/", label: "精选雷达" },
+  { href: "/data", label: "市场数据" },
   { href: "/reports", label: "市场报告" },
   { href: "/ask", label: "问 Wendy AI" },
   { href: "/about", label: "关于 Wendy" },
