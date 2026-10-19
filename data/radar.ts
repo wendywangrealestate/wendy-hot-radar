@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "poll-affordability-oct2026",
+    date: "2026-10-19",
+    time: "08:20",
+    source: "CityNews × Canada Pulse Insights",
+    firstHand: false,
+    tags: ["民调", "可负担性"],
+    heat: 70,
+    points: [
+      "买房可负担性评'差/很差'：67%，一年前是83%",
+      "非屋主73%认为这辈子买不起自己社区的房",
+      "租房可负担性评差：62%，去年78%",
+    ],
+    image: "/summaries/poll-affordability-oct2026.jpg",
+    title: "CityNews民调：67%多伦多人认为买房可负担性差，但比一年前改善",
+    summary:
+      "Canada Pulse Insights 受 CityNews 委托，于 9 月 14–25 日调查 510 名多伦多居民（另含 825 名 GTA 居民）。67% 的多伦多居民认为在自己社区买得起房的可及性'差或很差'，较 2025 年 10 月的 83% 明显改善；租房可及性 62% 评差（去年 78%）。非屋主中 73% 认为这辈子都无法在自己社区买房；全市 23% 的人想买但买不起，集中在 35–54 岁有娃家庭。",
+    wendyNote:
+      "别只看'67% 悲观'，真正重要的是结构性分化——35–54 岁刚需家庭是买意最强却最被卡住的一群，他们正是'好房源出来就出手'的力量。把这份民调和 TRREB'卖家退场更快'一起读，就是年底成交机会窗口的底层逻辑。",
+    url: "https://worldbytenews.com/access-to-affordable-homes-improving-but-two-thirds-of-torontonians-believe-its-bad-or-terrible-poll/",
+  },
+  {
+    id: "poll-talent-outflow-oct2026",
+    date: "2026-10-19",
+    time: "08:20",
+    source: "Toronto Region Board of Trade × Ipsos",
+    firstHand: false,
+    tags: ["民调", "人才外流"],
+    heat: 58,
+    points: [
+      "76% 把生活成本列为城市最大经济挑战",
+      "37% 居民五年内可能搬离多伦多，65% 因'太贵'",
+      "55% 认为城市繁荣走错方向，仅22%认为在前进",
+    ],
+    image: "/summaries/poll-talent-outflow-oct2026.jpg",
+    title: "商会×Ipsos民调：37%多伦多居民五年内可能因太贵搬走",
+    summary:
+      "Ipsos 受多伦多地区商会委托，于 7 月 20 日–8 月 4 日调查 801 名多伦多成年人。76% 的居民把生活成本列为城市面临的最大经济挑战；55% 认为多伦多的繁荣'走错了方向'，仅 22% 认为在前进。37% 的居民表示五年内可能因可负担性问题离开多伦多，其中 65% 的理由是'太贵'，年轻人（租房和首购主力）意愿最强。",
+    wendyNote:
+      "人口是长期房价的底盘——年轻人正在用脚投票。对房东是预警（租客池可能被稀释），对开发商是预警（长期需求假设要打折扣）；但对自住买家反而意味着竞争放缓的窗口。短线看跌情绪，中线看政策与人口回流。",
+    url: "https://www.wealthprofessional.ca/news/industry-news/toronto-residents-fear-city-losing-ground-on-affordability-and-talent/393337",
+  },
+  {
+    id: "mayoral-housing-platforms-oct2026",
+    date: "2026-10-19",
+    time: "08:20",
+    source: "Buildups",
+    firstHand: false,
+    tags: ["政策", "市选"],
+    heat: 52,
+    points: [
+      "10月26日投票，Chow vs Bradford 民调胶着",
+      "Bradford：110万以下首套免市土地转让税+首年冻地税",
+      "Chow：6.5万套租金管制房，空置税/豪宅加税",
+    ],
+    image: "/summaries/mayoral-housing-platforms-oct2026.jpg",
+    title: "选前一周：Chow与Bradford住房政见正面交锋，10月26日投票",
+    summary:
+      "多伦多市长选举 10 月 26 日投票，现任市长 Olivia Chow 与市议员 Brad Bradford 民调胶着，住房/可负担性是选民最关心议题。Bradford 承诺：首套房 110 万以下免市土地转让税（MLTT）、首年冻结地税、推动取消开发费；Chow 主张：2030 年前交付 6.5 万套租金管制房、支持空置税与豪宅加税、精简开发审批。",
+    wendyNote:
+      "这是未来四年多伦多住房政策的'路口'——Bradford 路线直接利好交易端（省掉 MLTT、开发费下降传导到新房价格），Chow 路线利好持有端管控。110 万以下的 condo/镇屋买家尤其要盯这条：选举结果出来那周，市场情绪会先动。",
+    url: "https://buildups.ca/news/toronto-mayoral-candidates-housing-solutions/",
+  },
+  {
     id: "trreb-sep-2026",
     date: "2026-10-18",
     time: "09:30",

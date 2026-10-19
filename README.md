@@ -30,7 +30,8 @@ npm run dev            # http://localhost:3000
 
 | 变量 | 用途 | 不填会怎样 |
 |---|---|---|
-| `GEMINI_API_KEY` | 问 AI 功能（Google AI Studio 免费创建） | 用内置知识库关键词兜底作答，页面照常可用 |
+| `GROQ_API_KEY` | 问 AI 功能（Groq 免费创建，优先使用） | 两个都不填则用内置知识库关键词兜底作答，页面照常可用 |
+| `GEMINI_API_KEY` | 问 AI 功能（Google AI Studio 免费创建，备用） | 同上 |
 | `NEXT_PUBLIC_SUPABASE_URL` | 订阅功能 | 订阅页提示"系统接入中" |
 | `SUPABASE_ANON_KEY` | 订阅功能 | 同上 |
 
@@ -41,7 +42,8 @@ npm run dev            # http://localhost:3000
 3. 在 Vercel Project → Settings → Environment Variables 填入上面的环境变量。
 4. Supabase：建项目后在 SQL Editor 执行 `supabase/migrations/001_subscribers.sql`，
    再把 Project URL / anon key 填进 Vercel 环境变量。
-5. Google AI Studio（https://aistudio.google.com）创建 API Key，填入 `GEMINI_API_KEY`。
+5. 问 AI 的 API Key（二选一，Groq 优先）：Groq 控制台（https://console.groq.com）创建 API Key
+   填入 `GROQ_API_KEY`；或 Google AI Studio（https://aistudio.google.com）创建后填入 `GEMINI_API_KEY`。
 
 ## 内容更新
 
