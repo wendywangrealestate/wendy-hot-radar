@@ -20,6 +20,48 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "cpi-sep31-oct2026",
+    date: "2026-10-20",
+    time: "08:00",
+    source: "StatsCan（路透社/Wealth Professional 综合报道）",
+    firstHand: false,
+    tags: ["通胀", "利率"],
+    heat: 78,
+    points: [
+      "9月CPI同比3.1%：略低于市场预期的3.2%",
+      "去汽油后核心仅2.2%，油价+27.8%是推手",
+      "租金+2.8%，房贷利息成本反降0.2%",
+    ],
+    image: "/summaries/cpi-sep31-oct2026.jpg",
+    title: "9月通胀3.1%尘埃落定：油价推高但核心回落，10月28日议息前最后数据",
+    summary:
+      "加拿大统计局10月19日公布：9月CPI同比3.1%（8月为3.0%），略低于路透调查预期的3.2%，是三个月来再次站上央行容忍区间上限。汽油同比大涨27.8%（能源整体+19%）是主因；剔除汽油后通胀仅2.2%（8月2.4%），核心指标CPI-median 1.9%、CPI-trim 1.8%均回落。居住成本+1.8%（8月1.5%），租金+2.8%，但房贷利息成本-0.2%、屋主重置成本-1.9%。",
+    wendyNote:
+      "这是10月28日央行议息前的最后一份关键数据，决定了年底利率走向的叙事——市场押注10月按兵不动、12月加息25bp。买家注意：固定利率看的是债券收益率（已在涨），别拿'等央行'当借口拖延预批；浮动利率持有者现在是锁定的窗口期。租金+2.8%而房价承压，'买不如租'的现金流账正在悄悄翻转。",
+    url: "https://www.wealthprofessional.ca/news/industry-news/canada-cpi-revealed/393806",
+  },
+  {
+    id: "crea-sep2026-forecast",
+    date: "2026-10-20",
+    time: "08:00",
+    source: "CREA（路透社/Andreu Realty 综合报道）",
+    firstHand: false,
+    tags: ["全国市场", "预测"],
+    heat: 66,
+    points: [
+      "9月全国销量环比-2.3%，同比（未季调）-7.7%",
+      "全国均价$666,538同比-1.6%，HPI同比-3.4%",
+      "CREA年内三度下调预测：全年销量-5.2%，安省房价-3%",
+    ],
+    image: "/summaries/crea-sep2026-forecast.jpg",
+    title: "CREA：9月全国销量环比再降2.3%，年内第三次下调全年预测",
+    summary:
+      "加拿大地产协会（CREA）10月16日发布9月全国数据：销量环比再降2.3%（8月-0.7%），未经季调的同比-7.7%；MLS房价指数环比-0.4%、同比-3.4%，全国均价$666,538同比-1.6%。CREA年内第三次下调2026全年预测：销量44.45万套（同比-5.2%，7月时只预测-1.4%），全年均价$681,681（+0.2%），其中安省房价-3%、BC省-0.8%；预计2027年销量反弹+4.4%、均价+1.2%。首席经济学家Shaun Cathcart直指固定利率跳涨是主因。",
+    wendyNote:
+      "全国口径在确认GTA的观察：成交比挂牌跌得更快不是只有多伦多在发生。安省全年房价-3%的预测基本把GTA的跌幅写进了官方剧本——卖家还在按去年价格定价的就是在跟预测对赌。对买家反而是好消息：议价空间在预测里还有余量，年底前出手别怕谈价。",
+    url: "https://www.andreurealty.com/post/canada-home-sales-september-2026-crea-forecast",
+  },
+  {
     id: "poll-affordability-oct2026",
     date: "2026-10-19",
     time: "08:20",
