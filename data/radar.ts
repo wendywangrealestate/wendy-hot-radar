@@ -20,6 +20,48 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "boc-hike-odds-oct28",
+    date: "2026-10-21",
+    time: "07:00",
+    source: "路透社/LSEG（Trendonomist、FXStreet 等综合报道）",
+    firstHand: false,
+    tags: ["央行加息", "利率"],
+    heat: 88,
+    points: [
+      "10月28日加息概率已升至85–95%",
+      "大行转押10月28日加息25bp",
+      "固定利率跟债券走：已先行上调",
+    ],
+    image: "/summaries/boc-hike-odds-oct28.jpg",
+    title: "10月28日加息概率飙至85–95%：行长Macklem放鹰，市场几乎把加息写入定价",
+    summary:
+      "隔夜利率掉期市场显示，10月20–21日市场对央行10月28日加息25个基点（政策利率2.25%→2.50%）的押注，已从一周前的约30%飙升至85%–95%（BlueGamma最新显示95%）。BMO、RBC、Desjardins、Scotiabank均已转向预期加息；导火索是9月CPI 3.1%、央行周一公布的消费者长期通胀预期上升，以及行长Macklem上周六在曼谷表态“油价维持100美元附近，通胀将从3%缓慢上行”。不过多数受访经济学家仍押注按兵不动，市场定价与经济学家预测罕见分歧。",
+    wendyNote:
+      "对GTA买家的真实冲击不在央行那一下——固定利率锚定债券收益率，已经提前涨了。正在看房的，把pre-approval的利率有效期和利率类型（固定/浮动）一起纳入决策；明年有续约的，现在就该找mortgage broker谈锁定策略，别拿“等10月28日”当借口拖延。",
+    url: "https://trendonomist.com/bank-of-canada-rate-hike-odds-hit-85-as-u-s-trade-tensions-and-inflation-weigh-on-canadian-households/",
+  },
+  {
+    id: "federal-bull-tower-370rentals",
+    date: "2026-10-21",
+    time: "07:00",
+    source: "加拿大政府（CNW 官方通稿）",
+    firstHand: true,
+    tags: ["联邦政策", "租赁供应"],
+    heat: 55,
+    points: [
+      "1.65亿低息贷款建370套出租房",
+      "多伦多娱乐区128 Peter St建楼",
+      "ACLP已承诺320亿支持8.2万套",
+    ],
+    image: "/summaries/federal-bull-tower-370rentals.jpg",
+    title: "联邦1.65亿低息贷款砸向市中心：370套新出租房落地128 Peter St",
+    summary:
+      "联邦政府10月16日通过CNW宣布，经公寓建设贷款计划（ACLP）向多伦多娱乐区128 Peter Street的“The Bull Tower”项目提供1.65亿加元低息贷款，用于建设370套新建出租房。ACLP总规模550亿加元，目标2031-32年建成13.1万套出租房；截至今年6月，CMHC已承诺320亿、支持8.19万套。",
+    wendyNote:
+      "新增的全是purpose-built出租房，短期缓解市中心租客“没得选”的困境，但对房价几乎没有直接影响。反倒是对downtown condo房东的提醒：未来2–3年竞争房源在增加，续租定价别太贪，租客现在选择多了。",
+    url: "https://www.newswire.ca/news-releases/canada-announces-the-groundbreaking-of-new-homes-in-toronto-865475453.html",
+  },
+  {
     id: "cpi-sep31-oct2026",
     date: "2026-10-20",
     time: "08:00",
