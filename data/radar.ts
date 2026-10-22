@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "urbanation-q3-2026-condo",
+    date: "2026-10-22",
+    time: "07:00",
+    source: "Urbanation（mpamag / REMI Network 综合报道）",
+    firstHand: false,
+    tags: ["新Condo销量", "批量交易"],
+    heat: 65,
+    points: [
+      "GTHA新盘Q3售760套，同比翻倍",
+      "批量交易339套，均价$763/呎",
+      "竣工未售5127套，环比-7%",
+    ],
+    image: "/summaries/urbanation-q3-2026-condo.jpg",
+    title: "新Condo销量Q3翻倍至760套：投资客40%折扣扫货竣工盘",
+    summary:
+      "Urbanation Q3-2026新盘调查：GTHA新建condo销量760套，同比翻倍、连续两个季度增长（近两个季度合计1531套，接近2025全年1578套），但仍比Q3十年均值低78%。投资机构批量买入339套（占45%），成交均价$763/呎、比同楼原售价低约40%；竣工盘录得创纪录的648套成交（占85%）。竣工未售库存环比-7%至5127套，四年来首次季度下降，但仍比去年高40%；楼花销量同比-61%至60套，连续12个季度同比下降。",
+    wendyNote:
+      "投资机构在底部扫货通常是转折的领先信号——但这次扫的全是竣工盘打折货，楼花继续躺平。自住买家现在谈判空间大，但要记住：你谈到的价格空间里，有40%已经是被机构挑剩的。楼花继续避开；现有condo房东注意Hildebrand的警告——供应管道正在干涸，十年末可能缺货，续租定价可以稳住，别急着降价。",
+    url: "https://www.mpamag.com/ca/mortgage-industry/market-updates/condo-sales-double-in-the-gtha-as-investors-buy-at-40-discounts/594387",
+  },
+  {
+    id: "desjardins-ontario-2027-forecast",
+    date: "2026-10-22",
+    time: "07:00",
+    source: "Desjardins（mpamag / BNN Bloomberg / 加拿大通讯社综合报道）",
+    firstHand: false,
+    tags: ["安省预测", "新房开工"],
+    heat: 62,
+    points: [
+      "2027年开工+6%至近6.5万套",
+      "成屋销量+5%，均价+2.4%",
+      "预计央行2027年加息2次",
+    ],
+    image: "/summaries/desjardins-ontario-2027-forecast.jpg",
+    title: "Desjardins：安省2027年温和复苏，但两次加息会压住反弹",
+    summary:
+      "Desjardins高级经济学家Kari Norman最新报告：安省住房市场2027年预计温和改善——新开工+6%至近6.5万套（仍比2021–22年低30%以上，主力是租赁房），成屋销量+5%、均衡市场下平均房价+2.4%。多伦多市2026年前9个月仅开工525套condo，而过去十年年均约1.4万套。不过她预计央行2027年加息两次，利率环境依然有挑战，会抵消降价和收入增长带来的可负担性改善；加美贸易紧张和中东油价是主要风险。",
+    wendyNote:
+      "这份报告给2027年定调：量价都会温和向上，但别指望V型反转。两个对买卖有直接意义的数字——开工6.5万套仍处历史低位（供应长期偏紧），加息两次（持有成本不降）。准备明年上车的买家：今年Q4到明年Q1仍是议价窗口；卖家：熬到明春，市场可能比今年底好。",
+    url: "https://www.mpamag.com/ca/mortgage-industry/industry-trends/ontario-housing-recovery-faces-a-rate-hike-test-in-2027/594464",
+  },
+  {
+    id: "teranet-hpi-sep2026",
+    date: "2026-10-22",
+    time: "07:00",
+    source: "Teranet–加拿大国家银行 HPI（官方发布）",
+    firstHand: true,
+    tags: ["房价指数", "转售价格"],
+    heat: 55,
+    points: [
+      "综合指数环比+0.1%，三个月内第二次上涨",
+      "6月以来总体企稳，此前连跌近半年",
+      "警告：9月后按揭利率显著上升",
+    ],
+    image: "/summaries/teranet-hpi-sep2026.jpg",
+    title: "Teranet房价指数：9月环比+0.1%，但警告利率上升将压制涨幅",
+    summary:
+      "Teranet–加拿大国家银行10月20日发布9月房价指数：全国综合指数环比+0.1%，为三个月内第二次小幅上涨；自6月以来房价总体企稳，此前从2025年12月起持续下跌。但报告明确警告：美国债收益率急升推高加拿大债券收益率，9月和10月初按揭利率显著上升、且预计继续上行，这将限制购房者的借款能力、压制房价增长；同时8–9月转售交易再次下滑，就业市场复苏动能减弱。",
+    wendyNote:
+      "重复销售指数（比MLS平均价更能反映同房涨跌）显示全国止跌企稳，但警示在前：固定利率还会涨，借款能力会被动压缩。买家：pre-approval的利率锁赶紧行动，别拖到10月28日议息之后；卖家：企稳不等于反弹，定价还是要贴着最近的成交走，别拿'市场稳了'当加价理由。",
+    url: "https://housepriceindex.ca/category/pr/",
+  },
+  {
     id: "boc-hike-odds-oct28",
     date: "2026-10-21",
     time: "07:00",

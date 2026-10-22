@@ -68,17 +68,31 @@ export const marketSections: MarketSection[] = [
   {
     id: "condo-market",
     title: "Condo 市场深读",
-    asOf: "2026 年 Q3",
+    asOf: "2026 年 Q3（Urbanation 新盘调查）",
     source: "Urbanation / TRREB",
     metrics: [
-      { label: "库存去化周期", value: "6.3 个月", change: "明确买方市场", trend: "up" },
-      { label: "新盘均价", value: "$1,189 /呎", note: "2026 年 Q1 零新盘推出" },
-      { label: "转售均价", value: "$859 /呎", change: "价差 38%", trend: "down" },
-      { label: "竣工未售", value: "4,295 套", trend: "up" },
+      { label: "新盘 Q3 销量", value: "760 套", change: "同比翻倍，连续 2 季度增长", trend: "up", note: "但仍比 Q3 十年均值低 78%" },
+      { label: "批量交易", value: "$763 /呎", change: "低于原售价约 40%", trend: "down", note: "339 套占 Q3 销量 45%" },
+      { label: "竣工未售", value: "5,127 套", change: "环比 -7%，四年首次下降", trend: "down" },
+      { label: "楼花销量", value: "60 套", change: "同比 -61%，连续 12 季度下降", trend: "down" },
     ],
     wendyTake:
-      "新盘比转售贵 38%，Q1 甚至零新盘——开发商也在等。4,295 套竣工未售压在那里，自住买家慢慢挑，不用抢；投资者先算好租售比再下手。",
+      "新盘的去化引擎彻底切换：卖出去的几乎全是竣工盘打折货，楼花继续躺平。5127 套竣工未售仍是压顶石，但库存首次下降、投资机构开始扫货，是底部正在构筑的信号。自住买家慢慢挑，不用抢；楼花继续避开。",
+  },
+  {
+    id: "ontario-2027",
+    title: "安省 2027 年展望",
+    asOf: "2026 年 10 月",
+    source: "Desjardins 预测",
+    metrics: [
+      { label: "新开工", value: "近 6.5 万套", change: "同比 +6%", trend: "up", note: "仍比 2021–22 年低 30% 以上" },
+      { label: "成屋销量", value: "+5%", change: "2027 年预测", trend: "up" },
+      { label: "平均房价", value: "+2.4%", change: "2027 年预测", trend: "up", note: "均衡市场假设下" },
+      { label: "加息预期", value: "2 次", change: "2027 年", trend: "up", note: "利率环境依然有挑战" },
+    ],
+    wendyTake:
+      "Desjardins 给 2027 年定调：量价温和向上，但别指望 V 型反转。开工仍处历史低位（供应长期偏紧）+ 加息两次（持有成本不降）——今年 Q4 到明年 Q1 仍是买家议价窗口，卖家可以熬到明春。",
   },
 ];
 
-export const marketUpdatedAt = "2026-10-19";
+export const marketUpdatedAt = "2026-10-22";
