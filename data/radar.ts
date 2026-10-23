@@ -20,6 +20,90 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "bild-sep2026-new-home-sales",
+    date: "2026-10-23",
+    time: "07:00",
+    source: "BILD × Altus Group（GlobeNewswire 官方通稿）",
+    firstHand: true,
+    tags: ["新房销售", "BILD"],
+    heat: 80,
+    points: [
+      "高层9月仅售129套，创9月历史最低",
+      "比十年均值低90%，低层却超均值17%",
+      "高层库存49个月，低层11个月",
+    ],
+    image: "/summaries/bild-sep2026-new-home-sales.jpg",
+    title: "BILD：9月高层新房仅售129套创历史最低，低层连续6个月跑赢均值",
+    summary:
+      "建筑业协会 BILD 10 月 22 日公布（Altus Group 数据）：GTA 9 月新建住宅共售出 949 套，同比大幅上升但仍比十年均值低 52%。高层（含低/中/高层公寓及叠式镇屋）仅售 129 套，同比 -40%、比均值低 90%，创 9 月历史最低；低层（独立/半独立/镇屋）售出 820 套，比十年均值高 17%，连续第 6 个月跑赢均值，主要受惠于 HST 退税计划。新低层基准价 $1,246,764（同比 -13.3%），高层 $1,031,574 持平；高层库存高达 49 个月，低层 11 个月。",
+    wendyNote:
+      "新房市场彻底分裂：想买独立屋/镇屋的，HST 退税加价格同比 -13.3% 是实打实的窗口，但注意退税有开工与完工时间门槛，不是所有楼盘都适用。Condo 楼花继续别碰——49 个月的库存压着，开发商短期没有任何涨价底气，谈价空间只会更大。现在是买方的天下，慢慢挑。",
+    url: "https://www.globenewswire.com/news-release/2026/10/22/3386135/0/en/new-high-rise-sales-in-the-gta-hit-record-low-for-september-while-low-rise-new-home-sales-outperform.html",
+  },
+  {
+    id: "nhpi-sep2026-toronto",
+    date: "2026-10-23",
+    time: "07:00",
+    source: "StatsCan（Canadian Mortgage Trends 报道）",
+    firstHand: false,
+    tags: ["新房价格", "StatsCan"],
+    heat: 58,
+    points: [
+      "多伦多/奥沙瓦并列27城年跌幅最大",
+      "新建独立/半独立/镇屋同比-4.9%",
+      "环比-0.9%，全国整体环比-0.2%",
+    ],
+    image: "/summaries/nhpi-sep2026-toronto.jpg",
+    title: "StatsCan新房价格指数：多伦多9月同比-4.9%，全国27城跌幅最深",
+    summary:
+      "加拿大统计局 10 月 22 日发布 9 月新房价格指数：多伦多与奥沙瓦并列全国 27 个都会区年跌幅最大，新建独立/半独立/镇屋价格同比 -4.9%（汉密尔顿 -4.0% 紧随其后）；多伦多环比 -0.9%，全国整体环比 -0.2%。该指数不含公寓。相对地，魁北克三河市年涨 3.0% 居全国之首。",
+    wendyNote:
+      "转售和新房价格在确认同一个方向：GTA 买方市场还在深化。对买新房的客户，这是跟开发商谈折扣的硬数据——全国跌幅最大的就是多伦多，别被'市场要反弹了'的话术带走。对卖家：新房在降价会直接拉低周边转售可比价，定价必须往前看。",
+    url: "https://www.canadianmortgagetrends.com/mortgage-wire/2026/10/22/new-home-prices-fall-as-toronto-area-markets-post-steepest-declines/",
+  },
+  {
+    id: "rate-hike-showdown-oct2026",
+    date: "2026-10-23",
+    time: "07:00",
+    source: "C.D. Howe 研究所（官方发布）× Oxford Economics",
+    firstHand: true,
+    tags: ["央行加息", "利率"],
+    heat: 88,
+    points: [
+      "市场押注10月28日加息概率85-95%",
+      "影子委员会6:1投票10月按兵不动",
+      "Oxford：10月+12月连加两次至2.75%",
+    ],
+    image: "/summaries/rate-hike-showdown-oct2026.jpg",
+    title: "决战10月28日：市场85%押注加息，六大行经济学家却6:1投票按兵不动",
+    summary:
+      "C.D. Howe 研究所'影子央行'货币政策委员会 10 月 22 日投票：7 名出席成员中 6 人主张 10 月 28 日维持 2.25% 不变（仅 1 人主张加至 2.5%）；12 月会议 5 人主张按兵不动。成员认为核心通胀仍在 2% 附近、缺乏全面传导证据。但 Oxford Economics 同日把预测大幅提前：预计 10 月 28 日和 12 月各加 25 基点至 2.75%（比 9 月预测提前约一年），并警告房价和销量将从今秋跌至 2027 年初。市场与经济学家出现罕见分歧。",
+    wendyNote:
+      "市场和经济学家罕见对立，说明 10 月 28 日结果是真·悬念。但对买家真正要紧的不是那 25 个基点——固定利率看的是债券，已经提前涨了。无论周三结果如何，现在就该把 pre-approval 的利率锁好；浮动利率持有者别赌，找 broker 谈锁定方案。",
+    url: "https://cdhowe.org/publication/mpcoct2026/",
+  },
+  {
+    id: "mayoral-final-polls-oct2026",
+    date: "2026-10-23",
+    time: "07:00",
+    source: "Liaison Strategies（官方发布）× Pollara / Mainstreet / Nanos",
+    firstHand: true,
+    tags: ["市选", "民调"],
+    heat: 72,
+    points: [
+      "选情逆转：Bradford 49%反超",
+      "房主挺Bradford，租客挺Chow",
+      "提前投票22.2万人，近两倍于2022年",
+    ],
+    image: "/summaries/mayoral-final-polls-oct2026.jpg",
+    title: "市长选战最后民调：Bradford 49%对Chow 47%，四家民调两两对立",
+    summary:
+      "10 月 21 日 Liaison Strategies 最新民调（10 月 18–19 日调查 1,000 人）：决定选民中 Bradford 49%、Chow 47%，逆转了 Chow 此前 5 个点的领先；房主 54% 挺 Bradford、租客 54% 挺 Chow，14% 仍未决定。但四家民调两两对立：Pollara（10 月 20 日）称 Chow 领先 7 个点，Mainstreet 称 Bradford 领先 1.4 个点，Nanos 称 Chow 领先 3.2 个点（统计上打平）。多伦多市府数据显示提前投票 22.25 万人，近两倍于 2022 年的 11.59 万人；10 月 26 日（周一）正式投票。",
+    wendyNote:
+      "选情胶着到这种程度，说明住房议题真正撬动了选票——房主和租客的投票分野就是明证。110 万以下首套房买家注意：若 Bradford 胜选，免市土地转让税+首年冻地税+取消开发费的路线直接利好交易端；若 Chow 连任，则是租金管制+空置税路线。结果出来的那周市场情绪会先动，买卖决策节奏可以跟着调。",
+    url: "https://press.liaisonstrategies.ca/toronto-bradford-49-chow-47-race-too-close-to-call-october-21/",
+  },
+  {
     id: "urbanation-q3-2026-condo",
     date: "2026-10-22",
     time: "07:00",
