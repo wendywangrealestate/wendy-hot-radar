@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "reuters-poll-oct28-hike",
+    date: "2026-10-24",
+    time: "07:00",
+    source: "路透社民调（Kitco 转载）",
+    firstHand: false,
+    tags: ["央行加息", "利率"],
+    heat: 90,
+    points: [
+      "34位经济学家中19人押注加息",
+      "10月28日或加至2.50%",
+      "明年3月底前再加一次",
+    ],
+    image: "/summaries/reuters-poll-oct28-hike.jpg",
+    title: "路透民调逆转：56%经济学家押注10月28日加息至2.50%，一年来首次行动",
+    summary:
+      "路透社 10 月 21–23 日调查 34 位经济学家：19 人（56%）预计央行 10 月 28 日加息 25 个基点至 2.50%，为一年来首次行动，并预计明年 3 月底前再加一次。导火索是 9 月 CPI 3.1% 与央行商业前景调查显示的通胀预期急升，以及行长 Macklem 上周六的鹰派表态。利率期货对 10 月加息的定价已从 30% 升至约四分之三；一周前多数经济学家还押注按兵不动。",
+    wendyNote:
+      "经济学家阵营一周内集体转向，这是本周最值得重视的信号——10 月 28 日加息已从'市场一厢情愿'变成主流预期。浮动利率持有者别再等议息结果，提前找 broker 谈锁定；正在看房的买家，pre-approval 利率锁和预算按 +25 基点重算一遍，议息当天再动手就晚了。",
+    url: "https://www.kitco.com/news/off-the-wire/2026-10-23/bank-canada-raise-rates-250-october-28-and-once-again-end-march",
+  },
+  {
+    id: "mayoral-polls-oct23-final",
+    date: "2026-10-24",
+    time: "07:00",
+    source: "Canada Pulse Insights × CityNews / Pollara",
+    firstHand: false,
+    tags: ["市选", "民调"],
+    heat: 72,
+    points: [
+      "Chow 51%对Bradford 46%",
+      "Pollara：Chow 55%对44%",
+      "未决定选民降至8%",
+    ],
+    image: "/summaries/mayoral-polls-oct23-final.jpg",
+    title: "选前最后民调：Chow 51%对46%重夺领先，未决定选民仅剩8%",
+    summary:
+      "10 月 23 日公布的两份新民调均显示 Chow 重夺领先：Canada Pulse（CityNews 委托，10 月 16–21 日在线调查 737 人）Chow 51%、Bradford 46%；Pollara（10 月 13–19 日混合调查 1,094 人，含已提前投票者）Chow 55%、Bradford 44%。与 Liaison 10 月 21 日'Bradford 49% 对 47%'的逆转民调形成对立，但共同点是未决定选民已从 9 月的 20% 降至 8%。正式投票 10 月 26 日周一举行，胜负看最后动员。",
+    wendyNote:
+      "民调打架恰恰说明选情已进入'动员决胜'阶段——8% 未决定选民加提前投票率才是关键。住房政策分叉点不变：Bradford 胜选利好交易端（免 MLTT、冻地税），Chow 连任利好租客管控路线。周一结果出炉当天我会第一时间解读对买卖节奏的影响，买卖双方先别因民调摇摆改价。",
+    url: "https://worldbytenews.com/3-days-to-go-chow-leads-bradford-by-5-points-in-toronto-mayoral-race-latest-poll-finds/",
+  },
+  {
+    id: "ontario-dcrp-oct2026",
+    date: "2026-10-24",
+    time: "07:00",
+    source: "加拿大政府（Canada.ca 官方发布）",
+    firstHand: true,
+    tags: ["省政策", "开发费"],
+    heat: 45,
+    points: [
+      "温莎开发费直降70%三年",
+      "联邦省府投7760万建房",
+      "Sudbury减免延至2029年3月",
+    ],
+    image: "/summaries/ontario-dcrp-oct2026.jpg",
+    title: "联邦+安省联手降开发费：温莎直降70%、Sudbury减免延至2029年",
+    summary:
+      "联邦与安省 10 月 23 日宣布，通过开发费减免计划（DCRP）向温莎与 Tecumseh 投入 7,760 万加元，温莎开发费未来三年直降 70%，Tecumseh Hamlet 次级规划区可新增 700 多套住房；同日 Sudbury 的开发费减免扩大至全部房型并延至 2029 年 3 月。省府称此举旨在降低建房成本、加快供应，RESCON、OHBA 与 OREA 均公开支持。",
+    wendyNote:
+      "这波开发费减免目前集中在温莎、Essex、Sudbury，还没轮到 GTA，但风向很清楚——省府正在全省压建房成本。GTA 开发商若跟进类似减免，新房定价才有实质下调空间；现阶段对 GTA 买家更多是'供应远期利好'，别把它当成当下议价的筹码。",
+    url: "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/10/canada-and-ontario-making-homes-more-affordable-in-windsor-and-tecumseh.html",
+  },
+  {
     id: "bild-sep2026-new-home-sales",
     date: "2026-10-23",
     time: "07:00",
