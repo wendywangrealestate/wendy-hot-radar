@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "election-eve-prediction-oct2026",
+    date: "2026-10-25",
+    time: "07:00",
+    source: "Election Tracker 预测市场",
+    firstHand: false,
+    tags: ["市选", "投票日"],
+    heat: 78,
+    points: [
+      "预测市场：Chow胜率63%",
+      "Bradford 38%，仍有悬念",
+      "明日10月26日正式投票",
+    ],
+    image: "/summaries/election-eve-prediction-oct2026.jpg",
+    title: "投票前夜：预测市场给Chow开出63%胜率，Bradford 38%",
+    summary:
+      "多伦多市长选举明日（10 月 26 日周一）正式投票，预测市场 Election Tracker 10 月 25 日更新：Chow 胜率 63%、Bradford 38%（市场隐含概率，非民调）。民调端仍胶着：Pollara 10 月 23 日称 Chow 55% 对 44%，Liaison 10 月 21 日则称 Bradford 49% 对 47%。提前投票已达 22.25 万人，近两倍于 2022 年的 11.59 万人。",
+    wendyNote:
+      "民调打架、预测市场一边倒，这种组合恰恰说明结果要看最后动员——别提前押注任何一方的政策红利。110 万以下首套买家记住分叉点：Bradford 胜选利好交易端（免 MLTT、冻地税），Chow 连任利好租客管控路线。结果出炉当天我会第一时间解读，买卖节奏跟着结果调，别今天就改价。",
+    url: "https://electiontracker.eu/canada/toronto-mayoral-election-2026",
+  },
+  {
+    id: "fixed-rates-snapshot-oct23",
+    date: "2026-10-25",
+    time: "07:00",
+    source: "nesto 利率追踪（10 月 23 日）",
+    firstHand: false,
+    tags: ["固定利率", "议息前瞻"],
+    heat: 72,
+    points: [
+      "5年固定平均5.39%",
+      "六大行折扣均值5.18%",
+      "最低保险利率4.59%",
+    ],
+    image: "/summaries/fixed-rates-snapshot-oct23.jpg",
+    title: "议息前最后利率快照：5年固定平均5.39%，六大行折扣均值5.18%",
+    summary:
+      "nesto 10 月 23 日利率追踪：加拿大 5 年固定传统按揭平均利率 5.39%，六大行折扣均值 5.18%，经纪渠道最低保险利率 4.59%；5 年国债收益率 3.52%。这是 10 月 28 日央行议息前的最后利率快照——固定利率锚定债券而非央行，过去五周六大行已累计上调 10–50 个基点（TD 5 年固定广告价达 5.39%）。",
+    wendyNote:
+      "数字说明一件事：等央行结果再谈贷款已经晚了半拍，固定利率早就跟着债券涨完了。正在看房的买家，今天就把 pre-approval 的利率锁和有效期确认一遍；明年要续约的，现在找 broker 谈锁定方案，别等到 10 月 28 日议息当天才动手。",
+    url: "https://www.nesto.ca/mortgage-rates/fixed/5-year/?utm_source=forbesadvisor&utm_medium=partner&utm_campaign=advisor&partner=forbesadvisor",
+  },
+  {
+    id: "livrent-oct2026-rent",
+    date: "2026-10-25",
+    time: "07:00",
+    source: "liv.rent 10 月安省租金报告",
+    firstHand: true,
+    tags: ["租金", "租赁市场"],
+    heat: 55,
+    points: [
+      "多伦多一房无家具$1,969",
+      "同比-3.7%，20区14区下跌",
+      "带家具一房$1,937反涨2%",
+    ],
+    image: "/summaries/livrent-oct2026-rent.jpg",
+    title: "liv.rent 10月租金报告：多伦多一房$1,969同比-3.7%，北约克跌最深",
+    summary:
+      "liv.rent 10 月安省租金报告（10 月 2 日发布，基于当月在租挂牌）：多伦多市无家具一房平均 $1,969，环比 -0.22%、同比 -3.7%（去年同期 $2,044），20 个安省地区中 14 个同比下跌，北约克跌幅最大 -9.5% 至 $1,969，万锦逆势 +5.7% 至 $2,081。带家具一房反涨 2.05% 至 $1,937，与无家具价差收窄至仅 $32。安省 2027 年租金涨幅指引为 1.9%。",
+    wendyNote:
+      "租金仍在阴跌，但分化很清楚：北约克、Etobicoke 在跌，万锦在涨，市中心带家具房源反而走强——说明短租/灵活租住需求还在。Condo 房东续租定价要按小区走，别全市一个价；租客现在谈判空间大，看到合适房源可以谈一个月免租或包车位。2027 年涨幅指引 1.9%，受管制单位的续租预算按这个数算。",
+    url: "https://liv.rent/blog/rent-reports/october-2026-ontario-rent-report/",
+  },
+  {
     id: "reuters-poll-oct28-hike",
     date: "2026-10-24",
     time: "07:00",
