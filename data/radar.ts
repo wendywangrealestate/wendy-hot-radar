@@ -20,6 +20,27 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "election-day-tracker-oct2026",
+    date: "2026-10-26",
+    time: "07:00",
+    source: "Election Tracker 预测市场 × CP24 / Nanos",
+    firstHand: false,
+    tags: ["市选", "投票日"],
+    heat: 85,
+    points: [
+      "预测市场：Chow胜率84%",
+      "民调胶着：49.8%对46.6%",
+      "投票10点至20点，晚8点出结果",
+    ],
+    image: "/summaries/election-day-tracker-oct2026.jpg",
+    title: "投票日当天：预测市场给Chow开出84%胜率，民调却仍是统计平手",
+    summary:
+      "多伦多市选今日（10 月 26 日周一）投票，投票站 10:00–20:00 开放，非正式结果约晚 8 点起公布。Election Tracker 今晨 08:45 UTC 更新：预测市场给 Chow 开出 84% 胜率（24 小时内 +22 点）、Bradford 14%（−24 点），较昨日 63% 对 38% 大幅拉开。但 CP24 / Nanos 10 月 25 日公布的最后民调（10 月 15–18 日调查 762 人）却是 Chow 49.8% 对 Bradford 46.6%，在 ±3.6 个点误差内属统计平手；提前投票已达 22.25 万人。",
+    wendyNote:
+      "预测市场与民调打架到投票日当天，恰恰说明今晚 8 点后的结果才是唯一算数的数字——别提前押注任何一方的政策红利。分叉点不变：Bradford 胜选利好交易端（110 万以下免 MLTT、冻地税），Chow 连任利好租客管控路线；结果出炉后我会第一时间解读，今天先别因市场数字改价。",
+    url: "https://electiontracker.eu/canada/toronto-mayoral-election-2026",
+  },
+  {
     id: "election-eve-prediction-oct2026",
     date: "2026-10-25",
     time: "07:00",
