@@ -27,9 +27,13 @@ export async function POST(req: NextRequest) {
 
   const { error } = await supabase
     .from("subscribers")
-    .upsert({ email, name: name || null }, { onConflict: "email" });
+    .insert({ email, name: name || null });
 
   if (error) {
+    if (error.code === "23505") {
+      // 重复订阅：该邮箱已在订阅名单中，按成功处理
+      return NextResponse.json({ ok: true, already: true });
+    }
     console.error("subscribe error:", error);
     return NextResponse.json({ ok: false, error: "订阅失败，请稍后再试。" }, { status: 500 });
   }
