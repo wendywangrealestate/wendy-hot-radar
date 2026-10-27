@@ -1,7 +1,6 @@
 import { radarItems } from "@/data/radar";
-import BriefingPlayer from "@/components/BriefingPlayer";
 
-// 首页深色刊头：品牌大标题 + 一行元信息 + 语音播报
+// 首页深色刊头：品牌大标题 + 一行元信息
 // 元信息全部由现有情报数据现算，不写假数
 function fmtDay(dateStr: string) {
   const [y, m, d] = dateStr.split("-");
@@ -50,8 +49,6 @@ export default function HomeHero() {
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-ink/85 sm:text-lg">
           多伦多地产热点雷达 —— GTA 市场数据看板与每日地产情报，全部标注来源。
         </p>
-
-        <BriefingPlayer />
 
         <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-4 text-xs text-muted sm:text-sm">
           <span>
