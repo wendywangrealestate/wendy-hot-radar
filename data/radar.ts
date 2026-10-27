@@ -20,6 +20,111 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "nesto-rates-oct26-2026",
+    date: "2026-10-27",
+    time: "07:00",
+    source: "nesto 利率页（10 月 26 日）",
+    firstHand: false,
+    tags: ["固定利率", "议息前夜"],
+    heat: 74,
+    points: [
+      "5年固定保险利率4.59%",
+      "5年浮动保险利率3.41%",
+      "3年固定保险利率4.54%",
+    ],
+    image: "/summaries/nesto-rates-oct26-2026.jpg",
+    title: "议息前夜最新报价：5年固定保险利率4.59%，浮动3.41%",
+    summary:
+      "nesto 10 月 26 日（周一）更新的最低保险利率：5 年固定 4.59%、5 年浮动 3.41%、3 年固定 4.54%、2 年固定 5.09%。明日（10 月 28 日）上午 9:45 央行公布利率决定并同日发布货币政策报告，是年内倒数第二次议息。",
+    wendyNote:
+      "固定与浮动的价差仍有 1.18 个百分点，选固定是买确定性、选浮动是赌明年降息——没有标准答案，只有现金流答案。明天议息前，先把 pre-approval 的利率锁和有效期确认一遍，别等结果出来才发现锁过期了。",
+    url: "https://www.nesto.ca/mortgage-rates/?g_acctid=725-158-0052&g_adgroupid=141849939768&g_adid=595901483003&g_adtype=search&g_campaign=2022_ON_EN_New_3331-SM-0005+LeadsVsCalls&g_campaignid=17122603409&g_keyword=canada+mortgage+rates&g_keywordid=kwd-109395170&g_network=g&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuXnoOPRU-tB6CXCJJhg0Cd0QfccTYTjLEKYgxpK2V0U3LVqeqRvYSEaAnMDEALw_wcB",
+  },
+  {
+    id: "correction-38pct-real-oct2026",
+    date: "2026-10-27",
+    time: "07:00",
+    source: "Gord Lemon（REI Institute）× Canadian Mortgage Trends",
+    firstHand: false,
+    tags: ["房价修正", "买方市场"],
+    heat: 70,
+    points: [
+      "通胀调整后较峰值跌38%",
+      "名义跌28%：峰值$1,279,800",
+      "CMHC：建房慢于实际需求",
+    ],
+    image: "/summaries/correction-38pct-real-oct2026.jpg",
+    title: "通胀调整后多伦多房价较峰值跌约38%，BMO称加拿大史上最重修正",
+    summary:
+      "Gord Lemon 10 月 26 日文章引述 BMO 首席经济学家：本轮是加拿大史上最显著的房价修正，通胀调整后多伦多较峰值跌约 38%。Canadian Mortgage Trends 的拆解可交叉验证：TRREB 9 月综合基准价 $917,600，较 2022 年 2 月峰值 $1,279,800 名义跌约 28%，同期 CPI 上涨近 16%，折算实际跌幅约 38%。",
+    wendyNote:
+      "名义跌 28% 已经够吓人，通胀调整后 38% 才是买家真正的议价底气——别被'只跌了两成多'的话术带偏。反过来也别只看跌幅：CMHC 首席经济学家在上周会议上警告建房速度已慢于真实需求，3–5 年的积压需求正在形成，现在挑房是买方窗口，追涨不是。",
+    url: "https://www.linkedin.com/pulse/todays-buyers-market-tomorrows-shortage-gord-lemon-xu9zc",
+  },
+  {
+    id: "cmhc-rental-shift-oct2026",
+    date: "2026-10-27",
+    time: "07:00",
+    source: "Storeys × CMHC 秋季住房供应报告",
+    firstHand: false,
+    tags: ["新房开工", "租赁供应"],
+    heat: 66,
+    points: [
+      "多伦多上半年仅开工156套",
+      "十年均值约每年7000套",
+      "租赁开工反超公寓32年来首次",
+    ],
+    image: "/summaries/cmhc-rental-shift-oct2026.jpg",
+    title: "CMHC：多伦多上半年仅开工156套公寓，租赁开工32年来首次反超",
+    summary:
+      "CMHC 秋季住房供应报告（Storeys 梳理）：多伦多市 2026 年上半年仅开工 156 套公寓，对照十年均值约每年 7,000 套；租赁公寓开工上半年同比 +82%，自 1994 年以来首次超过公寓开工，租赁房已占重点市场公寓开工的三分之二。CMHC 称多伦多需把年开工 pace 提高至少 50%（每年多 2.1–2.6 万套）才能回到 2019 年可负担水平。",
+    wendyNote:
+      "新房的引擎已经换了：建给房东的在动工，建给买家的几乎停摆。这对今天的买家是两句话——现有二手 condo 继续谈价，别为楼花付溢价；对长线持有者则是提醒，2–3 年后新 condo 供应断档，今天的买方市场不会永远在。",
+    url: "https://storeys.com/cmhc-fall-housing-report-2026/",
+  },
+  {
+    id: "rentalsca-oct2026-rent",
+    date: "2026-10-27",
+    time: "07:00",
+    source: "Rentals.ca × Urbanation 10 月全国租金报告",
+    firstHand: true,
+    tags: ["租金", "租赁市场"],
+    heat: 62,
+    points: [
+      "全国平均租金$2,034",
+      "同比-4.2%，连跌24个月",
+      "多伦多$2,554，同比-1.4%",
+    ],
+    image: "/summaries/rentalsca-oct2026-rent.jpg",
+    title: "Rentals.ca 10月租金报告：多伦多$2,554同比-1.4%，创5年来9月最低",
+    summary:
+      "Rentals.ca × Urbanation 10 月全国租金报告（10 月 7 日发布，9 月数据）：全国所有房型平均要价租金 $2,034，同比 -4.2%，为连续第 24 个月同比下跌，较 2024 年 5 月峰值 $2,202 回落 9.2%。多伦多 $2,554，环比 -0.6%、同比 -1.4%，为连续第 32 个月同比下跌；多伦多与温哥华均为 2021 年以来最低的 9 月均值，全国 condo 租金同比跌最深（-7.8% 至 $2,052）。",
+    wendyNote:
+      "租金连跌两年还没见底，但跌幅在收窄、9 月已是 5 年来最低——租客谈判空间仍在，房东续租别按 2024 年的价格锚定。Condo 租金跌 7.8% 最深，说明投资 condo 的租金回报账要按今天的租金重算，别按买入时的租金假设。",
+    url: "https://press.rentals.ca/473717-canadian-rents-have-fallen-for-two-straight-years",
+  },
+  {
+    id: "chow-reelected-oct2026",
+    date: "2026-10-27",
+    time: "07:00",
+    source: "Election Tracker × 多伦多市非官方结果",
+    firstHand: false,
+    tags: ["市选结果", "住房政策"],
+    heat: 50,
+    points: [
+      "Chow 54.2%对Bradford 41.1%",
+      "投票率45.8%，较上届大增",
+      "110万以下免MLTT提案落空",
+    ],
+    image: "/summaries/chow-reelected-oct2026.jpg",
+    title: "市选结果出炉：Chow 54.2%连任，110万以下免市土地转让税提案落空",
+    summary:
+      "10 月 26 日多伦多市选结果：现任市长 Olivia Chow 以 54.2%（约 53.2 万票）击败 Brad Bradford 的 41.1%（约 40.4 万票），赢得首个完整四年任期；投票率 45.84%，高于上届。住房政策分叉点就此定案：Bradford 的 110 万以下首套免市土地转让税、地税冻结路线落空，Chow 的租金管制房与租客保护路线继续，12 月她已承诺推动下一轮租赁住房激励动议。",
+    wendyNote:
+      "选前押注'免 MLTT 省 1.8 万'的买家，现在可以把这笔账从预算里划掉了——按现行税制做决定，别等一个不会来的减免。租客与房东则要反向准备：租金管制房加速、租客保护收紧是未来四年的主线，续租与合规成本按这条线算。",
+    url: "https://electiontracker.eu/canada/toronto-mayoral-election-2026",
+  },
+  {
     id: "election-day-tracker-oct2026",
     date: "2026-10-26",
     time: "07:00",
