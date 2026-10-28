@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "boc-decision-day-oct28-2026",
+    date: "2026-10-28",
+    time: "07:00",
+    source: "Insight Finance（10 月 27 日更新）× HomiesAI 交叉验证",
+    firstHand: false,
+    tags: ["央行议息", "利率"],
+    heat: 82,
+    points: [
+      "今日9:45揭晓，加息与否见分晓",
+      "市场押注加息概率约74%",
+      "5年固定最低4.34%，浮动3.43%",
+    ],
+    image: "/summaries/boc-decision-day-oct28-2026.jpg",
+    title: "议息日今日9:45揭晓：市场押注加息概率约74%，路透19/34经济学家料加至2.50%",
+    summary:
+      "加拿大央行今日（10 月 28 日）上午 9:45 公布利率决定并同日发布货币政策报告，政策利率现为 2.25%。10 月 27 日上午市场定价加息概率 73.6%，Insight Finance 梳理 10 月 25–26 日为 75%–81%；路透调查 34 位经济学家中 19 人预计加息 25 个基点至 2.50%。Ratehub 10 月 27 日最低利率：5 年固定 4.34%、5 年浮动 3.43%，5 年期国债收益率 10 月 26 日报 3.58%，一年前仅 2.62%。",
+    wendyNote:
+      "今天 9:45 之后就不用再猜了——但记住，加息影响的是浮动利率和 prime，固定利率早就跟着债券涨完了。浮动利率持有者今天就该问 broker 锁定方案，别等账单变了才动手；正在看房的，pre-approval 按加息后重算一遍，议息结果出来后我会再解读一次。",
+    url: "https://insightfinance.ca/bank-of-canada-rate-hike-odds-renewal/",
+  },
+  {
+    id: "cmhc-arrears-oct2026",
+    date: "2026-10-28",
+    time: "07:00",
+    source: "CMHC 住宅按揭行业报告（2026 秋季版）",
+    firstHand: true,
+    tags: ["按揭拖欠", "安省风险"],
+    heat: 78,
+    points: [
+      "安省拖欠率0.32%，一年前0.21%",
+      "拖欠将升至2027年中",
+      "GTHA私人贷拖欠率11.1%",
+    ],
+    image: "/summaries/cmhc-arrears-oct2026.jpg",
+    title: "CMHC：安省按揭拖欠率0.32%将升至2027年中，GTHA私人贷款拖欠率达11.1%",
+    summary:
+      "CMHC 10 月 27 日发布的 2026 年秋季住宅按揭行业报告：安省按揭拖欠率（逾期 90 天以上）2026 年第二季度达 0.32%，高于一年前的 0.21%，预计持续上升至 2027 年中，为全国最大、最持久的升幅，集中在大多伦多及汉密尔顿地区与安省西南部。压力最集中在私人按揭贷款机构：GTHA 地区私人贷款拖欠余额占比从 2023 年第三季度的 3.0% 升至 2026 年第一季度的 11.1%，其中只还息贷款占 GTHA 私人贷款余额 69.7%。CMHC 强调加拿大并未面临广泛的按揭危机，压力集中于特定地区与贷款类型。",
+    wendyNote:
+      "别被“拖欠上升”吓到，也别完全不当回事：0.32% 仍远低于历史峰值，真正的信号在结构里——GTHA 私人贷款只还息占比近七成、拖欠率 11.1%，说明高杠杆买家最先承压。对买家这是谈价的背景音不是抄底的号角；对续约在即的屋主，现在就该找 broker 重算现金流，别等到 2027 年中压力峰值。",
+    url: "https://www.newswire.ca/news-releases/ontario-mortgage-arrears-expected-to-rise-through-mid-2027-cmhc-801394159.html",
+  },
+  {
+    id: "gta-oct-partial-oct2026",
+    date: "2026-10-28",
+    time: "07:00",
+    source: "HomiesAI 10 月加拿大住房市场报告",
+    firstHand: false,
+    tags: ["GTA成交", "10月上半月"],
+    heat: 72,
+    points: [
+      "10月前26天成交3793套-3.2%",
+      "多伦多Condo库存6.02个月最松",
+      "约克-7.6%、皮尔-7.4%，哈顿逆涨",
+    ],
+    image: "/summaries/gta-oct-partial-oct2026.jpg",
+    title: "GTA 10月前26天：成交3793套同比-3.2%，多伦多Condo库存6.02个月最宽松",
+    summary:
+      "HomiesAI 10 月 27 日更新的加拿大住房市场报告（多伦多 MLS 经 REALM 数据，10 月 1–26 日）：GTA 成交 3793 套同比 -3.2%，新增房源 10032 套同比 -7.0%，在售库存 26743 套同比 -9.3%，库存去化 4.96 个月（去年同期 5.53 个月）。分区域：多伦多 Condo 去化 6.02 个月为最宽松、独立屋 3.75 个月最紧；均价五个区域下跌，约克 -7.6%、皮尔 -7.4% 领跌，哈顿逆势 +3.5%；含法拍/按揭关键词的挂牌 365 套，占在售 1.36%。",
+    wendyNote:
+      "10 月还没走完，但方向和 9 月一致：量跌、价跌、库存同比反而少了——卖家退场比买家更快。分化才是操作指南：Condo 继续慢慢谈、独立屋好房源别拖太久；约克和皮尔跌幅最深，议价从那里开始谈，哈顿是例外别当成全市信号。",
+    url: "https://www.homiesai.com/research/canada-housing-market-call-october-2026",
+  },
+  {
     id: "nesto-rates-oct26-2026",
     date: "2026-10-27",
     time: "07:00",
