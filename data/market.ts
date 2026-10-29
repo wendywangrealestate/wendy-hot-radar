@@ -52,18 +52,18 @@ export const marketSections: MarketSection[] = [
   {
     id: "rates",
     title: "利率追踪",
-    asOf: "2026 年 10 月中旬",
+    asOf: "2026 年 10 月 28 日（央行议息）",
     source: "Bank of Canada / 市场报价",
     metrics: [
-      { label: "政策利率", value: "2.25%", change: "连续 7 次按兵不动", trend: "flat" },
-      { label: "最优惠利率 Prime", value: "4.45%", trend: "flat" },
-      { label: "5 年固定最低", value: "~4.14%", change: "反而高于浮动", trend: "up", note: "锚定国债收益率" },
-      { label: "5 年浮动最低", value: "~3.44%", trend: "flat" },
-      { label: "5 年国债收益率", value: "3.53%", change: "9 月底曾到 3.73%（52 周高点）", trend: "up" },
-      { label: "下次议息", value: "10 月 28 日", note: "同日发布货币政策报告" },
+      { label: "政策利率", value: "2.50%", change: "10 月 28 日 +25 基点，2023 年 7 月以来首次加息", trend: "up" },
+      { label: "最优惠利率 Prime", value: "4.70%", change: "随政策利率上调", trend: "up" },
+      { label: "5 年固定最低", value: "~4.59%", change: "nesto 10 月 28 日最低报价", trend: "up", note: "锚定国债收益率" },
+      { label: "5 年浮动最低", value: "随 prime 上调约 25 基点", change: "以各 lender 实时报价为准", trend: "up" },
+      { label: "5 年国债收益率", value: "3.57%", change: "10 月 27 日", trend: "up" },
+      { label: "下次议息", value: "12 月 9 日", note: "下份货币政策报告 2027 年 1 月 27 日" },
     ],
     wendyTake:
-      "别只盯着央行那一下：固定利率跟着债券走，已经在悄悄涨了。有 renewal 在明年到期的，现在就该找 mortgage broker 锁方案谈策略。",
+      "加息周期回来了：政策利率 2.50%，prime 4.70%，央行还说“可能需要进一步加息”。浮动利率持有者现在就要重算月供，续约在即的按加息路径谈锁定；固定利率看债券，报价已先行上行，别等 12 月 9 日议息才动手。",
   },
   {
     id: "condo-market",
@@ -95,4 +95,4 @@ export const marketSections: MarketSection[] = [
   },
 ];
 
-export const marketUpdatedAt = "2026-10-22";
+export const marketUpdatedAt = "2026-10-29";

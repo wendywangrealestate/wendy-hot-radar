@@ -20,6 +20,69 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "boc-hike-to-250-oct28-2026",
+    date: "2026-10-29",
+    time: "07:00",
+    source: "加拿大央行（10 月 28 日议息 + 货币政策报告，官方发布）",
+    firstHand: true,
+    tags: ["央行加息", "利率"],
+    heat: 92,
+    points: [
+      "政策利率2.25%→2.50%",
+      "7连hold后首加，三年多来首次",
+      "通胀2027年均3%，2028年中回2%",
+    ],
+    image: "/summaries/boc-hike-to-250-oct28-2026.jpg",
+    title: "央行靴子落地：加息25基点至2.50%，三年多来首次加息",
+    summary:
+      "加拿大央行 10 月 28 日上午 9:45 宣布加息 25 个基点，政策利率从 2.25% 升至 2.50%，Bank Rate 2.75%、存款利率 2.45%，为 7 次按兵不动后的首次行动、2023 年 7 月以来首次加息。同日发布的货币政策报告大幅上调通胀预期：CPI 年底约 3.5%、2027 年均 3%（较 7 月预测高 1 个百分点）、2028 年中回落至 2%；经济增长预测为 2026 年 1%、2027–2028 年各 2%，并称住房将保持相对疲软。央行称“可能需要进一步加息，但会谨慎行事”，下次议息为 12 月 9 日；prime 料随之上调至 4.70%，50 万贷款 25 年期每月约多付 66 加元。",
+    wendyNote:
+      "昨天的“押注”今天变成现实：浮动利率持有者这次是真的要多付钱了，50 万贷款每月约多 66 加元，固定月供的则是利息占比上升。固定利率持有者不受影响，但续约在即的要按“还可能再加”重算现金流。正在看房的，pre-approval 必须按加息后的 prime 重算额度，别拿旧额度去出价——央行同时说住房将保持相对疲软，买方议价窗口还在，加息是叫你把月供算准再出手，不是叫你停手。",
+    url: "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+  },
+  {
+    id: "pwc-uli-emerging-trends-2027",
+    date: "2026-10-29",
+    time: "07:00",
+    source: "PwC Canada × ULI《Emerging Trends 2027》官方通稿",
+    firstHand: true,
+    tags: ["投资信心", "Condo分化"],
+    heat: 68,
+    points: [
+      "投资意愿15年来最强",
+      "Q2商业投资162亿，4年多最高",
+      "多伦多楼花Q2仅售50套，同比-80%",
+    ],
+    image: "/summaries/pwc-uli-emerging-trends-2027.jpg",
+    title: "PwC×ULI 2027趋势：投资信心15年最强，但多伦多Condo仍在谷底",
+    summary:
+      "PwC Canada 与城市土地学会（ULI）10 月 28 日发布《Emerging Trends in Real Estate 2027》：加拿大投资者购房意愿达 15 年来最强，2026 年第二季度商业地产投资 162 亿加元，为 2022 年初以来最高，卡尔加里、多伦多、埃德蒙顿为 2027 年最值得关注市场。但多伦多分化极端：第二季度楼花仅售 50 套、同比 -80%，竣工未售开发商库存达创纪录的 5,001 套；与此同时市中心 AAA 级写字楼空置率仅 2.6%、工业空置率 2.2% 为全国最低。报告还指出多伦多住宅开工从 2024 年 37,718 套跌至 2025 年 26,087 套，2026 年预计进一步下滑。",
+    wendyNote:
+      "机构的钱在回流，但只流向有稳定现金流的资产——这正是住宅买家要反着读的信号：楼花继续别碰，5,001 套竣工未售压着，开发商还得降价清货；反过来，工业与优质写字楼的低空置说明 GTA 经济底盘没垮，长期持有优质地段不必恐慌。2027 年“最值得关注市场”有 Toronto，但“值得关注”不等于“现在就涨”，自住买家继续按买方市场慢慢挑。",
+    url: "https://www.newswire.ca/news-releases/real-estate-investor-sentiment-reaches-15-year-high-but-recovery-remains-uneven-pwc-canada-and-uli-822355978.html",
+  },
+  {
+    id: "pacific-rental-junction-oct2026",
+    date: "2026-10-29",
+    time: "07:00",
+    source: "Clifton Blake（CNW 官方通稿）",
+    firstHand: true,
+    tags: ["租赁供应", "Junction新盘"],
+    heat: 55,
+    points: [
+      "Junction 8层120套出租楼开租",
+      "多房型空置率已低于2%",
+      "新房开工萎缩，租赁房成主力",
+    ],
+    image: "/summaries/pacific-rental-junction-oct2026.jpg",
+    title: "Junction新出租楼The Pacific开租：120套，多房型空置率已低于2%",
+    summary:
+      "Clifton Blake 10 月 29 日宣布，位于多伦多 Junction 区 Dundas Street West 的 8 层、120 套精品出租住宅 The Pacific 已开始招租。公司称 GTA 正面临新房开工萎缩与库存收紧的结构性失衡，多伦多市多房型出租单位空置率已低于 2%，并预计 2027 年进一步收紧；该项目是其 8 年前开始布局的租赁住宅战略的一部分。",
+    wendyNote:
+      "租客注意：多房型空置率低于 2% 意味着大户型好房源会越来越抢手，看到合适的可以早定、谈长租锁定租金。房东则要反向算账——新建的全是出租楼，未来 2–3 年市中心租赁竞争在增加，续租定价别贪，留住好租客比空置一个月划算。",
+    url: "https://www.cantechletter.com/newswires/clifton-blake-launches-the-pacific-rental-residence-in-torontos-junction-neighborhood-capitalizing-on-macro-shifts-in-gta-housing-market/",
+  },
+  {
     id: "boc-decision-day-oct28-2026",
     date: "2026-10-28",
     time: "07:00",
