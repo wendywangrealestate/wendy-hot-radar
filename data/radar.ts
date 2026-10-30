@@ -20,6 +20,90 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "valery-resale-losses-oct2026",
+    date: "2026-10-30",
+    time: "07:00",
+    source: "Valery 研究 × Real Estate Magazine（10 月 29 日）",
+    firstHand: false,
+    tags: ["转售亏损", "Condo承压"],
+    heat: 78,
+    points: [
+      "24.8% 转售低于上次买价",
+      "多伦多 28%，Condo 38%",
+      "2021–22 年买家 80% 亏本",
+    ],
+    image: "/summaries/valery-resale-losses-oct2026.jpg",
+    title: "GTA 转售四分之一亏本，2021–22 年买家八成赔钱出局",
+    summary:
+      "Valery 对 TRREB MLS 数据的分析显示，过去一年 GTA 27,271 套转售中 24.8% 低于上次买价，中位亏损 11%，计入土地转让税与交易成本后亏本比例升至 32%。多伦多 10,133 套转售中 28% 亏本、计入成本后 38%，Condo 亏本率达 38%、独立屋 20%。2021–2022 年高位买入后转售的房源 80% 亏本、计入成本后 92%，其中 Condo 高达 87%；Valery 首席地产官 Daniel Foch 预计亏本转售还将持续约两年。",
+    wendyNote:
+      "如果你是 2021–22 年高位买入、现在想卖的业主，先算清账再挂牌：计入交易成本后九成以上同类卖家是亏本离场的，定价必须贴着今天的成交走，别按买入价加成本倒推。现在买房的人则要反向利用这个数据——亏本盘不等于捡漏，查清楚卖家是不是急售、房子有没有硬伤再出价，议价空间有，但底线是房子本身值。",
+    url: "https://realestatemagazine.ca/gta-sellers-face-widespread-resale-losses-cmhc-warns-ontarios-mortgage-troubles-arent-over/",
+  },
+  {
+    id: "prime-470-oct29-2026",
+    date: "2026-10-30",
+    time: "07:00",
+    source: "Canadian Mortgage Professional（10 月 29 日）",
+    firstHand: false,
+    tags: ["Prime上调", "浮动利率"],
+    heat: 74,
+    points: [
+      "六大行 prime 升至 4.70%",
+      "TD 房贷 prime 达 4.85%",
+      "最低浮动 3.70%，月供+82",
+    ],
+    image: "/summaries/prime-470-oct29-2026.jpg",
+    title: "六大行 prime 今日生效 4.70%：浮动利率账单正式变贵",
+    summary:
+      "继央行 10 月 28 日加息后，加拿大六大行 10 月 29 日起将 prime 从 4.45% 上调至 4.70%，TD 的房贷 prime 更升至 4.85%。Ratehub 测算：66.65 万加元房产、10% 首付、25 年摊销，最低浮动利率从 3.45% 升至 3.70%，月供从 3,072 加元升至 3,154 加元、每月多付 82 加元。固定付款的浮动利率持有者月供不变但利息占比上升，可调付款者立即多付；Royal LePage 总裁 Phil Soper 称，买家为抢在加息前入市的提前行动并未出现，成交量走势依然持平。",
+    wendyNote:
+      "加息昨天是新闻，今天是账单：浮动利率和 HELOC 持有者从今天起就按 4.70% 的 prime 计息，可调付款的下个月账单就会变，固定付款的要盯着触发利率，别等银行来信才发现本金没怎么还。正在看房的，pre-approval 必须按 3.70% 的浮动起步重算；固定利率暂时不动，但 5 年期国债收益率还在 3.5% 以上，锁固定也要趁早谈。",
+    url: "https://www.mpamag.com/ca/mortgage-industry/market-updates/prime-rate-hits-470-today-as-big-banks-act-on-boc-hike/595513",
+  },
+  {
+    id: "ontario-fes-housing-starts-oct2026",
+    date: "2026-10-30",
+    time: "07:00",
+    source: "安省 2026 秋季经济报告（10 月 29 日，加通社交叉核实）",
+    firstHand: false,
+    tags: ["安省开工", "住房供应"],
+    heat: 70,
+    points: [
+      "2027 开工 65,100，下调 5,200",
+      "2026 年 64,700，低于去年",
+      "三年累计少 15,400 套",
+    ],
+    image: "/summaries/ontario-fes-housing-starts-oct2026.jpg",
+    title: "安省秋季报告下调建房预期：2027 年开工仅 65,100 套",
+    summary:
+      "安省 10 月 29 日秋季经济报告将 2027 年新屋开工预测从 3 月预算的 70,300 套下调至 65,100 套（-5,200 套，-7.4%），2026 年为 64,700 套、低于 2025 年的 65,400 套，2028–2029 年分别回升至 71,700 与 75,400 套，三年累计比 3 月预期少 15,400 套。报告同时将 2026–27 财年赤字预期从 138 亿上调至 169 亿加元，平衡推迟至 2029–30 财年；并预测安省成屋均价 2026 年跌 2.4%、2027 年涨 1.4%，销量 2027 年增长 7.8%。",
+    wendyNote:
+      "官方自己都把开工预期砍下来了，等于承认未来几年新房供应还是紧——这对现在手里有房的人是中长期利好，对等新盘的买家却是提醒：2027 年开工只比今年多 400 套，想等新盘放量压价的人要失望了。好消息是报告同时预测 2027 年销量回升 7.8%、价格只涨 1.4%，量升价稳，换房、自住买家明年仍有窗口。",
+    url: "https://www.hashtaginvesting.com/blog/fords-ontario-government-cuts-2027-housing-forecast-by-5200-homes-as-deficit-climbs-to-16-9-billion",
+  },
+  {
+    id: "fraser-new-home-cost-gap-oct2026",
+    date: "2026-10-30",
+    time: "07:00",
+    source: "Fraser Institute 研究（10 月 27 日发布）",
+    firstHand: false,
+    tags: ["新屋成本", "开发费"],
+    heat: 62,
+    points: [
+      "多伦多新屋售价 2 倍成本",
+      "开发费每套高达 18.03 万",
+      "审批 25 个月，全国最慢档",
+    ],
+    image: "/summaries/fraser-new-home-cost-gap-oct2026.jpg",
+    title: "Fraser 研究：多伦多新建独立屋售价近 2 倍于建造成本",
+    summary:
+      "Fraser Institute 10 月 27 日发布的研究对比了 2018–2025 年 33 个城市新建独立屋售价与建筑许可价值：多伦多新屋平均售价约 158 万加元、约为建造成本（约 82.6 万加元）的 2.0 倍，温哥华高达 4.7 倍。研究指出差价不全是开发商利润：多伦多低层住宅开发费每套约 18.03 万加元（温尼伯仅 9,900 加元），审批耗时 25 个月、远高于埃德蒙顿的 3.4 个月，土地、分区限制与审批成本共同推高了新屋价格。",
+    wendyNote:
+      "新屋贵，贵的不只是砖头水泥：18 万开发费加 25 个月审批，这些成本最后都摊进了房价里——所以买楼花、买新盘时，合同里的开发费调整条款一定要设上限，别让交房时的追加账单吃掉你的预算。反过来看，正因为新屋成本降不下来，位置好的二手房长期仍有支撑，买来自住不必等新盘降价。",
+    url: "https://www.todocanada.ca/vancouver-home-prices-nearly-5-times-construction-costs-twice-in-toronto-why-do-new-homes-cost-so-much-more/",
+  },
+  {
     id: "boc-hike-to-250-oct28-2026",
     date: "2026-10-29",
     time: "07:00",

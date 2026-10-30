@@ -82,17 +82,17 @@ export const marketSections: MarketSection[] = [
   {
     id: "ontario-2027",
     title: "安省 2027 年展望",
-    asOf: "2026 年 10 月",
-    source: "Desjardins 预测",
+    asOf: "2026 年 10 月 29 日（安省秋季经济报告）",
+    source: "安省秋季经济报告 / Desjardins 预测",
     metrics: [
-      { label: "新开工", value: "近 6.5 万套", change: "同比 +6%", trend: "up", note: "仍比 2021–22 年低 30% 以上" },
-      { label: "成屋销量", value: "+5%", change: "2027 年预测", trend: "up" },
-      { label: "平均房价", value: "+2.4%", change: "2027 年预测", trend: "up", note: "均衡市场假设下" },
-      { label: "加息预期", value: "2 次", change: "2027 年", trend: "up", note: "利率环境依然有挑战" },
+      { label: "新开工", value: "65,100 套", change: "2027 年预测，较 3 月预算下调 5,200 套", trend: "flat", note: "2026 年 64,700 套，2028 年 71,700 套" },
+      { label: "成屋销量", value: "+7.8%", change: "2027 年预测（秋季经济报告）", trend: "up" },
+      { label: "平均房价", value: "+1.4%", change: "2027 年预测（秋季经济报告）", trend: "up", note: "2026 年预计 -2.4%" },
+      { label: "加息预期", value: "2 次", change: "2027 年", trend: "up", note: "Desjardins 预测，利率环境依然有挑战" },
     ],
     wendyTake:
-      "Desjardins 给 2027 年定调：量价温和向上，但别指望 V 型反转。开工仍处历史低位（供应长期偏紧）+ 加息两次（持有成本不降）——今年 Q4 到明年 Q1 仍是买家议价窗口，卖家可以熬到明春。",
+      "官方自己把 2027 年开工预期砍到 65,100 套，三年累计少 15,400 套——供应紧张是中长期的事，但价格预测只有 +1.4%，量升价稳。今年 Q4 到明年 Q1 仍是买家议价窗口，卖家可以熬到明春。",
   },
 ];
 
-export const marketUpdatedAt = "2026-10-29";
+export const marketUpdatedAt = "2026-10-30";
