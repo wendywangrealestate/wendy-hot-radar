@@ -20,6 +20,90 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    id: "boc-hike-housing-blow-oct2026",
+    date: "2026-10-31",
+    time: "07:00",
+    source: "Canadian Mortgage Trends × Bloomberg（10 月 29 日）",
+    firstHand: false,
+    tags: ["加息冲击", "楼市展望"],
+    heat: 72,
+    points: [
+      "住宅对增长贡献近零至2028",
+      "续约付款冲击或达50%",
+      "央行称楼市前景低迷",
+    ],
+    image: "/summaries/boc-hike-housing-blow-oct2026.jpg",
+    title: "加息重击已跌楼市：央行预计住宅对增长贡献近零至2028年",
+    summary:
+      "加拿大央行 10 月 28 日加息后，彭博 10 月 29 日分析指出央行最新预测显示住宅地产对经济增长几乎无贡献直至 2028 年，副行长 Carolyn Rogers 直言楼市前景低迷。Desjardins 研究警告，未提前还款或锁定利率、近期须续约的浮动利率持有者今年秋冬可能面临约 50% 的付款冲击；若按央行预测走，楼市低迷将满六年，堪比 1990 年代。能源价格推高建材与设备成本，央行预计住房服务通胀从今年底略高于 1% 升至 2027–2028 年的约 2%，但租金通胀明年有望缓解。",
+    wendyNote:
+      "这条是给续约人群的警钟：50% 付款冲击不是所有人，但没锁定、没提前还款、又赶上秋冬续约的人要立刻找 broker 算数，别等银行通知。买家则反向读：央行自己都说楼市低迷到 2028 年，议价窗口不会一夜关上，慢慢挑、按月供算准再出价。",
+    url: "https://www.canadianmortgagetrends.com/2026/10/rate-hike-kicks-canadas-housing-market-when-its-down/",
+  },
+  {
+    id: "yardi-rent-growth-q3-2026",
+    date: "2026-10-31",
+    time: "07:00",
+    source: "Yardi 2026 秋季全国多户报告 × Connect CRE（10 月 30 日）",
+    firstHand: false,
+    tags: ["租金增速", "出租房"],
+    heat: 68,
+    points: [
+      "全国租金增速仅1.7%",
+      "新签租约租金跌0.2%",
+      "多伦多新租约跌2.1%",
+    ],
+    image: "/summaries/yardi-rent-growth-q3-2026.jpg",
+    title: "Yardi：全国出租房租金增速1.7%创2020年以来最低，多伦多新租约跌2.1%",
+    summary:
+      "Yardi 2026 秋季全国多户报告（10 月 30 日发布，覆盖 54.8 万套、6,200 个项目）显示，全国 purpose-built 出租房年租金增速放缓至 1.7%，为 2020 年有统计以来最低，全国平均月租 1,790 加元、环比仅涨 7 加元，空置率持平于 4.7%。新签租约租金连续第三个季度下跌（-0.2%），续租涨幅 2.1% 但已连续 10 个季度放缓；多伦多整体租金仍涨 1.7%，但新签租约租金较上一租约跌 2.1%，Yardi 归因于人口增长放缓。",
+    wendyNote:
+      "租客与房东要分开读：新签租金在跌，意味着新租客谈判空间大、看到合适房源可以谈条件；但续租涨幅仍有 2.1%，老租客别指望自动降租，续约前先拿周边新签价去谈。投资出租房的，租金增长引擎已经熄火，回报账必须按 1.7% 甚至更低算，别按疫情后高增长假设。",
+    url: "https://www.connectcre.ca/stories/canadian-apartment-rent-growth-hits-lowest-level-since-2020/",
+  },
+  {
+    id: "remax-gta-commercial-h1-2026",
+    date: "2026-10-31",
+    time: "07:00",
+    source: "RE/MAX 2026 秋季商业地产报告（10 月 30 日）",
+    firstHand: true,
+    tags: ["商业地产", "多户投资"],
+    heat: 60,
+    points: [
+      "上半年投资102亿涨41%",
+      "多户投资暴涨逾240%",
+      "工业空置率仅4.3%",
+    ],
+    image: "/summaries/remax-gta-commercial-h1-2026.jpg",
+    title: "RE/MAX：GTA上半年商业地产投资102亿涨41%，多户投资暴涨逾240%",
+    summary:
+      "RE/MAX 2026 秋季商业地产报告（10 月 30 日发布）显示，GTA 上半年商业地产投资近 102 亿加元、同比涨 41%，其中多户住宅投资同比暴涨逾 240%，机构资金追逐有租金上涨空间的老混凝土出租楼，平均每户成交价逾 35.41 万加元。工业空置率 Q2 仅 4.3%、净租金 16–17 加元/呎；写字楼整体空置率降至 15.5%，金融区 AAA 级毛租金 90–105 加元/呎，C 级仅 39–45 加元/呎，分化明显。",
+    wendyNote:
+      "机构的钱在用脚投票：只买有现金流的出租楼和优质资产，开发用地与次级写字楼继续被冷落——这正是住宅市场的镜像。对普通买家/房东的启示是：老出租楼被机构扫货，说明长期持有优质租赁资产仍被看好；但别跟风去碰次级资产，流动性差的时候想卖都难。",
+    url: "https://blog.remax.ca/toronto-commercial-real-estate-report/",
+  },
+  {
+    id: "tuk-bayview-rental-oct2026",
+    date: "2026-10-31",
+    time: "07:00",
+    source: "TUK Group（GlobeNewswire 官方通稿，10 月 29 日）",
+    firstHand: true,
+    tags: ["出租新盘", "Bridle Path"],
+    heat: 55,
+    points: [
+      "Bayview约30套出租楼",
+      "四项目总值约4000万",
+      "该区仅12%家庭租房",
+    ],
+    image: "/summaries/tuk-bayview-rental-oct2026.jpg",
+    title: "TUK 落子 Bridle Path：Bayview 约30套出租楼，四项目总值约4000万",
+    summary:
+      "TUK Group 10 月 29 日宣布已签下 Bayview Avenue 一处地块（近 Bridle Path），计划建约 30 套面向家庭与专业人士的 purpose-built 出租楼，户型为一房与三房，采用 ICF 建造并拟走 CMHC MLI Select 融资、部分单位平价出租。该项目加入 Lambton、Coxwell、McRoberts 后，TUK 多伦多四项目管线合计逾 60 套、完工总值约 4,000 万加元；该区 2021 年人口普查仅 12% 家庭租房、远低于全市近半数，出租选择极少。",
+    wendyNote:
+      "豪宅区出现 purpose-built 出租楼是稀缺信号：想住进 Bridle Path–Sunnybrook 学区又不想买的家庭，未来多了专业管理的新选择，但项目仍在规划审批阶段、没有入住时间表，别按“马上能租”做计划。房东则注意：高端出租供给在向这类地段渗透，续租定价要靠品质和服务留人，不是靠稀缺本身。",
+    url: "https://www.globenewswire.com/news-release/2026/10/29/3391222/0/en/tuk-group-to-acquire-bayview-avenue-site-off-the-bridle-path-for-30-unit-rental-development-expanding-toronto-footprint.html",
+  },
+  {
     id: "valery-resale-losses-oct2026",
     date: "2026-10-30",
     time: "07:00",
