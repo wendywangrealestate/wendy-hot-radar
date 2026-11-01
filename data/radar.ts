@@ -86,6 +86,69 @@ export const radarItems: RadarItem[] = [
   "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22352%22%3E%3Crect%20width%3D%22960%22%20height%3D%22352%22%20fill%3D%22%23101d30%22%2F%3E%3Ctext%20x%3D%2240%22%20y%3D%2255%22%20fill%3D%22%23cbb079%22%20font-size%3D%2224%22%20font-family%3D%22sans-serif%22%3EWENDY'S%20HOT%20RADAR%20%C2%B7%202026-11-01%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22120%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E8%81%94%E9%82%A6%E6%8B%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E6%9C%80%E5%A4%9A16%E4%BA%BF%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22190%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E6%8A%95%E8%B5%84%E5%88%86%E9%98%B6%E6%AE%B5%E5%AE%9E%E6%96%BD%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22260%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E2030%E5%B9%B4%E5%89%8D%E6%89%BF%E8%AF%BA%E6%96%B0%E5%A2%9E%E5%8D%83%E4%B8%AA%E5%B2%97%E4%BD%8D%3C%2Ftext%3E%3C%2Fsvg%3E"
 },
   {
+    id: "dec-hike-odds-oct30-2026",
+    date: "2026-11-01",
+    time: "07:00",
+    source: "True North Mortgage 利率预测（10 月 30 日更新）",
+    firstHand: false,
+    tags: ["12月议息", "利率前瞻"],
+    heat: 62,
+    points: [
+      "12月9日再加息概率50%",
+      "5年期国债收益率约3.5%",
+      "多数机构料明年Q1升至2.75%",
+    ],
+    image: "/summaries/dec-hike-odds-oct30-2026.jpg",
+    title: "12月议息五五开：市场押注再加息概率50%，多数机构料明年Q1升至2.75%",
+    summary:
+      "True North 10 月 30 日更新：按 mortgagelogic.news 定价，12 月 9 日再加 25 基点与按兵不动各占 50%；5 年期国债收益率已微降至 3.5%，固定利率或略有回落空间。各大行预测分歧：多数料政策利率年底守住 2.50%、2027 年 Q1 升至 2.75%，Scotiabank 与 RBC 则看高至 2027 年底 3.25%。",
+    wendyNote:
+      "12 月结果是真悬念，别提前押注方向：浮动利率持有者按“可能再加 25 基点”留好缓冲，固定利率买家则盯着 3.5% 的国债收益率——它回落时就是谈固定价的好时机。下次关键数据是 11 月 6 日就业与 11 月 16 日 CPI，出结果前别急着锁长约。",
+    url: "https://www.truenorthmortgage.ca/blog/mortgage-rate-forecast",
+  },
+  {
+    id: "bigger-condos-wahi-oct2026",
+    date: "2026-11-01",
+    time: "07:00",
+    source: "Storeys × Wahi 分析（10 月 30 日）",
+    firstHand: false,
+    tags: ["Condo分化", "大户型"],
+    heat: 66,
+    points: [
+      "一房中位价6年跌14%至48万",
+      "三房涨13%至70万，四房+15%",
+      "45%买家选择合并单位",
+    ],
+    image: "/summaries/bigger-condos-wahi-oct2026.jpg",
+    title: "Condo越住越大才保值：一房6年跌14%，三房四房逆势涨13–15%",
+    summary:
+      "Storeys 10 月 30 日报道引述 Wahi 分析：2020 年 Q1 至 2026 年 Q1，GTA 一房 Condo 中位价跌 14% 至 48 万加元，两房涨 2% 至 63 万，三房涨 13% 至 70 万、四房以上涨 15% 至 71.5 万。中城新盘 One Ten Avenue Road 开盘半年没卖出一套 2,500 呎以下单位，约 45% 买家选择合并多个单位。",
+    wendyNote:
+      "这组数据把 Condo 分化说透了：小户型是给投资客准备的，投资客退潮它就跌；能住人的大户型才是自住需求在撑。买 Condo 自住，优先看两房以上、能真正住下的户型；手里有小户型想卖的，别等“市场回暖”，定价贴着今天的成交走。",
+    url: "https://storeys.com/toronto-condos-more-livable-bigger/",
+  },
+  {
+    id: "nov1-rate-snapshot-2026",
+    date: "2026-11-01",
+    time: "07:00",
+    source: "Best Rates（11 月 1 日更新）",
+    firstHand: false,
+    tags: ["利率快照", "加息之后"],
+    heat: 60,
+    points: [
+      "Prime 已升至4.70%",
+      "5年固定最优4.59%",
+      "5年浮动最优3.65%",
+    ],
+    image: "/summaries/nov1-rate-snapshot-2026.jpg",
+    title: "11月首日利率快照：Prime 4.70%坐实，5年固定最优4.59%、浮动3.65%",
+    summary:
+      "加息后首个周末的利率比价（Best Rates 11 月 1 日更新）：六大行 prime 已坐实 4.70%，最优保险 5 年固定利率 4.59%、5 年浮动 3.65%。与 NerdWallet 同日更新的方向一致：浮动仍比固定便宜约 1 个百分点，但价差正在收窄。",
+    wendyNote:
+      "加息落地后的第一张完整价目表：浮动仍便宜，但别只看 3.65% 的起步价——12 月若再加一次，浮动立刻跟涨。选浮动是赌明年不加，选固定是买确定性；续约在 3 个月内的，现在就拿着这两档去找 broker 谈，别等 12 月 9 日。",
+    url: "https://bestrates.ca/current-rates",
+  },
+  {
     id: "boc-hike-housing-blow-oct2026",
     date: "2026-10-31",
     time: "07:00",
