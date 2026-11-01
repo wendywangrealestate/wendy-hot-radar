@@ -19,6 +19,72 @@ export interface RadarItem {
 }
 
 export const radarItems: RadarItem[] = [
+{
+  "date": "2026-11-01",
+  "time": "17:00",
+  "firstHand": true,
+  "id": "statcan-gdp-aug2026-oct30",
+  "source": "加拿大统计局（2026年10月30日）",
+  "tags": [
+    "加拿大经济",
+    "GDP"
+  ],
+  "heat": 62,
+  "points": [
+    "8月实际GDP环比持平",
+    "9月初估下降0.1%",
+    "正式数据11月30日发布"
+  ],
+  "title": "加拿大8月GDP再度持平，9月初估下降0.1%",
+  "summary": "加拿大统计局10月30日公布，8月实际GDP连续第二个月基本不变，零售、制造及建筑业增长被其他行业下滑抵消。9月初步估计下降0.1%，仍有修订可能；9月及第三季度正式数据将于11月30日发布。",
+  "wendyNote": "分析：经济活动疲软为观察购房需求及后续利率路径增加了新依据，但单次数据不能确定央行下一次决定。买家应按实际贷款报价和收入情况计算预算，不宜把加息或降息视为已确定。",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm",
+  "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22352%22%3E%3Crect%20width%3D%22960%22%20height%3D%22352%22%20fill%3D%22%23101d30%22%2F%3E%3Ctext%20x%3D%2240%22%20y%3D%2255%22%20fill%3D%22%23cbb079%22%20font-size%3D%2224%22%20font-family%3D%22sans-serif%22%3EWENDY'S%20HOT%20RADAR%20%C2%B7%202026-11-01%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22120%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E8%E6%9C%88%E5%AE%9E%E9%99%85GDP%E7%8E%AF%E6%AF%94%E6%8C%81%E5%B9%B3%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22190%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E9%E6%9C%88%E5%88%9D%E4%BC%B0%E4%B8%8B%E9%99%8D0.1%25%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22260%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E6%AD%A3%E5%BC%8F%E6%95%B0%E6%8D%AE11%E6%9C%8830%E6%97%A5%E5%8F%91%E5%B8%83%3C%2Ftext%3E%3C%2Fsvg%3E"
+},
+{
+  "date": "2026-11-01",
+  "time": "17:00",
+  "firstHand": true,
+  "id": "oeb-electricity-nov2026",
+  "source": "安省能源局（10月16日公告，11月1日生效）",
+  "tags": [
+    "持有成本",
+    "安省电费"
+  ],
+  "heat": 55,
+  "points": [
+    "11月1日起启用冬季时段",
+    "分时电价9.1／14.6／18.9分",
+    "电费补贴比例改为15.7%"
+  ],
+  "title": "11月1日起安省调整电价与冬季用电时段，业主租客需看总账单",
+  "summary": "安省受监管电价计划11月1日起调整：TOU低峰、中峰、高峰分别为9.1、14.6、18.9加分/度。工作日高峰为早上7至11点、下午5至7点；低峰为晚7点至早7点及周末和假日全天。Ontario Electricity Rebate补贴比例同步改为15.7%，阶梯计费住宅冬季低价额度为每月1,000度。",
+  "wendyNote": "分析：租客与业主可按自己的计费计划安排用电。每度电价下降不代表总账单一定减少，还要考虑补贴、用电量、输配电费用；出租物业预算应以实际账单为准。",
+  "url": "https://oeb.ca/newsroom/2026/ontario-energy-board-announces-changes-electricity-prices-households-small-businesses",
+  "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22352%22%3E%3Crect%20width%3D%22960%22%20height%3D%22352%22%20fill%3D%22%23101d30%22%2F%3E%3Ctext%20x%3D%2240%22%20y%3D%2255%22%20fill%3D%22%23cbb079%22%20font-size%3D%2224%22%20font-family%3D%22sans-serif%22%3EWENDY'S%20HOT%20RADAR%20%C2%B7%202026-11-01%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22120%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E11%E6%9C%881%E6%97%A5%E8%B5%B7%E5%90%AF%E7%94%A8%E5%86%AC%E5%AD%A3%E6%97%B6%E6%AE%B5%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22190%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E5%88%86%E6%97%B6%E7%94%B5%E4%BB%B79.1%EF%BC%8F14.6%EF%BC%8F18.9%E5%88%86%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22260%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E7%94%B5%E8%B4%B9%E8%A1%A5%E8%B4%B4%E6%AF%94%E4%BE%8B%E6%94%B9%E4%B8%BA15.7%25%3C%2Ftext%3E%3C%2Fsvg%3E"
+},
+{
+  "date": "2026-11-01",
+  "time": "17:00",
+  "firstHand": true,
+  "id": "cohere-canada-equity-oct2026",
+  "source": "加拿大总理办公室（2026年10月29日）",
+  "tags": [
+    "加拿大AI",
+    "数据管理"
+  ],
+  "heat": 42,
+  "points": [
+    "联邦拟股权投资最多16亿",
+    "投资分阶段实施",
+    "2030年前承诺新增千个岗位"
+  ],
+  "title": "加拿大拟向Cohere投资最多16亿加元，支持本地企业AI与数据自主",
+  "summary": "联邦政府10月29日宣布，承诺向多伦多起家的Cohere进行最多16亿加元股权投资，分阶段实施并定期报告进展。公司承诺到2030年新增至少1,000个加拿大技术岗位，并投入至少17亿加元增加加拿大计算基础设施；这些属于未来承诺，尚非已完成成果。",
+  "wendyNote": "分析：这是加拿大企业AI产业的新布局。地产团队选择处理客户资料的AI工具时，可持续关注数据存储地点、权限和保留规则；此次投资本身不代表现有地产工具已获得这些能力。",
+  "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+  "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22960%22%20height%3D%22352%22%3E%3Crect%20width%3D%22960%22%20height%3D%22352%22%20fill%3D%22%23101d30%22%2F%3E%3Ctext%20x%3D%2240%22%20y%3D%2255%22%20fill%3D%22%23cbb079%22%20font-size%3D%2224%22%20font-family%3D%22sans-serif%22%3EWENDY'S%20HOT%20RADAR%20%C2%B7%202026-11-01%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22120%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E8%81%94%E9%82%A6%E6%8B%9F%E8%82%A1%E6%9D%83%E6%8A%95%E8%B5%84%E6%9C%80%E5%A4%9A16%E4%BA%BF%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22190%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E%E6%8A%95%E8%B5%84%E5%88%86%E9%98%B6%E6%AE%B5%E5%AE%9E%E6%96%BD%3C%2Ftext%3E%3Ctext%20x%3D%2240%22%20y%3D%22260%22%20fill%3D%22%23f7f5f0%22%20font-size%3D%2234%22%20font-family%3D%22sans-serif%22%3E2030%E5%B9%B4%E5%89%8D%E6%89%BF%E8%AF%BA%E6%96%B0%E5%A2%9E%E5%8D%83%E4%B8%AA%E5%B2%97%E4%BD%8D%3C%2Ftext%3E%3C%2Fsvg%3E"
+},
   {
     id: "boc-hike-housing-blow-oct2026",
     date: "2026-10-31",
