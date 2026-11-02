@@ -19,6 +19,72 @@ export interface RadarItem {
 }
 
 export const radarItems: RadarItem[] = [
+  {
+    "id": "valery-toronto-rent-oct2026",
+    "date": "2026-11-02",
+    "time": "07:00",
+    "source": "Valery 11月多伦多租金报告（TRREB MLS数据，11月2日更新）",
+    "firstHand": false,
+    "tags": [
+      "租金",
+      "租赁市场"
+    ],
+    "heat": 65,
+    "points": [
+      "10月成交中位租金$2,500",
+      "10月租出4,332套同比-7%",
+      "在租房源7,298套要价$2,600"
+    ],
+    "image": "/summaries/valery-toronto-rent-oct2026.jpg",
+    "title": "多伦多10月租金：成交中位$2,500同比-2%，租出4,332套同比-7%",
+    "summary": "Valery 11月2日更新的TRREB MLS数据：多伦多10月成交中位租金$2,500、平均$2,818，分别同比-2%与基本持平；当月租出4,332套、同比-7%。在租房源7,298套、中位要价$2,600，其中19%房源已降价、中位降幅$150，成交中位租期仅15天。",
+    "wendyNote": "租客现在仍有谈判空间：近两成在租房源已经降价，看到合适房源可以谈条件、别按要价照单全收。房东则要按小区定价——成交中位15天就租出，定价贴近市场的好房源并不愁租，挂高价只会换来降价重挂。",
+    "url": "https://valery.ca/market/toronto/rentals/"
+  },
+  {
+    "id": "toronto-fall-closings-2026",
+    "date": "2026-11-02",
+    "time": "07:00",
+    "source": "Urban Realty Toronto MLS成交快照（11月1日）",
+    "firstHand": false,
+    "tags": [
+      "成交量",
+      "Condo"
+    ],
+    "heat": 68,
+    "points": [
+      "8–10月成交5,835套",
+      "Condo占52%中位$561K",
+      "半独立屋22天最快售出"
+    ],
+    "image": "/summaries/toronto-fall-closings-2026.jpg",
+    "title": "多伦多秋季成交5,835套：Condo占一半量，独立屋卖得更快",
+    "summary": "Urban Realty 11月1日发布的MLS成交快照（8月1日–10月31日）：多伦多成交5,835套，Condo类3,019套占52%、中位$561K、平均39天；独立屋类2,816套、中位$1.16M、平均26天。Waterfront C1以322套居量首，半独立屋平均22天售出、为主要房型中最快。",
+    "wendyNote": "量在Condo、速度在独立屋：Condo买家选择多、可以慢慢比价谈价，别被“成交量大”误读为抢手；独立屋好房源平均不到一个月就走，看到合适的要果断出价。Waterfront C1量大但平均40天，仍是定价市场而非卖方市场。",
+    "url": "https://urbanrealtytoronto.com/where-toronto-is-selling-sales-volume-2026/"
+  },
+  {
+    "id": "federal-budget-nov5-housing-watch",
+    "date": "2026-11-02",
+    "time": "07:00",
+    "source": "加拿大财政部官方公告（10月20日）× KPMG/Money.ca前瞻",
+    "firstHand": false,
+    "tags": [
+      "联邦预算",
+      "住房政策"
+    ],
+    "heat": 58,
+    "points": [
+      "11月5日公布2026预算",
+      "官方称将压低新房成本",
+      "首套GST/HST退税已在实施"
+    ],
+    "image": "/summaries/federal-budget-nov5-housing-watch.jpg",
+    "title": "11月5日联邦预算看点：住房与节能改造会不会有新招？",
+    "summary": "财政部10月20日官方公告：财长将于11月5日公布2026年联邦预算，官方称预算将延续降低新房成本、帮助节能改造等行动。已在实施的首套房GST/HST退税最高可省$5万（$100万以下全额、$150万逐步归零）；节能改造细则与租客退税等仍属建议而非承诺，须等预算文本。",
+    "wendyNote": "预算日之前别为传闻改预算：已确定的只有现行首套退税，算房款时按现行规则走；新措施要等11月5日文本落地再算。换暖气、做节能改造的屋主也先别赶工，等预算是否明确20亿热泵补贴的追溯规则再动手。",
+    "url": "https://www.canada.ca/en/department-finance/news/2026/10/government-of-canada-to-release-budget-2026-on-november-5-2026.html"
+  },
 {
   "date": "2026-11-01",
   "time": "17:00",
