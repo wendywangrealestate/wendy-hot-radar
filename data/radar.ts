@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "toronto-oct2026-city-sales",
+    "date": "2026-11-03",
+    "time": "07:00",
+    "source": "TorontoLivings 10月多伦多市场更新（11月2日，MLS数据经Repliers）",
+    "firstHand": false,
+    "tags": [
+      "10月成交",
+      "Condo"
+    ],
+    "heat": 74,
+    "points": [
+      "10月成交1,967套同比-13.6%",
+      "均价$1,090,449同比+1.3%",
+      "Condo中位$545K同比-7.5%"
+    ],
+    "image": "/summaries/toronto-oct2026-city-sales.jpg",
+    "title": "多伦多10月成交1,967套同比-13.6%，均价$1,090,449逆势+1.3%",
+    "summary": "TorontoLivings 11月2日发布的10月多伦多市更新（MLS数据经Repliers，11月2日提取、属初步数据）：全市成交1,967套、同比-13.6%，新挂牌5,497套、同比-8.1%；均价$1,090,449、同比+1.3%，中位价$850,000、同比+0.1%。Condo公寓跌幅最深：成交836套、同比-20.5%，中位价$545,000、同比-7.5%；售出/新挂牌比35.8%，仍属买方市场。",
+    "wendyNote": "量跌价稳，买家继续占上风：Condo是谈判空间最大的板块，中位价一年少了约$44,000，看到合适单位可以大胆谈价、别被挂牌价锚定。卖家则要按今天的市场定价——10月仅21%房源高于要价成交，设截标日反而可能吓跑买家；独立屋中位13–17天就走，好房源仍要果断。",
+    "url": "https://www.torontolivings.com/toronto-real-estate-market-update-october-2026/"
+  },
+  {
+    "id": "toronto-vht-declaration-2026",
+    "date": "2026-11-03",
+    "time": "07:00",
+    "source": "多伦多市政府官方公告（11月2日）",
+    "firstHand": true,
+    "tags": [
+      "空置税",
+      "持有成本"
+    ],
+    "heat": 62,
+    "points": [
+      "2026年度申报已开放",
+      "截止2027年4月30日",
+      "空置税率为评估值3%"
+    ],
+    "image": "/summaries/toronto-vht-declaration-2026.jpg",
+    "title": "多伦多2026年度空置税申报已开放：所有业主须申报，截止2027年4月30日",
+    "summary": "多伦多市政府11月2日公告：2026年度空置税申报通道已开放，所有住宅业主都须为2026年1月1日至12月31日的居住情况申报，即使是自住房，截止2027年4月30日。空置满6个月且无豁免的住宅按市政评估值（CVA）3%征税；2025年度申报完成率逾99%。",
+    "wendyNote": "这条是给所有多伦多业主的待办：自住房也要申报，别因漏报被按空置征税，3%的税额不是小数目。正在出租或空置的房源，申报前先核对租约与豁免条件；2027年4月30日截止，现在记下来、别拖到最后一周。",
+    "url": "https://www.toronto.ca/news/city-of-toronto-opens-the-2026-vacant-home-tax-declaration-period/"
+  },
+  {
+    "id": "downsview-arbo-phase2-rentals",
+    "date": "2026-11-03",
+    "time": "07:00",
+    "source": "GTA Real Estate Today × UrbanToronto（11月1日）",
+    "firstHand": false,
+    "tags": [
+      "租赁供应",
+      "Downsview"
+    ],
+    "heat": 58,
+    "points": [
+      "二期约3,160套出租房",
+      "17栋楼含316套平价房",
+      "94%距车站800米内"
+    ],
+    "image": "/summaries/downsview-arbo-phase2-rentals.jpg",
+    "title": "Downsview Arbo二期推进：约3,160套出租房，含316套平价房",
+    "summary": "Canada Lands Company正在推进多伦多Downsview旧军事用地Arbo项目二期：在13.5公顷地块上建17栋楼、约3,160套出租房，其中市场价2,841套、平价房316套（占10%，低于该区20%目标）。项目含一所公立小学、托儿所与Keele街沿线零售，94%单位距Downsview Park车站800米内。",
+    "wendyNote": "这是西北区租赁供给的大动作，但仍在方案推进阶段、没有入住时间表，别按“马上能租”做计划。对Downsview周边房东是提醒：未来几年该区出租竞争会加剧，续租定价要靠品质留人；对租客则是好消息——大型专业出租楼进场后，选择会变多。",
+    "url": "https://www.realestategtatoday.ca/index.php/2026/11/01/3160-rental-units-coming-to-downsview-heres-what-it-means-for-toronto/"
+  },
+  {
     "id": "valery-toronto-rent-oct2026",
     "date": "2026-11-02",
     "time": "07:00",
