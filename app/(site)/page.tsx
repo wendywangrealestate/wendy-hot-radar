@@ -42,7 +42,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center gap-x-6 gap-y-1 text-sm">
               <span className="font-bold text-heat">GTA 关键数据</span>
               <span className="text-muted">
-                均价 <span className="font-mono font-bold text-ink">$1,006,409</span>
+                均价 <span className="font-mono font-bold text-ink">$1,024,108</span>
                 <span className="text-xs">（同比 -5.1%）</span>
               </span>
               <span className="text-muted">

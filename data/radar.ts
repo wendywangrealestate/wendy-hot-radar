@@ -20,6 +20,94 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "trreb-oct2026-gta-sales",
+    "date": "2026-11-04",
+    "time": "07:00",
+    "source": "TRREB 10月 Market Watch 官方通稿（11月4日，GlobeNewswire）",
+    "firstHand": true,
+    "tags": [
+      "10月成交",
+      "GTA均价"
+    ],
+    "heat": 88,
+    "points": [
+      "10月成交5,603套同比-7.9%",
+      "均价$1,024,108同比-2.7%",
+      "季调成交环比+1.2%止跌"
+    ],
+    "image": "/summaries/trreb-oct2026-gta-sales.jpg",
+    "title": "TRREB 10月月报：GTA成交5,603套同比-7.9%，均价$1,024,108同比-2.7%",
+    "summary": "TRREB 11月4日发布10月 Market Watch：GTA成交5,603套、同比-7.9%，新挂牌14,173套、同比-11.9%，在售库存25,098套、同比-10%；均价$1,024,108、同比-2.7%，MLS房价指数同比-4.3%。季调后成交环比+1.2%至5,274套、房价指数环比+0.1%至$928,800，为三个月来首次环比回升，TRREB称通胀与借贷成本不确定性仍让许多买家观望。",
+    "wendyNote": "同比仍跌、环比止跌，读法要分开：价格比去年便宜是事实，季调回升只是跌势放缓、不是反转信号。买家继续按今天的价格谈，重点看季调后连续两个月是否都回升；卖家别因单月环比就抬价——新挂牌少了11.9%，是卖家退场在托着库存，定价仍要贴着成交走。",
+    "url": "https://www.globenewswire.com/news-release/2026/11/04/3395067/0/en/inflation-and-borrowing-costs-impacted-october-gta-real-estate-market.html"
+  },
+  {
+    "id": "valery-905-precon-vs-resale-nov2026",
+    "date": "2026-11-04",
+    "time": "07:00",
+    "source": "Valery 905楼花与二手对比研究（11月4日，TRREB MLS数据）",
+    "firstHand": false,
+    "tags": [
+      "楼花",
+      "905对比"
+    ],
+    "heat": 70,
+    "points": [
+      "905楼花独立屋每呎-3.9%",
+      "同面积比二手反贵8.7%",
+      "新Condo每呎贵63.7%"
+    ],
+    "image": "/summaries/valery-905-precon-vs-resale-nov2026.jpg",
+    "title": "905楼花vs二手：独立屋每呎便宜3.9%是面积幻觉，新Condo贵63.7%",
+    "summary": "Valery 11月4日对比905区在售楼花与5月1日–11月3日二手成交：楼花独立屋每呎比二手低3.9%、镇屋低1.9%，但主因是楼花更大（独立屋中位2,812呎对二手2,250呎），同面积比较反而贵8.7%、镇屋贵3.5%。新Condo是例外：每呎比二手成交贵63.7%、同面积仍贵55%，且52.6%楼花项目附赠品，实际价低于标价。",
+    "wendyNote": "看楼花别只看每呎单价：独立屋、镇屋的“便宜”多半是你买了更大的房子，总价并不低；Condo楼花则是真贵，比二手贵六成以上，投资客按今天租金算不过账。近五年二手房最难卖（6.6个月库存），卖家要同时和隔壁售楼处比价，突出能马上入住、价格确定的优势。",
+    "url": "https://staging.valery.ca/research/gta-905-preconstruction-vs-resale/"
+  },
+  {
+    "id": "statcan-ncapi-q3-2026",
+    "date": "2026-11-04",
+    "time": "07:00",
+    "source": "加拿大统计局新Condo价格指数（11月3日发布）",
+    "firstHand": true,
+    "tags": [
+      "新Condo",
+      "官方指数"
+    ],
+    "heat": 62,
+    "points": [
+      "全国新Condo指数环比-0.6%",
+      "指数120.8（2017年=100）",
+      "多伦多环比-0.8%领跌"
+    ],
+    "image": "/summaries/statcan-ncapi-q3-2026.jpg",
+    "title": "统计局：Q3全国新Condo价格指数环比-0.6%，多伦多-0.8%",
+    "summary": "加拿大统计局11月3日发布Q3新Condo公寓价格指数：全国综合指数环比-0.6%至120.8（2017年=100），追踪开发商对新建公寓的售价。九个大城市中多伦多环比-0.8%、维多利亚-1.8%、温哥华-1.0%，多伦多指数127.6；该指数未经季调、Q3数据在Q4发布时可修订。",
+    "wendyNote": "官方指数给楼花市场又记了一笔：开发商售价还在往下走，和二手Condo跌势一致，楼花溢价更站不住脚。买新Condo的，拿这个指数去和开发商谈——售价在跌，赠品和价格都要谈；已经持有楼花的，别按开盘价估值，按今天的开发商售价重算。",
+    "url": "https://haberpaper.com/en/news/statcan-new-condominium-apartment-price-index-q3-2026"
+  },
+  {
+    "id": "ontario-youth-homeownership-nov2026",
+    "date": "2026-11-04",
+    "time": "07:00",
+    "source": "Storeys × RESCON主席专栏（11月3日）",
+    "firstHand": false,
+    "tags": [
+      "首套买家",
+      "可负担性"
+    ],
+    "heat": 58,
+    "points": [
+      "18–38岁仅47%信能买房",
+      "仅12%信5年内更可负担",
+      "房价7倍于年收入"
+    ],
+    "image": "/summaries/ontario-youth-homeownership-nov2026.jpg",
+    "title": "安省年轻人买房信心崩塌：18–38岁仅47%相信买得起房",
+    "summary": "Storeys 11月3日刊登RESCON主席专栏引述的调查：安省18–38岁受访者中仅47%相信买房可实现，逾四分之一认为完全不可能；OREA展望显示仅12%安省人相信未来五年住房会更可负担，逾四分之一有志买房者认为永远买不起。自2005年以来房价涨逾一倍、通胀调整后工资仅涨16%，多伦多等地房价已超税前年收入7倍，75%受访者支持削减市政开发费。",
+    "wendyNote": "信心数字比价格数字更值得首套买家看：市场现在是买方市场，但年轻人不敢进场，说明问题在首付、月供和信心，不在有没有房源。首套买家先把账算到月供层面——用今天的利率和首套退税重算，别被“永远买不起”的情绪带偏，也别因政策传闻提前透支预算。",
+    "url": "https://storeys.com/homeownership-just-a-dream-ontario/"
+  },
+  {
     "id": "toronto-oct2026-city-sales",
     "date": "2026-11-03",
     "time": "07:00",

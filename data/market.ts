@@ -23,17 +23,17 @@ export const marketSections: MarketSection[] = [
   {
     id: "gta-overview",
     title: "GTA 整体市场",
-    asOf: "2026 年 9 月",
+    asOf: "2026 年 10 月",
     source: "TRREB Market Watch",
     metrics: [
-      { label: "成交套数", value: "5,040", change: "同比 -9%", trend: "down" },
-      { label: "新增房源", value: "16,500", change: "同比 -14.4%", trend: "down", note: "卖家退场比买家更快" },
-      { label: "平均成交价", value: "$1,006,409", change: "同比 -5.1%", trend: "down" },
-      { label: "MLS 房价指数", value: "-4.7%", change: "同比", trend: "down" },
-      { label: "平均售出周期", value: "51 天", note: "买家持续观望" },
+      { label: "成交套数", value: "5,603", change: "同比 -7.9%", trend: "down", note: "季调后环比 +1.2% 至 5,274 套" },
+      { label: "新增房源", value: "14,173", change: "同比 -11.9%", trend: "down", note: "卖家退场比买家更快" },
+      { label: "平均成交价", value: "$1,024,108", change: "同比 -2.7%", trend: "down" },
+      { label: "MLS 房价指数", value: "-4.3%", change: "同比", trend: "down", note: "季调后环比 +0.1% 至 $928,800" },
+      { label: "在售库存", value: "25,098", change: "同比 -10%", trend: "down", note: "买家持续观望" },
     ],
     wendyTake:
-      "看 GTA 不要只看成交跌 9%——新房源少了 14.4%，卖家退场更快，议价空间还在，但好房源的选择在变少。现在是挑房的时机，不是追涨的时机。",
+      "10月同比仍跌、环比止跌：成交5,603套同比-7.9%、均价$1,024,108同比-2.7%，但季调后成交环比+1.2%、房价指数环比+0.1%，是三个月来首次环比回升。议价空间还在，但别把单月环比当反转——连续两个月回升才算趋势，现在仍是挑房的时机，不是追涨的时机。",
   },
   {
     id: "housing-types",
@@ -95,4 +95,4 @@ export const marketSections: MarketSection[] = [
   },
 ];
 
-export const marketUpdatedAt = "2026-10-30";
+export const marketUpdatedAt = "2026-11-04";
