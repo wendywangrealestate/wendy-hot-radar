@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "gta-condo-oct2026-deep-dive",
+    "date": "2026-11-05",
+    "time": "07:00",
+    "source": "Canadian Mortgage Professional × TRREB（11月4日）",
+    "firstHand": false,
+    "tags": [
+      "Condo",
+      "10月成交"
+    ],
+    "heat": 76,
+    "points": [
+      "GTA Condo均价$621,400同比-5.8%",
+      "成交1,385套同比-10.4%",
+      "基准价-7.3%至$521,600"
+    ],
+    "image": "/summaries/gta-condo-oct2026-deep-dive.jpg",
+    "title": "10月Condo再探底：GTA成交1,385套同比-10.4%，905区均价跌8.8%",
+    "summary": "TRREB 10月数据（Canadian Mortgage Professional 11月4日、HousingPortal整理）：GTA Condo成交1,385套、同比-10.4%，均价$621,400、同比-5.8%；市中心均价跌6%、905区跌8.8%，MLS基准价同比-7.3%至$521,600，为各房型跌幅最深。独立屋是唯一成交回升的房型，市中心+1.1%、905区+0.3%。",
+    "wendyNote": "Condo仍是全场最弱的一环：价格跌得最深、成交还在缩，905区跌8.8%说明跌势已不限于市中心。买家现在挑Condo有得谈，尤其看2021–2022年高位买入的急售盘；卖家别等反弹——新落成项目还在往租赁和二手市场加供应，定价贴着今天的成交走才卖得动。",
+    "url": "https://www.mpamag.com/ca/mortgage-industry/market-updates/buyers-still-arent-biting-in-torontos-slumping-housing-market/596209"
+  },
+  {
+    "id": "mortgage-rates-post-hike-nov2026",
+    "date": "2026-11-05",
+    "time": "07:00",
+    "source": "rates.ca 加拿大房贷利率报告（11月4日数据）",
+    "firstHand": false,
+    "tags": [
+      "房贷利率",
+      "加息之后"
+    ],
+    "heat": 72,
+    "points": [
+      "最优5年固定4.34% 浮动3.50%",
+      "Prime 4.70% 加息一周已落地",
+      "固定利率30天内涨约20基点"
+    ],
+    "image": "/summaries/mortgage-rates-post-hike-nov2026.jpg",
+    "title": "加息一周后：最优5年固定4.34%、浮动3.50%，Prime已升至4.70%",
+    "summary": "rates.ca 11月4日数据：央行10月28日加息至2.50%后，六大行Prime已升至4.70%，最优5年固定（有保险）4.34%、浮动3.50%，浮动仍比固定低约0.8个百分点。11月2日贷款利率调查显示最优5年固定30天内涨了20个基点，尽管5年期国债收益率同期回落；央行下次议息为12月9日，六大行均预计至少再加一次。",
+    "wendyNote": "浮动仍比固定便宜，但便宜的逻辑变了：不再是等降息，而是赌12月不再加。续贷或新买的，先锁一个利率hold再慢慢挑房——固定利率30天涨了20个基点，等的成本看得见。算月供时按Prime 4.70%和可能再加一次来留余地，别按最低报价卡预算。",
+    "url": "https://rates.ca/mortgage-report"
+  },
+  {
+    "id": "valery-toronto-townhouse-nov2026",
+    "date": "2026-11-05",
+    "time": "07:00",
+    "source": "Valery 11月多伦多镇屋报告（TRREB MLS数据，11月5日更新）",
+    "firstHand": false,
+    "tags": [
+      "镇屋",
+      "10月成交"
+    ],
+    "heat": 68,
+    "points": [
+      "10月镇屋中位$787,000同比+1%",
+      "211套成交同比-10% 卖98.7%",
+      "4.3个月库存 两房中位$713,000"
+    ],
+    "image": "/summaries/valery-toronto-townhouse-nov2026.jpg",
+    "title": "多伦多镇屋10月：中位$787,000同比微涨1%，211套成交同比-10%",
+    "summary": "Valery 11月5日更新的TRREB MLS数据：多伦多10月镇屋成交中位价$787,000、同比+1%，平均$942,000、同比+6%；当月成交211套、同比-10%，中位23天售出、成交价为要价98.7%。在售904套、中位要价$770,000，按10月 pace 需4.3个月消化；近12个月中位$795,000、同比-5%。",
+    "wendyNote": "镇屋是10月少数价格没跌的房型，但别误读：中位只涨1%、成交量却少了一成，是卖得少、不是抢得凶。两房中位$713,000仍是Condo买家往上换房最现实的跳板，谈价时盯着98.7%这个成交比——好房源基本不打折，挂高价的19%已降价房源才是谈判空间。",
+    "url": "https://staging.valery.ca/market/toronto/townhouses/"
+  },
+  {
     "id": "trreb-oct2026-gta-sales",
     "date": "2026-11-04",
     "time": "07:00",
