@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "federal-budget-2026-housing",
+    "date": "2026-11-06",
+    "time": "07:00",
+    "source": "Canadian Mortgage Trends 预算解析（11月5日）× 财政部官方预算文本",
+    "firstHand": false,
+    "tags": [
+      "联邦预算",
+      "房贷新政"
+    ],
+    "heat": 88,
+    "points": [
+      "保险房贷上限100万→150万",
+      "30年摊销开放首套与新房",
+      "外国买家禁令延至2029年"
+    ],
+    "image": "/summaries/federal-budget-2026-housing.jpg",
+    "title": "2026联邦预算落地：保险房贷上限提至150万，30年摊销开放首套买家",
+    "summary": "财政部11月5日公布2026年预算：拟将可选房贷保险房价上限从100万提至150万，首套买家或新房可享30年摊销；外国买家禁令延至2029年1月1日，但新房豁免；2027年2月1日起三、四户住宅可获最高90%保险建筑贷款，5–50户物业引入私人保险公司；Build Canada Homes追加130亿至450亿，住房总投入447亿。",
+    "wendyNote": "对多伦多买家最直接的是150万上限加30年摊销：100–150万价位的房子月供能下来，首套买家选择面变宽，但措施多为提案、须立法落地，别按已生效算预算。外国买家禁令延两年但新房豁免，楼花市场反而多了一条需求通道；三、四户保险放开后，小型出租物业融资会变容易，留意2027年2月1日这个生效日。",
+    "url": "https://www.canadianmortgagetrends.com/2026/11/budget-2026-explained-12-changes-for-housing-mortgages-and-banking/"
+  },
+  {
+    "id": "rentals-ca-nov2026-rent-turn",
+    "date": "2026-11-06",
+    "time": "07:00",
+    "source": "Rentals.ca × Urbanation 11月全国租金报告（11月5日发布）",
+    "firstHand": false,
+    "tags": [
+      "租金拐点",
+      "租赁市场"
+    ],
+    "heat": 80,
+    "points": [
+      "多伦多租金$2,590同比+1.6%",
+      "终结连续32个月同比下跌",
+      "两房租金同比+4.0%至$2,965"
+    ],
+    "image": "/summaries/rentals-ca-nov2026-rent-turn.jpg",
+    "title": "多伦多租金32个月来首涨：10月均租$2,590同比+1.6%，两房涨4%",
+    "summary": "Rentals.ca与Urbanation 11月5日发布的全国租金报告：多伦多10月公寓与Condo平均要价租金$2,590、同比+1.6%，终结连续32个月同比下跌，单月涨幅1.4%为六大市场最大；两房租金同比+4.0%至$2,965、三房+4.3%。全国平均租金$2,036、同比-3.2%，为连续25个月下跌中最小跌幅。",
+    "wendyNote": "租金拐点先出现在大户型：两房、三房先涨，说明家庭租客回来了，Condo租金整体仍同比-5.5%，一房租客谈判空间还在。房东别急着普涨——涨的是大户型；租客看两房以上的要抓紧，好房源会先走；投资客算账时注意，租金止跌不等于马上大涨，按今天的租金重算回报。",
+    "url": "https://rentals.ca/national-rent-report"
+  },
+  {
+    "id": "meridian-presale-70pct-nov2026",
+    "date": "2026-11-06",
+    "time": "07:00",
+    "source": "money.ca × Urbanation Q3数据（11月4日）",
+    "firstHand": false,
+    "tags": [
+      "楼花融资",
+      "Condo新盘"
+    ],
+    "heat": 72,
+    "points": [
+      "Q3新Condo仅售760套，楼花60套",
+      "楼花销量同比-61%连跌12季",
+      "竣工未售5,127套，仍高40%"
+    ],
+    "image": "/summaries/meridian-presale-70pct-nov2026.jpg",
+    "title": "楼花融资卡死70%预售线：Q3楼花仅售60套，开发商拿不到建筑贷款",
+    "summary": "money.ca 11月4日报道：Meridian信用社坚持开发商须预售70%才能获建筑贷款，而Urbanation Q3数据显示GTHA新Condo销量760套、同比翻倍，但85%来自竣工楼盘，楼花仅售60套、同比-61%，连续12个季度下跌；竣工未售库存5,127套、环比-7%但同比仍高40%，批量买家以低于原价40%的均价扫走339套。",
+    "wendyNote": "数字分化要看清：新Condo销量翻倍是批量买家在抄底竣工盘，不是楼花回暖——楼花一个季度全区只卖60套，开发商拿不到贷款就开不了工，未来几年新盘只会更少。想买楼花的别等“新盘大降价”，好地段的新盘根本没开工；想捡竣工盘的，批量买家40%的折扣就是谈判参照。",
+    "url": "https://money.ca/real-estate/ontario-condo-construction-lending-presale-threshold"
+  },
+  {
     "id": "gta-condo-oct2026-deep-dive",
     "date": "2026-11-05",
     "time": "07:00",
