@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "rbc-oct2026-minimal-momentum",
+    "date": "2026-11-07",
+    "time": "07:00",
+    "source": "RBC Economics 10月市场分析（11月6日）",
+    "firstHand": true,
+    "tags": [
+      "10月复盘",
+      "复苏乏力"
+    ],
+    "heat": 70,
+    "points": [
+      "多伦多成交环比+1.2%仍乏力",
+      "Condo指数同比-7.3%领跌",
+      "RBC仍看复苏终将到来"
+    ],
+    "image": "/summaries/rbc-oct2026-minimal-momentum.jpg",
+    "title": "RBC：全加楼市秋季复苏乏力，多伦多Condo指数同比-7.3%领跌",
+    "summary": "RBC Economics 11月6日分析：加拿大秋季楼市复苏步履蹒跚，多数城市10月成交与房价几无动能。多伦多季调成交环比+1.2%、房价指数环比+0.1%，但同比仍低7.9%与4.3%；Condo指数同比-7.3%，跌幅远超独立屋的-4.4%；在售库存同比-10%，RBC仍认为复苏终将到来。",
+    "wendyNote": "环比回升别当反转：成交量只比9月多一点点，同比还差近8%，Condo跌得比独立屋深得多，说明买家只敢挑便宜的下手。卖家别因单月数据抬价，买家继续按今天的价格谈——RBC说复苏会来，但没说这个冬天会来。",
+    "url": "https://www.rbc.com/en/economics/canadian-analysis/canadian-housing/local-real-estate-markets/canadas-housing-markets-carry-minimal-momentum-through-fall/"
+  },
+  {
+    "id": "statcan-jobs-oct2026",
+    "date": "2026-11-07",
+    "time": "07:00",
+    "source": "加拿大统计局10月劳动力调查（11月6日，加通社）",
+    "firstHand": false,
+    "tags": [
+      "就业数据",
+      "12月议息"
+    ],
+    "heat": 68,
+    "points": [
+      "失业率升至6.7%半年新高",
+      "10月减4,700岗连跌三月",
+      "私企减53,000青年失业13.7%"
+    ],
+    "image": "/summaries/statcan-jobs-oct2026.jpg",
+    "title": "10月失业率升至6.7%半年新高：连减三月，12月加息悬念再起",
+    "summary": "统计局11月6日公布10月劳动力调查：失业率从6.5%升至6.7%，为半年新高；就业减少4,700人，连续第三个月下滑，8–9月累计已减11万。私营部门减53,000人，为2月以来首降；青年失业率升至13.7%，时薪同比+2.2%。",
+    "wendyNote": "就业连跌三月，央行12月9日再加息的底气变弱了：通胀还在3%以上，加息理由在；但私企在裁人，硬加息会伤就业。浮动利率的先别慌——12月加不加现在是真悬念；正在谈固定利率的，盯着5年期国债收益率，它已回落到3.3%附近，固定报价有松动的空间。",
+    "url": "https://www.wingsmagazine.com/unemployment-rate-rose-to-6-7-in-october-statcan-says/"
+  },
+  {
+    "id": "toronto-pbr-next-round-nov2026",
+    "date": "2026-11-07",
+    "time": "07:00",
+    "source": "TorontoToday 11月4日报道 × 多伦多市政府文件",
+    "firstHand": false,
+    "tags": [
+      "出租房激励",
+      "市政政策"
+    ],
+    "heat": 60,
+    "points": [
+      "市长推下一轮1万套出租房",
+      "含2,000套平价房+8,000套市价",
+      "首轮32,000套申请仅批8,000套"
+    ],
+    "image": "/summaries/toronto-pbr-next-round-nov2026.jpg",
+    "title": "多伦多拟推下一轮出租房激励：1万套目标，5个Condo项目已转出租",
+    "summary": "TorontoToday 11月4日报道：市长Olivia Chow新任期伊始推动下一轮Purpose-Built Rental激励计划，目标再支持1万套出租房（至少2,000套平价房、至多8,000套市价房），仍须市议会进一步批准。首轮吸引超32,000套申请、约8,000套获批（17个项目），已有5个规划中的Condo项目转为专业出租楼。",
+    "wendyNote": "这是出租供给的长期利好、不是明天就能租到的房：激励要先过市议会，项目从获批到入住还要几年，短期内租金拐点主要还是靠现有库存。对Condo卖家是提醒——开发商把楼花转出租，说明新盘卖不动；对租客则是好消息，未来几年专业出租楼会越来越多，谈租时多一个选择。",
+    "url": "https://jason-wodlinger-mortgages.ca/toronto-rental-incentives-condo-market/"
+  },
+  {
     "id": "federal-budget-2026-housing",
     "date": "2026-11-06",
     "time": "07:00",
