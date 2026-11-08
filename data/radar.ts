@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "valery-gta-detached-oct2026",
+    "date": "2026-11-08",
+    "time": "07:00",
+    "source": "Valery 11月GTA独立屋报告（TRREB MLS数据，11月7日更新）",
+    "firstHand": false,
+    "tags": [
+      "独立屋",
+      "10月成交"
+    ],
+    "heat": 64,
+    "points": [
+      "GTA独立屋均价$1,310,627",
+      "成交2,693套同比-6%",
+      "要价中位比成交高23%"
+    ],
+    "image": "/summaries/valery-gta-detached-oct2026.jpg",
+    "title": "GTA独立屋10月：均价$1,310,627同比-3%，要价比成交高23%",
+    "summary": "Valery 11月7日更新的TRREB MLS数据：GTA 10月独立屋均价$1,310,627、同比-3%，中位$1,110,000、同比-5%，较2022年2月峰值低27%；成交2,693套、同比-6%，新挂牌6,687套、同比-12%，在售11,721套、同比-9%，平均29天售出、成交价为要价97%。在售房源要价中位$1.39M，比近三个月成交中位高23%，17%的房源已降价、中位降幅$70,000。",
+    "wendyNote": "独立屋是10月最抗跌的房型，但别被均价只跌3%骗了：要价中位比实际成交高23%，说明卖家还在按去年的价挂、买家只按今天的价买。17%的房源已经降价，中位降了$70,000——买家盯着降价盘谈，卖家定价贴着$1.31M的成交均价走才卖得动。",
+    "url": "https://valery.ca/market/gta/detached-homes/"
+  },
+  {
+    "id": "truenorth-rate-odds-nov2026",
+    "date": "2026-11-08",
+    "time": "07:00",
+    "source": "True North Mortgage 利率展望（11月6日更新）",
+    "firstHand": false,
+    "tags": [
+      "利率展望",
+      "12月议息"
+    ],
+    "heat": 62,
+    "points": [
+      "12月加息概率39% 不加61%",
+      "5年期国债收益率约3.3%",
+      "多数预测2027年底2.75%"
+    ],
+    "image": "/summaries/truenorth-rate-odds-nov2026.jpg",
+    "title": "12月加息概率仅39%：5年期国债收益率回落至3.3%，固定利率略松",
+    "summary": "True North 11月6日更新的利率展望：市场预计央行12月9日加息25基点的概率为39%、按兵不动61%；5年期加拿大国债收益率在美国中期选举与油价回落后降至约3.3%，固定利率略有松动。多数大行预测政策利率2026年底维持2.50%、2027年初再加，2027年底预测中位2.75%、区间2.25%–3.25%。",
+    "wendyNote": "浮动和固定现在是两条线：12月加不加还是五五开，浮动利率的先别急着锁；但固定利率已经跟着国债收益率松了一点，正在谈固定利率的可以多比两家、趁这波窗口谈。True North老板自己还看至少再加两次到3.00%，所以固定利率的松动别当成趋势反转——锁利率先问hold期，谈房价先按Prime 4.70%留余地。",
+    "url": "https://www.truenorthmortgage.ca/blog/mortgage-rate-forecast"
+  },
+  {
+    "id": "toronto-fall-closings-micro-nov2026",
+    "date": "2026-11-08",
+    "time": "07:00",
+    "source": "Urban Realty Toronto 秋季成交盘点（11月1日，MLS 8–10月数据）",
+    "firstHand": false,
+    "tags": [
+      "秋季成交",
+      "微观市场"
+    ],
+    "heat": 58,
+    "points": [
+      "秋季成交5,835套 Condo占52%",
+      "半独立屋22天最快售出",
+      "滨水C1区322套成交居首"
+    ],
+    "image": "/summaries/toronto-fall-closings-micro-nov2026.jpg",
+    "title": "多伦多秋季成交盘点：5,835套成交Condo占一半，半独立屋22天最快",
+    "summary": "Urban Realty Toronto 11月1日发布的MLS秋季盘点：8月1日至10月31日多伦多共成交5,835套，Condo类3,019套（52%）、均价$657,000、中位$561,000、平均39天售出；独立屋类2,816套、均价$1.46M、中位$1.16M、26天售出。半独立屋最快、平均22天；成交量最大的微观市场是滨水C1区Condo（322套、中位$608,000），中城区Yonge–Eglinton一带100套、31天售出最快。",
+    "wendyNote": "秋季的钱流向了两个极端：Condo做量、半独立屋拼速度。$53万–$70万的Condo是成交最深的价格带，首套买家就盯这个区间；半独立屋22天就卖掉，说明好户型、好地段的自由产权房根本不愁卖，看到合适的别拖。C1区322套看着多，但平均40天才卖掉，市中心Condo卖家定价还是要贴着中位$608,000走。",
+    "url": "https://urbanrealtytoronto.com/where-toronto-is-selling-sales-volume-2026/"
+  },
+  {
     "id": "rbc-oct2026-minimal-momentum",
     "date": "2026-11-07",
     "time": "07:00",
