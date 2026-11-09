@@ -20,6 +20,94 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "remax-luxury-fall2026",
+    "date": "2026-11-09",
+    "time": "07:00",
+    "source": "RE/MAX Canada 豪宅报告（11月9日发布）",
+    "firstHand": false,
+    "tags": [
+      "豪宅市场",
+      "超高端成交"
+    ],
+    "heat": 66,
+    "points": [
+      "GTA豪宅成交841套同比-9.4%",
+      "$750万以上成交+17.6%",
+      "多伦多15宗$1000万+十年最多"
+    ],
+    "image": "/summaries/remax-luxury-fall2026.jpg",
+    "title": "GTA豪宅两极分化：$300万以上成交-9.4%，$750万以上反涨17.6%",
+    "summary": "RE/MAX Canada 11月9日发布的2026秋冬豪宅报告：1–9月GTA $300万以上豪宅成交841套、同比-9.4%，但$750万以上成交反涨17.6%，多伦多市15宗超$1000万交易创十年最多，Forest Hill一栋新建豪宅逾$2300万成交。全国13个豪宅市场7个上涨，伯灵顿+26.3%、卡尔加里+20.6%领涨，大温-17%跌最深。",
+    "wendyNote": "豪宅市场是K形的：普通豪宅在跌，顶端却在抢——$750万以上的买家不靠贷款、靠资产，价格对他们不是障碍。$300万–$750万区间的卖家别等豪宅整体回暖，盯着自己那一档的成交走；想换大房的倒是机会，上下价差收窄了，置换成本比高峰时低。",
+    "url": "https://stockhouse.com/news/press-releases/2026/11/09/luxury-home-sales-rise-in-seven-of-13-canadian-markets-as-regional-strength"
+  },
+  {
+    "id": "macklem-testimony-nov2026",
+    "date": "2026-11-09",
+    "time": "07:00",
+    "source": "加拿大央行行长Macklem国会证词（11月3日众议院、11月5日参议院）",
+    "firstHand": true,
+    "tags": [
+      "央行证词",
+      "通胀路径"
+    ],
+    "heat": 66,
+    "points": [
+      "通胀年底料升至3.5%",
+      "3%以上贯穿2027大部",
+      "再加息可能但会谨慎行事"
+    ],
+    "image": "/summaries/macklem-testimony-nov2026.jpg",
+    "title": "Macklem国会证词：通胀年底冲3.5%，2027年大部仍在3%以上",
+    "summary": "央行行长Macklem 11月3日、5日先后在国会两院作证：CPI通胀自4月以来一直在3%附近，预计年底升至约3.5%，2027年大部仍在3%或以上，2028年中才回落至2%目标。加息是为防能源价格外溢成全面通胀，进一步加息仍有可能，但央行会谨慎、逐会决策；财政支出目前未被视为通胀推手。",
+    "wendyNote": "行长亲口把通胀路径画出来了：3.5%不是猜测，是央行自己的预测——12月9日再加一次的门没关上。浮动利率的买家别再按“很快降息”做预算；固定利率的注意，5年期国债收益率已回落到3.3%附近，谈固定利率可以趁这波窗口多比几家，但别把松动当成趋势反转。",
+    "url": "https://www.bankofcanada.ca/wp-content/uploads/2026/11/opening-statement-051126.pdf"
+  },
+  {
+    "id": "c21-ipsos-buying-intent-nov2026",
+    "date": "2026-11-09",
+    "time": "07:00",
+    "source": "CENTURY 21 Canada × Ipsos 置业调查（11月3日）",
+    "firstHand": false,
+    "tags": [
+      "买家意向",
+      "首套买家"
+    ],
+    "heat": 60,
+    "points": [
+      "23%加拿大人明年可能买房",
+      "意向买家中55%是首套",
+      "预期房价$655,725降$21,000"
+    ],
+    "image": "/summaries/c21-ipsos-buying-intent-nov2026.jpg",
+    "title": "买家意向回升：23%加拿大人明年可能买房，55%是首套买家",
+    "summary": "CENTURY 21 Canada委托Ipsos于10月2–12日调查2,295名加拿大人（11月3日发布）：79%认为拥有住房很重要，23%表示明年可能买房、高于春季的19%，近三分之一年轻人有此意向；意向买家中55%是首套买家，预期购价平均$655,725、比春季低$21,000，44%称近期房价下跌让他们更乐观，73%愿为置业妥协（小户型、近交通、需翻新房或合买）。",
+    "wendyNote": "意向回升不等于成交回升——23%说可能买，但真下单要看利率和信心。首套买家占意向买家一半以上，说明复苏真来了会先从首套和$65万价位启动；多伦多买家注意，这个全国均价在GTA只够买Condo，盯着自己价位的房源和月供算，别被全国数字误导。",
+    "url": "https://www.globenewswire.com/news-release/2026/11/03/3394066/0/en/the-great-housing-adaptation-canadians-are-adapting-not-abandoning-homeownership-goals.html"
+  },
+  {
+    "id": "foxmarin-buyers-frozen-nov2026",
+    "date": "2026-11-09",
+    "time": "07:00",
+    "source": "Fox Marin × Prime Properties TO 买家情绪对谈（11月3日）",
+    "firstHand": false,
+    "tags": [
+      "买家情绪",
+      "多伦多市内"
+    ],
+    "heat": 56,
+    "points": [
+      "9月成交同比-9% 情绪是主因",
+      "价格较峰值跌20–25%仍难卖",
+      "拎包入住低层房仍抢多套报价"
+    ],
+    "image": "/summaries/foxmarin-buyers-frozen-nov2026.jpg",
+    "title": "多伦多买家为何“冻住”：不是买不起，是不敢买——好房仍抢手",
+    "summary": "Fox Marin与Prime Properties TO两位经纪11月3日的对谈：多伦多9月成交同比-9%，价格较峰值跌20–25%，但高利率下月供几乎没降，买家是“情绪问题、不是负担问题”——有能力的买家也在等。分化明显：市中心与东区拎包入住的低层房、Loft仍抢多套报价（一栋东区房25次看房、6个报价），小Condo与需翻新房最难卖；两人预计市场横盘至少一两年。",
+    "wendyNote": "这篇对谈说透了现在的多伦多：买家不是没钱，是没信心——$80万的Condo放60天没人写报价，同一时间好地段的房子6个报价抢。卖家别再赌“降价就有人买”，房子要么做到拎包入住、要么价格一步到位；买家要分清，你等的“再跌一点”可能只发生在小Condo和需翻新的房子上，好房子不会等你。",
+    "url": "https://foxmarin.ca/toronto-buyers-sentiment-outlook/"
+  },
+  {
     "id": "valery-gta-detached-oct2026",
     "date": "2026-11-08",
     "time": "07:00",
