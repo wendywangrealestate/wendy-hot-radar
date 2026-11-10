@@ -20,6 +20,94 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "mortgage-rates-easing-nov2026",
+    "date": "2026-11-10",
+    "time": "07:00",
+    "source": "Cashsembly 加拿大房贷利率周报（11月9日）",
+    "firstHand": false,
+    "tags": [
+      "房贷利率",
+      "固定利率"
+    ],
+    "heat": 64,
+    "points": [
+      "最优5年固定4.39% 浮动3.50%",
+      "5年国债收益率回落至3.36%",
+      "下次议息12月9日 CPI 9月3.1%"
+    ],
+    "image": "/summaries/mortgage-rates-easing-nov2026.jpg",
+    "title": "加息后固定利率不升反降：最优5年固定4.39%，浮动3.50%",
+    "summary": "Cashsembly 11月9日房贷利率周报：政策利率2.50%、prime 4.70%不变，但最优5年固定利率4.39%、5年浮动3.50%，5年期国债收益率已回落至3.36%（11月6日）；9月CPI 3.1%仍高于央行2%目标，下次议息12月9日。",
+    "wendyNote": "加息加的是浮动利率的成本，固定利率看的是国债收益率——现在两条线在往不同方向走。浮动利率的买家要按4.70% prime重算月供；要锁定固定利率的，这波收益率回落就是谈价窗口，多比两家银行和broker，别等12月9日议息。",
+    "url": "https://cashsembly.com/rate-report/2026-11-09"
+  },
+  {
+    "id": "manga-king-rental-nov2026",
+    "date": "2026-11-10",
+    "time": "07:00",
+    "source": "Connect CRE（11月9日）",
+    "firstHand": false,
+    "tags": [
+      "目的性租赁",
+      "市中心开发"
+    ],
+    "heat": 62,
+    "points": [
+      "689 King St W新增160套租赁",
+      "30层混合用途 251间酒店套房",
+      "租赁开工超Condo 1994年首见"
+    ],
+    "image": "/summaries/manga-king-rental-nov2026.jpg",
+    "title": "市中心酒店改租赁：689 King St W新增160套出租公寓",
+    "summary": "Manga Hotel Group 11月9日向市府提交修订方案：市中心689 King St W原批酒店-only方案改为30层混合用途大楼，1–13层保留251间酒店套房与餐厅，14–30层改160套目的性租赁公寓。背景是多伦多租赁开工上半年同比+82%，1994年以来首次超过Condo开工。",
+    "wendyNote": "开发商都在往租赁转，信号很清楚：Condo卖不动、租赁才是现金流。市中心租赁供应上来，租客选择会变多、租金涨幅受压；手里有市中心Condo出租的房东要留意，新租赁盘入市会分流租客，续租定价别再按去年的涨幅算。",
+    "url": "https://www.connectcre.ca/stories/manga-adds-160-rental-apartments-to-toronto-hotel-development/"
+  },
+  {
+    "id": "bside-minto-westside-nov2026",
+    "date": "2026-11-10",
+    "time": "07:00",
+    "source": "NewInHomes / Minto（11月14日VIP预览）",
+    "firstHand": false,
+    "tags": [
+      "新盘预售",
+      "King West"
+    ],
+    "heat": 54,
+    "points": [
+      "11月14日VIP预览 二期323套",
+      "买带充电桩车位送Nissan LEAF",
+      "两房以上交房返$15,000"
+    ],
+    "image": "/summaries/bside-minto-westside-nov2026.jpg",
+    "title": "买Condo送车：Minto Bside二期11月14日预览，送Nissan LEAF",
+    "summary": "Minto 11月14日（周六）举行 Bside at Minto Westside 二期VIP预览：King West 25 Bathurst，20层323套、501–950平方呎；买带电车充电桩车位送全新Nissan LEAF一辆（或选$25,000交房抵扣），两房及以上另有$15,000交房返现。一期今夏销售强劲，二期需求已排队。",
+    "wendyNote": "开发商开始拿真金白银抢买家了——送车、返现、抵扣全上，说明新盘去化压力还在。送LEAF听着划算，但先算总价：车位加价多少、单价比周边二手贵多少，羊毛别算进房价里。真想住King West的可以去预览拿价单比价，投资客先看租金能不能覆盖月供。",
+    "url": "https://www.newinhomes.com/blog/register-for-the-vip-preview-of-bside-at-minto-westside"
+  },
+  {
+    "id": "durham-market-nov2026",
+    "date": "2026-11-10",
+    "time": "07:00",
+    "source": "RE/MAX Impact John Owen 杜咸日报（11月9日）",
+    "firstHand": false,
+    "tags": [
+      "杜咸区",
+      "905市场"
+    ],
+    "heat": 52,
+    "points": [
+      "11月均价$778,080同比-7.2%",
+      "成交量同比-23.9% 库存6.0个月",
+      "售价/挂牌价97.0% 平均35.3天"
+    ],
+    "image": "/summaries/durham-market-nov2026.jpg",
+    "title": "杜咸区11月：均价$778,080同比-7.2%，成交量跌23.9%",
+    "summary": "RE/MAX Impact John Owen 11月9日杜咸日报：11月迄今全屋型均价$778,080，环比-2.0%、同比-7.2%，售价/挂牌价97.0%、平均35.3天成交；库存6.0个月，日均成交15.4宗、同比-23.9%。杜咸仍是GTA均价最低、售价/挂牌比最高的区域。",
+    "wendyNote": "杜咸是GTA的价格洼地，$778,080的均价比多伦多低近$30万，但成交量也在跌——便宜不等于好卖。预算有限的买家可以往东看，同样预算在杜咸能买到独立屋；卖家注意，6个月库存意味着定价必须贴近市场，挂高了就是陪跑。",
+    "url": "https://johnowen.realtor/blog.html/durham-region-real-estate-market-report-daily-5105338"
+  },
+  {
     "id": "remax-luxury-fall2026",
     "date": "2026-11-09",
     "time": "07:00",
