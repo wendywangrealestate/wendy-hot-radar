@@ -20,6 +20,72 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "nhii-housing-report-nov2026",
+    "date": "2026-11-11",
+    "time": "07:00",
+    "source": "BILD × NHII 报告（11月10日发布）",
+    "firstHand": false,
+    "tags": [
+      "住房政策",
+      "新房供应"
+    ],
+    "heat": 62,
+    "points": [
+      "建筑业+大银行29条建议",
+      "HST退税永久化 开发费改革",
+      "外国买家禁令拟豁免新房"
+    ],
+    "image": "/summaries/nhii-housing-report-nov2026.jpg",
+    "title": "建筑业联手大银行献策：29条建议促新房供应，HST退税拟永久化",
+    "summary": "BILD与加拿大最大银行组成的国家住房与投资倡议（NHII）11月10日发布《可持续加拿大住房市场建议》报告，提出29条建议，5项优先：安省新房HST退税永久化、摆脱对开发费的依赖、出租楼资本利得递延、外国买家禁令豁免新建住房与待开发空地、推出自住Condo建设贷款计划。",
+    "wendyNote": "这是行业和银行一起向联邦喊话，方向很明确：降开发成本、放开融资，新房才有量。HST退税永久化若落地，低层新房会继续跑赢高层；外国买家禁令豁免新建盘，楼花市场会多一条需求通道。但这只是建议书、不是政策，买房别按已落地算，先盯联邦怎么接招。",
+    "url": "https://www.bildgta.ca/building-industry-and-major-canadian-banks-collaborate-on-new-sustainable-housing-market-report/"
+  },
+  {
+    "id": "valery-neighbourhoods-nov2026",
+    "date": "2026-11-11",
+    "time": "07:00",
+    "source": "Valery 多伦多社区榜（11月10日更新）",
+    "firstHand": false,
+    "tags": [
+      "社区房价",
+      "多伦多"
+    ],
+    "heat": 52,
+    "points": [
+      "143社区中位价$45.1万–$263万",
+      "最贵Bridle Path $263万",
+      "全市中位$82万 多数社区下跌"
+    ],
+    "image": "/summaries/valery-neighbourhoods-nov2026.jpg",
+    "title": "多伦多143社区房价榜：最贵$263万，最便宜$45.1万",
+    "summary": "Valery 11月10日更新的多伦多143个社区房价榜（过去12个月成交中位价）：最贵Bridle Path-Sunnybrook-York Mills $2,630,000，最便宜Flemingdon Park $451,000，全市中位$820,000；前五名中有Forest Hill North $2,310,000（同比+7.1%）、Bedford Park-Nortown $2,300,000，多数社区一年跌幅在5%–15%之间。",
+    "wendyNote": "同一座城市、完全不同的市场：豪宅区还在涨，普通社区一年跌一成多。买家别只看全市均价，先锁定目标社区的榜单价和成交天数再出价；卖家更要看自己社区的跌幅，挂牌价脱离社区中位价就是陪跑。",
+    "url": "https://staging.valery.ca/toronto-real-estate/neighbourhoods/"
+  },
+  {
+    "id": "groundbreak-permits-nov2026",
+    "date": "2026-11-11",
+    "time": "07:00",
+    "source": "Groundbreak 建筑许可统计（11月11日）",
+    "firstHand": false,
+    "tags": [
+      "建筑许可",
+      "新房供应"
+    ],
+    "heat": 46,
+    "points": [
+      "11月最大23张许可总值$2.01亿",
+      "65 Raglan Ave $1亿建320套",
+      "多户改建许可频现"
+    ],
+    "image": "/summaries/groundbreak-permits-nov2026.jpg",
+    "title": "11月多伦多最大建筑许可：65 Raglan Ave $1亿建28层320套",
+    "summary": "Groundbreak 11月11日统计：本月迄今多伦多发出的最大23张建筑许可申报总值$2.01亿，最大一张是65 Raglan Ave、$1亿新建28层住宅320套（11月3日发证）；另有多宗独栋改5–6户的多户改建许可，显示小型出租物业供给在增加。",
+    "wendyNote": "大项目还在拿证，说明开发商没完全停手，但320套新盘从拿证到入市还要几年，短期供应压力不变。值得留意的是独栋改5–6户的小许可越来越多——小型出租房正在悄悄增加，投资客可以留意这类多户改建的房源和租金回报。",
+    "url": "https://pro.groundbreak.city/toronto/stats/largest-permits-this-month"
+  },
+  {
     "id": "mortgage-rates-easing-nov2026",
     "date": "2026-11-10",
     "time": "07:00",
