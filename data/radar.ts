@@ -20,6 +20,50 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "pwc-uli-equity-2027-nov2026",
+    "date": "2026-11-12",
+    "time": "07:00",
+    "source": "STOREYS × PwC/ULI《2027房地产新兴趋势》（11月11日）",
+    "firstHand": false,
+    "tags": [
+      "开发融资",
+      "新房供应"
+    ],
+    "heat": 58,
+    "points": [
+      "63%受访者料开发股本短缺",
+      "多伦多开工一年少31%",
+      "Q2商业地产成交$162亿"
+    ],
+    "image": "/summaries/pwc-uli-equity-2027-nov2026.jpg",
+    "title": "开发商缺的不是贷款，是股本：63%业内人士料2027开发资金短缺",
+    "summary": "PwC与ULI《2027房地产新兴趋势》11月11日发布：63%的加拿大受访者预计2027年开发与再开发股本供应不足（债务为46%）；多伦多CMA新屋开工从2024年37,718套跌至2025年26,087套、少31%（CMHC数据）；加拿大商业地产二季度成交162亿加元，为2022年初以来最强季度。",
+    "wendyNote": "贷款能谈下来不等于楼能盖起来——缺股本，项目照样搁置。多伦多开工一年少三成，意味着两三年后新房供应更紧；对买家来说，现房和接近完工的楼花会更抢手，开发商手里的现房库存可以大胆谈价。",
+    "url": "https://storeys.com/developers-equity-canada-2026/"
+  },
+  {
+    "id": "budget2026-toronto-foreign-buyer-nov2026",
+    "date": "2026-11-12",
+    "time": "07:00",
+    "source": "The Starke Group 预算解读（11月11日）",
+    "firstHand": false,
+    "tags": [
+      "联邦预算",
+      "外国买家"
+    ],
+    "heat": 55,
+    "points": [
+      "禁令延至2029年1月1日",
+      "新房豁免但25%省税照收",
+      "多伦多另加10%市级投机税"
+    ],
+    "image": "/summaries/budget2026-toronto-foreign-buyer-nov2026.jpg",
+    "title": "预算新房豁免≠多伦多便宜：外国买家仍要交25%省税+10%市税",
+    "summary": "11月11日解读指出，联邦预算2026拟将外国买家禁令延至2029年1月1日、新房豁免，但多伦多外国买家仍须交安省25%非居民投机税和多伦多市10%市级投机税，合计约35%；150万房贷保险上限与30年摊还的生效时间预算未定，相关措施仍须立法。",
+    "wendyNote": "新房豁免是真利好，但只免了联邦禁令这一层——多伦多35%的税还在，外国买家买楼花并不便宜。真正能动本地市场的是150万保险上限和30年摊还，可惜生效时间还没定；有海外客户问楼花，先把税算清再谈。",
+    "url": "https://taylor.thestarkegroup.com/blog/budget-2026-and-toronto-real-estate-foreign-buyer-ban-extended-new-homes-exempted"
+  },
+  {
     "id": "nhii-housing-report-nov2026",
     "date": "2026-11-11",
     "time": "07:00",
