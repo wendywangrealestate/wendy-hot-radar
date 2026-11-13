@@ -20,6 +20,50 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "nbc-affordability-q3-2026",
+    "date": "2026-11-13",
+    "time": "07:00",
+    "source": "加拿大国家银行《住房负担能力监测》Q3（11月10日）",
+    "firstHand": true,
+    "tags": [
+      "负担能力",
+      "房贷利率"
+    ],
+    "heat": 64,
+    "points": [
+      "多伦多月供占收入68.3%",
+      "负担能力连升11季",
+      "10月利率跳升38基点"
+    ],
+    "image": "/summaries/nbc-affordability-q3-2026.jpg",
+    "title": "负担能力连升11季创新纪录，但10月利率跳升38基点、Q4恐逆转",
+    "summary": "加拿大国家银行11月10日发布Q3负担能力监测：全国月供占收入比降0.7个百分点至50.9%，连续第11个季度改善、为有记录以来最长；多伦多中位房价$1,033,382、月供占收入68.3%，季度改善0.8个百分点。但10月房贷利率跳升38个基点、为四年来最大单月涨幅，按10月利率测算全国比率将回升至53.1%。",
+    "wendyNote": "数字看着是变好了，但全是三季度的旧账：10月加息后利率已经跳升，Q4的负担能力大概率掉头。对买家来说，房价跌、收入涨的窗口还在，但别按今天的利率算月供——锁定利率前先留出上浮空间；对卖家来说，想等利率回落再挂牌的人会越来越多，年底是抢在供应回升前出手的时机。",
+    "url": "https://www.nbc.ca/content/dam/bnc/taux-analyses/analyse-eco/logement/housing-affordability.pdf"
+  },
+  {
+    "id": "statcan-permits-sep2026",
+    "date": "2026-11-13",
+    "time": "07:00",
+    "source": "加拿大统计局9月建筑许可（11月12日，道琼斯）",
+    "firstHand": false,
+    "tags": [
+      "建筑许可",
+      "新房供应"
+    ],
+    "heat": 58,
+    "points": [
+      "9月许可总值$128.8亿",
+      "住宅许可环比-5.8%",
+      "多户住宅许可-9.4%"
+    ],
+    "image": "/summaries/statcan-permits-sep2026.jpg",
+    "title": "9月建筑许可环比-4.1%：多户住宅意向大跌9.4%，新房供应管线再收紧",
+    "summary": "加拿大统计局11月12日公布：9月建筑许可总值128.8亿加元，环比-4.1%、同比+5.7%；住宅许可77.9亿、环比-5.8%，其中多户住宅-9.4%、独栋+2%。住宅许可今年以来累计已跌5.2%，三季度许可总值388亿、环比-3.6%。",
+    "wendyNote": "许可就是未来的开工：多户住宅许可大跌，意味着两三年后新房、尤其是Condo的供应还会更紧。手里有现房的卖家不用急着降价；买家要明白，楼花越往后越少，现在能谈的竣工盘和现房就是未来几年的主要选择。",
+    "url": "https://www.morningstar.com/news/dow-jones/202611129798/canada-building-permits-weaken-in-september-with-41-drop"
+  },
+  {
     "id": "pwc-uli-equity-2027-nov2026",
     "date": "2026-11-12",
     "time": "07:00",
