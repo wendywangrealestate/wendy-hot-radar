@@ -20,6 +20,50 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "boc-deliberations-nov2026",
+    "date": "2026-11-14",
+    "time": "07:00",
+    "source": "加拿大央行议息纪要（11月10日）",
+    "firstHand": true,
+    "tags": [
+      "央行纪要",
+      "12月议息"
+    ],
+    "heat": 68,
+    "points": [
+      "加息本是险胜：维持与加息二选一",
+      "通胀年底冲3.5%，2027大部超3%",
+      "市场料3月利率升至2.75%"
+    ],
+    "image": "/summaries/boc-deliberations-nov2026.jpg",
+    "title": "央行纪要：10月加息本是险胜，再加息的门没关上",
+    "summary": "加拿大央行11月10日公布10月28日议息纪要：管委会曾在维持2.25%与加息至2.50%之间二选一，最终认定加息是险胜之举；成员一致认为「可能需要进一步加息」，但会逐会决策、谨慎行事。央行预计通胀年底升至3.5%、2027年大部仍在3%以上，2028年中才回落至2%；三季度市场参与者调查中位预期为12月2.50%、2027年3月2.75%。",
+    "wendyNote": "纪要把12月9日写成了真正的悬念：加息派的理由是能源价格外溢，维持派的理由是经济已有闲置、核心通胀接近2%。浮动利率的买家别再按「很快降息」做预算，按Prime 4.70%再加一次留余地；谈固定利率的注意，5年期国债收益率已回升到3.46%，固定报价的松动窗口在收窄，锁利率先问hold期。",
+    "url": "https://www.bankofcanada.ca/2026/11/summary-of-governing-council-deliberations-fixed-announcement-date-of-october-28-2026/"
+  },
+  {
+    "id": "fpt-housing-ministers-nov2026",
+    "date": "2026-11-14",
+    "time": "07:00",
+    "source": "联邦—省—地区住房部长论坛联合公报（11月13日）",
+    "firstHand": true,
+    "tags": [
+      "住房政策",
+      "联邦预算"
+    ],
+    "heat": 52,
+    "points": [
+      "预算447亿住房投入，补贴续签在谈",
+      "双边住房协议2027–28年到期",
+      "明春经济报告前谈妥新协议"
+    ],
+    "image": "/summaries/fpt-housing-ministers-nov2026.jpg",
+    "title": "住房部长多伦多会商：447亿预算落地，双边住房协议明春前重谈",
+    "summary": "联邦与各省、地区住房部长11月13日在多伦多会商并发布联合公报：落实2026年联邦预算447亿加元、11年住房投入，重点包括续签加拿大住房补贴（56亿/10年）与Reaching Home无家可归者计划（65亿/10年），以及50亿综合支持基金与100亿支持性住房投入。各方承诺在2027–28年双边住房协议到期前重谈新协议，谈判须在2027年春季经济报告前推进，部长们明春再会。",
+    "wendyNote": "这份公报没有新钱、也没有新政，主要是把预算里的447亿落到执行时间表上：真正的节点是2027年春季经济报告前的双边协议谈判。对GTA买家最直接的仍是预算已定的150万保险上限与30年摊销，生效时间未定前别按已落地算；非市场住房投入加码，长期会缓解租赁供给压力，但短期内租金拐点主要还是看现有库存。",
+    "url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/11/fpt-forum-on-housing-and-homelessness-2026-ministers-meeting--joint-communique.html"
+  },
+  {
     "id": "nbc-affordability-q3-2026",
     "date": "2026-11-13",
     "time": "07:00",
