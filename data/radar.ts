@@ -20,6 +20,50 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "toronto-laneway-garden-suites-nov2026",
+    "date": "2026-11-15",
+    "time": "07:00",
+    "source": "CBC Toronto（11月15日）",
+    "firstHand": false,
+    "tags": [
+      "后院小屋",
+      "住房供应"
+    ],
+    "heat": 52,
+    "points": [
+      "755套后院小屋在建中",
+      "627张许可证已结案",
+      "审批慢、融资难仍卡脖子"
+    ],
+    "image": "/summaries/toronto-laneway-garden-suites-nov2026.jpg",
+    "title": "多伦多后院小屋破局难：755套在建，业主要求减审批、给补贴",
+    "summary": "CBC多伦多11月15日报道：多伦多市称目前有755套后院小屋（laneway / garden suite）正在建设、627张许可证已结案；但业主与预制建筑商反映，审批流程与新型预制工艺不匹配、融资也难，呼吁市府简化流程并提供补贴。市府称已有免费预审设计图、可免开发费或缓缴，但省与联邦对是否设专项补贴均未正面回应。",
+    "wendyNote": "后院小屋是多伦多“缺失中段”里最现实的一块增量：独立屋业主多一套可租单位，等于多一份租金收入、也多一个家庭安置方案。但别只看数字——755套在建相对全市需求仍是九牛一毛，审批周期与融资才是真门槛；想在自家后院加建的客户，先找贷款经纪算好额外借款额度，再拿市府免费预审图纸去报建，能省设计费和返工。",
+    "url": "https://www.europesays.com/canada/293558/"
+  },
+  {
+    "id": "toronto-sixplex-60-applications-nov2026",
+    "date": "2026-11-15",
+    "time": "07:00",
+    "source": "多伦多星报（11月12日，Starke Group 梳理）",
+    "firstHand": false,
+    "tags": [
+      "六拼屋",
+      "多户住宅"
+    ],
+    "heat": 58,
+    "points": [
+      "六拼申请已超60宗",
+      "仅9个选区可直接建",
+      "2027年2月起可投保90%"
+    ],
+    "image": "/summaries/toronto-sixplex-60-applications-nov2026.jpg",
+    "title": "多伦多六拼屋申请破60宗：仅9区可直接建，2027年2月起享新按揭保险",
+    "summary": "多伦多星报11月12日引市府数据：自去年允许六拼屋以来，多伦多已收到逾60宗六拼屋申请，申请最多的三个选区为Toronto-Danforth（15宗）、Davenport（14宗）与Toronto-St. Paul's（12宗）。五拼、六拼仅在旧多伦多—东约克8个选区及士嘉堡北23选区的独立屋地块可直接获批；联邦针对5–50套“缺失中段”物业的新按揭保险将于2027年2月1日起受理，新建最高可贷90%、摊销最长50年。",
+    "wendyNote": "六拼屋是多伦多低密度社区里最实在的密度增量：独立屋业主的地块价值逻辑变了，能改六套的地块会吸引更多投资者与开发商。但申请不等于建成，60宗里能走完审批、算得过账的才是真供给；买家看中这类地块要先确认分区与层高，卖家也别把“可改六拼”直接折进要价——市价仍由具体地块的审批可行性决定。",
+    "url": "https://larisa.thestarkegroup.com/blog/toronto-sixplexes-pass-60-applications-where-six-unit-homes-are-allowed-and-what-it-means"
+  },
+  {
     "id": "boc-deliberations-nov2026",
     "date": "2026-11-14",
     "time": "07:00",
