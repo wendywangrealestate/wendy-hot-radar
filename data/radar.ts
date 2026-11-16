@@ -20,6 +20,94 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "dec-hike-odds-64-nov2026",
+    "date": "2026-11-16",
+    "time": "07:00",
+    "source": "True North Mortgage 利率展望（11月12日数据）",
+    "firstHand": false,
+    "tags": [
+      "12月议息",
+      "加息概率"
+    ],
+    "heat": 66,
+    "points": [
+      "12月加息概率64% 一周前39%",
+      "5年期国债收益率升至3.5%",
+      "大行多料2027年初再加至2.75%"
+    ],
+    "image": "/summaries/dec-hike-odds-64-nov2026.jpg",
+    "title": "12月加息概率一周翻到64%：5年期国债收益率升至3.5%",
+    "summary": "True North 11月12日更新：市场预计央行12月9日加息25基点的概率升至64%，11月6日仅为39%，不加息概率36%；5年期国债收益率已升至3.5%，固定利率承压。大行多预计政策利率2026年底维持2.50%、2027年初再加至2.75%，2027年底预测中位2.75%。",
+    "wendyNote": "一周之内加息概率从39%跳到64%，市场对12月9日的定价已经翻了面：浮动利率的买家别再按“大概率不加”做预算，按Prime 4.70%再加一次留余地；固定利率的注意，5年期国债收益率已到3.5%，谈固定报价先锁hold期，别等12月9日当天。",
+    "url": "https://www.truenorthmortgage.ca/blog/mortgage-rate-forecast"
+  },
+  {
+    "id": "gta-rental-vacancy-133-nov2026",
+    "date": "2026-11-16",
+    "time": "07:00",
+    "source": "Better Dwelling × Urbanation Q3报告（11月12日）",
+    "firstHand": false,
+    "tags": [
+      "出租空置",
+      "租赁供给"
+    ],
+    "heat": 64,
+    "points": [
+      "计入新盘空置率13.3%",
+      "Q3竣工2,704套创纪录",
+      "在建34,545套 占全加近半"
+    ],
+    "image": "/summaries/gta-rental-vacancy-133-nov2026.jpg",
+    "title": "GTA出租房空置真相：计入新盘达13.3%，八套里有一套空着",
+    "summary": "Urbanation Q3报告（Better Dwelling 11月12日）：已稳定出租楼空置率从5.4%降至3.0%，但计入仍在招租的新楼后，GTA目的性租赁空置率达13.3%（去年12.1%）。Q3竣工2,704套创纪录、超过新增入住1,911套；在建34,545套、占全加在建近半；扣优惠后租金仍同比-1.5%。",
+    "wendyNote": "只看“稳定楼3%空置”会被骗：新楼招租期的空房才是租客真正的选择面，八套里有一套空着，租金谈判空间比 headline 大得多。租客谈两房以上的新楼可以大胆压价、要免租期；房东别再按去年的涨幅续租，新楼入市会分流租客，空置一个月比降租更贵。",
+    "url": "https://betterdwelling.com/over-1-in-8-greater-toronto-rental-units-sit-vacant-as-completions-hit-a-record/"
+  },
+  {
+    "id": "ontario-tax-arrears-nov2026",
+    "date": "2026-11-16",
+    "time": "07:00",
+    "source": "Better Dwelling × 安省市政申报（11月13日）",
+    "firstHand": false,
+    "tags": [
+      "欠缴地税",
+      "业主压力"
+    ],
+    "heat": 62,
+    "points": [
+      "欠税率7.2% 涉$24.3亿",
+      "Brampton 11.9% 全省最高",
+      "多伦多6.6% 亦为25年高位"
+    ],
+    "image": "/summaries/ontario-tax-arrears-nov2026.jpg",
+    "title": "安省欠缴地税创24年新高：Brampton 11.9%领跑，多伦多6.6%",
+    "summary": "Better Dwelling 11月13日引安省市政申报：2025年全省欠缴地税率达7.2%、涉及$24.3亿（总征收$341亿），为2001年以来最高，较2024年升48基点、较2019年升246基点。Brampton 11.9%全省最高，Vaughan 9.9%、Kitchener 8.9%；多伦多6.6%，亦为该市25年高位。",
+    "wendyNote": "欠税是最实在的业主压力表：利率、地税齐涨，现金流先扛不住的业主会先出现在欠税名单上，再出现在急售盘里。Brampton、Vaughan的买家可以多留意这类房源的议价空间；卖家则要算清持有成本，别让地税欠款拖成法拍前的被动局面。",
+    "url": "https://betterdwelling.com/ontario-property-tax-arrears-hit-24-year-high-brampton-leads-at-11-9/"
+  },
+  {
+    "id": "bmo-immigration-population-nov2026",
+    "date": "2026-11-16",
+    "time": "07:00",
+    "source": "Better Dwelling × BMO（11月10日）",
+    "firstHand": false,
+    "tags": [
+      "移民政策",
+      "住房需求"
+    ],
+    "heat": 50,
+    "points": [
+      "2027年PR实际或达66万",
+      "人口增速料近1% 翻倍",
+      "留境内转身份 减少空置释放"
+    ],
+    "image": "/summaries/bmo-immigration-population-nov2026.jpg",
+    "title": "BMO：移民实际规模或达66万，人口增速翻倍、住房需求预期上调",
+    "summary": "BMO 11月10日分析：联邦2027–29年移民计划名义目标为每年38万永居，但2025、2026预算的特殊措施使2027年约28万境内临时居民转永居，实际总数接近66万。BMO据此将2027年人口增速预测从0.5%上调至近1%，接近翻倍；留境内转身份虽不直接新增需求，但减少离境等于减少空置房源释放。",
+    "wendyNote": "数字看着是移民政策，落点是住房需求：人口增速从0.5%回到近1%，意味着租赁与首套需求的底比之前想的厚。别按“移民收紧、需求见顶”去判断租金拐点——在建租赁盘虽多，但需求端也在上调；买家看长期，人口回升会先托住租金、再托住房价。",
+    "url": "https://betterdwelling.com/canadian-immigration-changes-to-double-population-growth-rate-bmo/"
+  },
+  {
     "id": "toronto-laneway-garden-suites-nov2026",
     "date": "2026-11-15",
     "time": "07:00",
