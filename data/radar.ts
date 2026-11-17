@@ -20,6 +20,28 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "cmhc-starts-oct2026-toronto-down10",
+    "date": "2026-11-17",
+    "time": "08:45",
+    "source": "CMHC 10月开工数据（11月17日发布）",
+    "firstHand": true,
+    "tags": [
+      "开工数据",
+      "多伦多供应"
+    ],
+    "heat": 62,
+    "points": [
+      "全国SAAR 244,558 降2%",
+      "多伦多趋势跌10%",
+      "竣工21,621 环比+24%"
+    ],
+    "image": "/summaries/cmhc-starts-oct2026-toronto-down10.jpg",
+    "title": "CMHC 10月开工：全国年化24.5万套，多伦多趋势跌10%",
+    "summary": "CMHC 11月17日发布10月开工数据：全国季调年化开工244,558套，环比-2%；六个月趋势246,231套，环比-1.7%；实际开工21,059套，同比+6%，年初至今192,023套、同比-3%。多伦多趋势22,299套，环比-10%，独栋与多户齐跌；但当月实际开工1,900套，同比+31%。",
+    "wendyNote": "多伦多开工趋势一个月跌10%，是今天最值得留意的供给信号：独栋和多户同时缩，说明开发商还在踩刹车，2028年以后的新房会更少。但当月实际开工同比+31%，在建量也还稳在37万套，短期不缺房。买家看远期：供应收紧会托住中长期价格；卖家别急着降价抢跑，库存消化需要时间。",
+    "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/housing-starts-construction-data-october-2026"
+  },
+  {
     "id": "crea-oct2026-sales-steady",
     "date": "2026-11-17",
     "time": "07:00",
