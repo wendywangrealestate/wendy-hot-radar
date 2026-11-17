@@ -20,6 +20,94 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
   {
+    "id": "crea-oct2026-sales-steady",
+    "date": "2026-11-17",
+    "time": "07:00",
+    "source": "CREA 10月官方月报（11月17日发布）",
+    "firstHand": true,
+    "tags": [
+      "CREA月报",
+      "成交企稳"
+    ],
+    "heat": 72,
+    "points": [
+      "全国成交环比+0.3%",
+      "HPI环比+0.1% 两年最大",
+      "均价$678,584 同比-1.6%"
+    ],
+    "image": "/summaries/crea-oct2026-sales-steady.jpg",
+    "title": "CREA 10月：全国成交环比微升0.3%，房价指数两年最大月涨幅",
+    "summary": "CREA 11月17日发布10月数据：全国MLS成交环比+0.3%，实际成交同比-10.6%；新挂牌环比+0.8%，售挂比48.7%仍低于54.7%的长期均值；MLS房价指数环比+0.1%（两年最大单月涨幅）、同比-3.1%；全国均价$678,584，同比-1.6%；在售约19.7万套，库存5个月，处均衡区间。",
+    "wendyNote": "数字看着平淡，信号在环比里：成交和房价指数双双微升，指数还是两年最大单月涨幅，说明加息后的市场没有继续往下掉。但售挂比48.7%仍低于均衡线，买家议价权还在；卖家别把单月企稳当反转，定价仍要按今天的市场来。",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3404363/0/en/canadian-home-sales-and-prices-hold-steady-in-october.html"
+  },
+  {
+    "id": "cpi-oct2026-31-dec-odds-ease",
+    "date": "2026-11-17",
+    "time": "07:00",
+    "source": "加拿大统计局10月CPI（11月16日发布）",
+    "firstHand": false,
+    "tags": [
+      "通胀",
+      "12月议息"
+    ],
+    "heat": 68,
+    "points": [
+      "10月CPI同比3.1% 持平",
+      "核心trim降至1.8%",
+      "加息概率回落至约四成"
+    ],
+    "image": "/summaries/cpi-oct2026-31-dec-odds-ease.jpg",
+    "title": "10月通胀持稳3.1%、核心降温：12月加息概率回落",
+    "summary": "统计局11月16日发布：10月CPI同比3.1%，与9月持平、低於预期的3.2%，环比+0.2%；剔除能源后通胀降至2.0%，央行核心指标trim 1.8%、median 2.0%；汽油同比+30.9%仍是推高主因。数据公布后，预测市场对12月9日加息的定价回落至41–45%（11月17日，Polymarket/Kalshi）。",
+    "wendyNote": "标题3.1%看着还烫，但全是汽油在撑：剔除能源只剩2.0%，核心指标也在往2%靠，市场立刻把12月加息的定价砍了下来。浮动利率的买家可以松半口气，但别当成降息信号——央行自己预计年底通胀冲3.5%，12月4日就业数据才是最后一锤。",
+    "url": "https://www.morningstar.com/news/dow-jones/202611166754/canada-inflation-holds-steady-at-31-in-october-2nd-update"
+  },
+  {
+    "id": "toronto-pbr-phase2-9667-nov2026",
+    "date": "2026-11-17",
+    "time": "07:00",
+    "source": "多伦多市政府新闻稿（11月16日）",
+    "firstHand": true,
+    "tags": [
+      "租赁供给",
+      "市政政策"
+    ],
+    "heat": 66,
+    "points": [
+      "19个项目 9,667套出租房",
+      "其中2,059套可负担限租",
+      "两期激励共$8.94亿"
+    ],
+    "image": "/summaries/toronto-pbr-phase2-9667-nov2026.jpg",
+    "title": "多伦多敲定近万套出租房：19个项目、2,059套可负担限租",
+    "summary": "市政府11月16日公布目的性租赁激励第二期结果：58份申请（约2.7万套）中选出19个可快速开工项目，覆盖12个选区，提供9,667套出租房，其中2,059套可负担限租；两期合计约$8.94亿激励支持34个租赁项目，另有联邦与省$15亿开发费减免资金托底。",
+    "wendyNote": "这是实打实的租赁供给，而且是能12个月内开工的项目：近万套出租房进场，市中心租客的选择面会继续变宽，租金上涨的空间被压住。房东别指望租金快速反弹；租客明年续租或换租时议价底气更足。注意：这是获批项目不是竣工房，真正入市还要等建设周期。",
+    "url": "https://www.toronto.ca/news/toronto-moves-nearly-10000-new-rental-homes-closer-to-construction-including-more-than-2000-affordable-homes/"
+  },
+  {
+    "id": "valery-condo-price-rent-nov2026",
+    "date": "2026-11-17",
+    "time": "07:00",
+    "source": "Valery Research（11月6日，TRREB MLS数据）",
+    "firstHand": false,
+    "tags": [
+      "Condo性价比",
+      "租售比"
+    ],
+    "heat": 58,
+    "points": [
+      "一房售价=17.6年租金",
+      "十年最低 低于2019年",
+      "多伦多一房17.8年"
+    ],
+    "image": "/summaries/valery-condo-price-rent-nov2026.jpg",
+    "title": "GTA一房Condo售价只值17.6年租金：十年最低",
+    "summary": "Valery 11月6日研究：过去12个月GTA一房Condo中位售价$475,000、中位月租$2,250，售价相当于17.6年租金，为十年最低，低于2019年的19.0年与2021年峰值25.4年；全部Condo为18.4年，同样十年最低；多伦多一房17.8年，Brampton最低15.5年。",
+    "wendyNote": "房价跌得比租金快，买房相对租房十年最划算——但这只是售价和租金的比值，不算按揭、管理费和地税，现金流还是负的。自住买家可以把这个当作议价参考：现在入手一房的相对成本是十年最低；投资客先算清月供缺口，别只看比值便宜就冲。",
+    "url": "https://valery.ca/research/gta-condo-price-to-rent/"
+  },
+  {
     "id": "dec-hike-odds-64-nov2026",
     "date": "2026-11-16",
     "time": "07:00",
