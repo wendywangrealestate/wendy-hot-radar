@@ -46,7 +46,7 @@ export default function Home() {
                 <span className="text-xs">（同比 -5.1%）</span>
               </span>
               <span className="text-muted">
-                政策利率 <span className="font-mono font-bold text-ink">2.25%</span>
+                政策利率 <a className="font-mono font-bold text-ink underline" href="https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/" target="_blank" rel="noopener noreferrer" title="加拿大央行 · 2026年10月28日决定；并非贷款机构的房贷报价">2.50%</a>
               </span>
               <span className="text-muted">
                 Condo 去化 <span className="font-mono font-bold text-ink">6.3 个月</span>
