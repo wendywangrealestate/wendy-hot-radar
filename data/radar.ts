@@ -19,6 +19,116 @@ export interface RadarItem {
 }
 
 export const radarItems: RadarItem[] = [
+{
+  "id": "foreign-buyer-legislation-nov2026-update",
+  "heat": 76,
+  "source": "加拿大财政部 · 11月16日立法进展；资料图：CTBUH / Terri Meyer Boake",
+  "tags": [
+    "立法提案",
+    "购房资格"
+  ],
+  "points": [
+    "拟延长既有住宅禁购至2029年",
+    "新房豁免仍待监管程序",
+    "不可按已生效招揽买家"
+  ],
+  "image": "https://images.skyscrapercenter.com/building/gibson-square-north_terri-meyer-boake9.jpg",
+  "title": "联邦推进外国买家禁令延期立法，新房豁免仍待监管程序",
+  "summary": "财政部11月16日表示，已推进预算中的立法提案，拟将外国买家购买既有住宅的禁令延长两年至2029年1月1日；新建住宅豁免另需启动监管程序。这是预算公布后的程序进展，不能视为新房豁免已生效。",
+  "wendyNote": "对Toronto 416与GTA买卖业务，先核实买家身份及现行豁免，不能承诺新房现在已向所有外国买家开放。行动：更新买家咨询清单，交易前让律师核对资格。",
+  "url": "https://www.canada.ca/en/department-finance/news/2026/11/government-of-canada-tables-plan-to-ease-grocery-costs-support-homeownership-and-encourage-new-home-construction.html",
+  "date": "2026-11-18",
+  "time": "08:05",
+  "firstHand": true
+},
+{
+  "id": "bank-posted-rates-nov18-2026-watch",
+  "heat": 66,
+  "source": "加拿大央行官方周表 · 截至11月11日；图：加拿大央行",
+  "tags": [
+    "观察事项",
+    "房贷报价"
+  ],
+  "points": [
+    "最新可见周表日期11月11日",
+    "Prime 4.70%",
+    "五年固定挂牌6.19%非实际报价"
+  ],
+  "image": "https://www.bankofcanada.ca/wp-content/uploads/2022/01/default-og-image.jpg",
+  "title": "本周房贷报价观察：最新央行银行周表仍为11月11日",
+  "summary": "11月18日晨核实，央行银行挂牌利率表最新可见一期为11月11日：Prime 4.70%、五年期传统按揭挂牌利率6.19%。这是银行挂牌统计，并非央行政策利率，也不是客户实际优惠报价；本项为本周数据更新观察，不是今日调息消息。",
+  "wendyNote": "年底交割或续贷客户应按书面报价做预算。行动：向贷款经纪索取同一贷款金额、期限与摊销期的固定/浮动报价，并注明报价日期和锁息有效期。",
+  "url": "https://www.bankofcanada.ca/rates/banking-and-financial-statistics/posted-interest-rates-offered-by-chartered-banks/",
+  "date": "2026-11-18",
+  "time": "08:05",
+  "firstHand": true
+},
+{
+  "id": "ontario-rent-guideline-2027-watch",
+  "heat": 64,
+  "source": "Ontario.ca · 已公布2027指引；示意图：本简报依官方数据绘制",
+  "tags": [
+    "观察事项",
+    "出租管理"
+  ],
+  "points": [
+    "2027年指引1.9%",
+    "通常须相隔12个月",
+    "至少90天正确通知"
+  ],
+  "image": "/summaries/ontario-rent-guideline-2027-watch.svg",
+  "title": "2027租金计划观察：安省已公布1.9%指引，先核对通知期限",
+  "summary": "这不是今日新政：安省已公布2027年1月1日至12月31日租金涨幅指引1.9%，适用于多数受租金管制的租约。通常还需距上次涨租或起租满12个月，并提前至少90天以正确表格通知；新租约及部分豁免单位规则不同。",
+  "wendyNote": "对416和GTA房东，2027现金流不能简单套用今年比例。行动：逐套核对租控状态、上次调整日期和送达日期，避免把续租当成可以重新定市场租金。",
+  "url": "https://www.ontario.ca/page/residential-rent-increases",
+  "date": "2026-11-18",
+  "time": "08:05",
+  "firstHand": true
+},
+{
+  "id": "gemini-tasks-canada-nov17-2026",
+  "heat": 54,
+  "source": "Google官方 · 11月17日；图：Google",
+  "tags": [
+    "AI工具",
+    "逐步开放"
+  ],
+  "points": [
+    "免费更新涵盖加拿大",
+    "可连接Google应用处理任务",
+    "高级功能先从美国开始"
+  ],
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+  "title": "Gemini任务功能免费扩展至加拿大，地产行政流程可小范围试用",
+  "summary": "Google11月17日宣布，新版任务功能开始免费向包括加拿大在内的市场逐步开放，可利用已连接的Google应用处理日常任务；部分高级功能先从美国推出，不能假定所有演示功能都已在加拿大账户可用。",
+  "wendyNote": "对常用Gmail和日历的地产工作，可先尝试整理公开活动或无客户资料的待办。行动：检查账户是否开放，以一项无敏感资料的测试核对结果，再决定是否用于日常行政。",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+  "date": "2026-11-18",
+  "time": "08:05",
+  "firstHand": true
+},
+{
+  "id": "edge-business-remix-nov17-2026",
+  "heat": 48,
+  "source": "Microsoft官方 · 11月17日；流程示意图：本简报绘制",
+  "tags": [
+    "网站技术",
+    "已开放与预览"
+  ],
+  "points": [
+    "Remix可调整个人网页视图",
+    "本地保存不修改原网站",
+    "录制技能预计年底前预览"
+  ],
+  "image": "/summaries/edge-remix-workflow-2026-11-18.svg",
+  "title": "Edge新增网页工作功能：Remix已开放，流程录制仍待预览",
+  "summary": "Microsoft11月17日公布Edge for Business更新：Remix可用自然语言调整个人浏览器里的网页外观并本地保存，已正式开放；跨标签互动简报和流程录制工具预计年底前进入预览，后两者还涉及Copilot许可与按使用量计费。",
+  "wendyNote": "可用来改善自己查看后台页面的方式，但不会替你修改公开网站，也不是SEO更新。行动：选一项固定的网站内容核验流程做试用，比较是否省时，再考虑付费功能。",
+  "url": "https://blogs.windows.com/msedgedev/2026/11/17/edge-for-business-ignite-2026-innovations/",
+  "date": "2026-11-18",
+  "time": "08:05",
+  "firstHand": true
+},
   {
     "id": "cmhc-starts-oct2026-toronto-down10",
     "date": "2026-11-17",
