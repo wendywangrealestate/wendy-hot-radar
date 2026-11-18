@@ -130,6 +130,94 @@ export const radarItems: RadarItem[] = [
   "firstHand": true
 },
   {
+    "id": "trreb-q3-2026-condo",
+    "date": "2026-11-18",
+    "time": "07:00",
+    "source": "TRREB Q3 2026 Condo报告（11月16日发布）",
+    "firstHand": true,
+    "tags": [
+      "Condo季报",
+      "供应收紧"
+    ],
+    "heat": 68,
+    "points": [
+      "Q3成交4,205套 同比-3.5%",
+      "新挂牌-15.4% 库存约6个月",
+      "均价$620,662 同比-4.2%"
+    ],
+    "image": "/summaries/trreb-q3-2026-condo.jpg",
+    "title": "TRREB Q3：Condo成交微跌3.5%，新挂牌大减15.4%收紧市场",
+    "summary": "TRREB 11月16日发布Q3 Condo季报：成交4,205套，同比-3.5%；新挂牌12,301套，同比大减15.4%，季末在售8,226套，同比-9.6%；售挂比升至34%，库存约6个月，成交价为挂牌价97%、平均41天售出。均价$620,662，同比-4.2%，跌幅较Q2的-7.5%明显收窄。",
+    "wendyNote": "Condo市场最值得看的不是成交跌了多少，而是卖家退场比买家更快：新挂牌少了15.4%，库存只剩6个月，价格跌幅已经从Q2的-7.5%收窄到-4.2%。TRREB自己预计跌幅会继续收窄、明年晚些时候重回上涨。自住买家现在仍有议价空间，但别指望价格再深跌；卖家也别恐慌抛售，急着降价等于把收窄的跌幅拱手让人。",
+    "url": "http://TRREB.ca/market-data/condo-market-report/"
+  },
+  {
+    "id": "trreb-q3-2026-rental",
+    "date": "2026-11-18",
+    "time": "07:00",
+    "source": "TRREB Q3 2026 租赁报告（11月16日发布）",
+    "firstHand": true,
+    "tags": [
+      "租赁市场",
+      "Q3季报"
+    ],
+    "heat": 62,
+    "points": [
+      "Q3租约21,526宗 同比-4.2%",
+      "一房$2,341 同比-0.6%",
+      "挂牌-5.7% 市场收紧"
+    ],
+    "image": "/summaries/trreb-q3-2026-rental.jpg",
+    "title": "TRREB Q3租赁：租约跌4.2%，一房租金$2,341跌幅收窄至0.6%",
+    "summary": "TRREB 11月16日发布Q3租赁季报：Condo租约21,526宗，同比-4.2%（Q2为同比增长）；出租挂牌26,996套，同比-5.7%，降幅大于租约，租赁市场较去年收紧。一房平均租金$2,341，同比仅-0.6%，二房$3,069，同比-1%，跌幅均较Q2（-2.3%、-1.7%）明显收窄。",
+    "wendyNote": "租金跌势正在见底：一房只跌0.6%、二房跌1%，比Q2收窄一大半，而且挂牌减少的速度比租约更快，说明房源在收紧。租客现在仍能谈到优惠和免租期，但别拖太久等租金反弹；房东也别急着降租抢客，空置压力正在减轻，合理定价、谈好租期更划算。",
+    "url": "https://trreb.ca/market-data/rental-market-report/"
+  },
+  {
+    "id": "ontario-hst-rebate-deadline-mar2027",
+    "date": "2026-11-18",
+    "time": "07:00",
+    "source": "Starke Group × 安省政府/CRA（11月16日）",
+    "firstHand": false,
+    "tags": [
+      "HST退税",
+      "新房购买"
+    ],
+    "heat": 60,
+    "points": [
+      "最高省$13万 全额13%",
+      "签约截止2027年3月31日",
+      "部长称无意延期"
+    ],
+    "image": "/summaries/ontario-hst-rebate-deadline-mar2027.jpg",
+    "title": "安省新房HST退税最高$13万：签约截止2027年3月31日，不延期",
+    "summary": "安省新房HST减免实施半年：符合条件的买家最高可省$13万，即$100万以下新房全额13% HST，由省退税最高$8万（ENHR）与联邦部分最高$5万（ONHAP）组成，联邦部分预计2027年初开始发放。买卖协议须在2026年4月1日至2027年3月31日签署，2028年底前开工、2031年底前基本完工；财长3月已明言无意延期，过期不候。",
+    "wendyNote": "这是今年新房买家最实在的一笔钱：$100万的新房直接省$13万，低层新房销量已经连续六个月跑赢十年均值。但注意三件事：签约日才是deadline，不是交房日；开工和完工都有硬性时间门槛，很多Condo楼花赶不上；转售房东也要留意——带退税的新房就是你挂牌房的直接竞争对手，定价要按扣完退税后的价来比。",
+    "url": "https://caitlin.thestarkegroup.com/blog/ontarios-130000-new-home-hst-rebate-six-months-in-who-qualifies-and-the-march-31-2027-deadline"
+  },
+  {
+    "id": "valery-condo-dual-listing-nov2026",
+    "date": "2026-11-18",
+    "time": "07:00",
+    "source": "Valery Research（11月16日，TRREB MLS数据）",
+    "firstHand": false,
+    "tags": [
+      "Condo投资",
+      "租售两挂"
+    ],
+    "heat": 58,
+    "points": [
+      "18.3%待售Condo同时招租",
+      "2019年仅3.8% 占比翻近五倍",
+      "其中三分之二最终租出"
+    ],
+    "image": "/summaries/valery-condo-dual-listing-nov2026.jpg",
+    "title": "五套待售Condo就有一套同时招租：2019年仅3.8%",
+    "summary": "Valery 11月16日研究（TRREB MLS数据）：过去一年GTA待售Condo中有18.3%（6,615套）同时挂牌招租，2019年同期仅3.8%；一房最高达20.9%，多伦多市18.7%。其中66.5%最终租出、仅13.4%售出；占比已较上年19.3%的高点略有回落。",
+    "wendyNote": "卖不掉就改租，是这两年Condo业主最真实的退路：五套里就有一套两边挂牌，最后三分之二租出去了、只有一成多卖掉。对买家这是议价信号——挂着租约的卖家心态更急，谈价空间更大；对投资者则是提醒：先算好出租回报再接手，别指望短期转手。好消息是占比已从去年高点回落，市场正在慢慢消化。",
+    "url": "https://valery.ca/research/gta-condos-for-sale-and-rent/"
+  },
+  {
     "id": "cmhc-starts-oct2026-toronto-down10",
     "date": "2026-11-17",
     "time": "08:45",
