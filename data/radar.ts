@@ -20,6 +20,98 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "teranet-hpi-oct2026",
+  "heat": 72,
+  "source": "Teranet–National Bank 房价指数 · 11月18日发布",
+  "tags": [
+    "房价指数",
+    "转售市场",
+    "多伦多"
+  ],
+  "points": [
+    "综合指数环比+0.2%",
+    "同比-3.5% 跌幅持平",
+    "多伦多较峰值-19.8%"
+  ],
+  "image": "/summaries/teranet-hpi-oct2026.jpg",
+  "title": "Teranet 10月房价指数环比微涨0.2%，多伦多仍比2022峰值低19.8%",
+  "summary": "Teranet–National Bank 11月18日发布10月房价指数：综合指数环比上涨0.2%，为四个月内第三次微涨，但同比仍跌3.5%、与9月持平；11个市场中仅4个上涨，涨幅主要由哈利法克斯单月+5.8%的一次性跳升带动。多伦多房价较2022年4月峰值低19.8%，全国综合指数较峰值低7.9%；报告提醒，今秋房贷利率上行、就业走软与贸易不确定性将继续压制涨价空间。",
+  "wendyNote": "指数企稳不等于反转：多伦多离峰值还有近两成，买家仍有议价空间，但固定利率已在走高，锁定成本要算进预算。卖家别把单月微涨当回暖信号，定价仍要贴着最新成交走。",
+  "url": "https://housepriceindex.ca/category/pr/",
+  "date": "2026-11-19",
+  "time": "07:00",
+  "firstHand": true
+},
+{
+  "id": "gravelle-scenarios-dec-odds-nov2026",
+  "heat": 66,
+  "source": "Canadian Mortgage Trends / 路透 · 11月18日",
+  "tags": [
+    "央行",
+    "加息预期",
+    "12月议息"
+  ],
+  "points": [
+    "4月情景已预示加息",
+    "10月CPI仍为3.1%",
+    "12月加息概率约60%"
+  ],
+  "image": "/summaries/gravelle-scenarios-dec-odds-nov2026.jpg",
+  "title": "央行副行长：4月情景分析早已预示加息，12月加息概率回升至约60%",
+  "summary": "加拿大央行副行长 Gravelle 11月18日在埃德蒙顿表示，央行4月货币政策报告中的情景分析已预示了10月加息至2.50%：当时假设油价持续高企、中东局势升级，通胀将在3%附近停留一年以上，需要连续加息。10月通胀仍为3.1%，央行预计明年全年通胀均值3.1%；隔夜掉期显示12月9日再加息概率约60%，高于CPI公布后的约41–45%。",
+  "wendyNote": "加息不是小概率事件了：年底交割或续贷的客户，按再加25基点做压力测试，别按不加息做预算。浮动利率客户尤其要提前和贷款经纪确认锁定方案，12月9日之前把报价拿到手。",
+  "url": "https://www.canadianmortgagetrends.com/2026/11/bank-of-canada-says-april-scenario-analysis-telegraphed-hike/",
+  "date": "2026-11-19",
+  "time": "07:00",
+  "firstHand": false
+},
+{
+  "id": "statcan-nhpi-oct2026",
+  "heat": 64,
+  "source": "加拿大统计局 · 11月18日发布",
+  "tags": [
+    "新房价格",
+    "统计局",
+    "多伦多"
+  ],
+  "points": [
+    "全国新房价环比-0.2%",
+    "同比-1.9% 指数119.9",
+    "多伦多同比-4.3%"
+  ],
+  "image": "/summaries/statcan-nhpi-oct2026.jpg",
+  "title": "统计局：10月全国新房价环比跌0.2%，多伦多同比跌4.3%",
+  "summary": "加拿大统计局11月18日发布10月新住房价格指数：全国环比下跌0.2%，低于市场预期的+0.1%，同比跌1.9%、指数119.9。多伦多新房价格指数104.7，同比跌4.3%，较9月的105.0继续回落。该指数跟踪开发商新房售价，不含二手转售。",
+  "wendyNote": "新房价也在跌，说明开发商让价压力真实存在，楼花与新盘买家可以拿这个指数当谈判依据。但注意这是指数变化、不是成交价，个别楼盘的折扣力度要逐盘核对。",
+  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810020502",
+  "date": "2026-11-19",
+  "time": "07:00",
+  "firstHand": true
+},
+{
+  "id": "urbanation-oct2026-entry-condo",
+  "heat": 60,
+  "source": "Urbanation 10月报告 · 11月18–19日",
+  "tags": [
+    "Condo市场",
+    "首置买家",
+    "入门价位"
+  ],
+  "points": [
+    "Condo均价$621,400",
+    "50万以下销量+28%",
+    "在售8,100套 供应5.8个月"
+  ],
+  "image": "/summaries/urbanation-oct2026-entry-condo.jpg",
+  "title": "10月Condo：50万以下销量大涨28%、占成交42%，低价盘带回买家",
+  "summary": "Urbanation 10月报告显示，GTA Condo均价$621,400、同比跌约6%，在售约8,100套、同比减少9%，供应收紧至5.8个月。价格下跌正把首置买家与投资者带回来：50万美元以下Condo销量同比大涨28%、占全部Condo成交的42%；60万美元以下低层住宅销量也跳涨53%。但全市10月总成交仍同比跌7.9%，回暖只集中在入门价位。",
+  "wendyNote": "便宜的Condo先动了：50万以下成交占比42%，说明首置买家在用价格投票。卖这个价位的房源要趁热度定价、别拖；买家则要抢在供应进一步收紧前看房，但仍要逐套验房、别为低价牺牲楼况。",
+  "url": "https://rolandbrunner.ca/Blog/october-2026-urbanation-report-condos",
+  "date": "2026-11-19",
+  "time": "07:00",
+  "firstHand": false
+},
+{
   "id": "foreign-buyer-legislation-nov2026-update",
   "heat": 76,
   "source": "加拿大财政部 · 11月16日立法进展；资料图：CTBUH / Terri Meyer Boake",
