@@ -20,24 +20,90 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "ltb-nov30-forms-2026-watch",
+  "date": "2026-11-19",
+  "time": "08:45",
+  "firstHand": true,
+  "heat": 62,
+  "source": "Tribunals Ontario · 9月21日公告；期限观察；示意图：本简报绘制",
+  "tags": [
+    "租赁政策",
+    "11月30日期限"
+  ],
+  "points": [
+    "11月30日起旧版不再接受",
+    "涉及N5/N6/N8/N12/N13等",
+    "已生效安排，不是今日新法"
+  ],
+  "image": "/summaries/ltb-forms-nov30-2026-watch.svg",
+  "title": "租务期限观察：11月30日起，指定旧版LTB表格不再接受",
+  "summary": "LTB9月21日已更新多项表格，指定旧版自2026年11月30日起不再接受，包括N5、N6、N8、N12、N13、L1、L2、L9、L10和T5。这是已公布期限提醒，不能写成今天通过的新法规。",
+  "wendyNote": "对出租管理与交易中的租务文件，版本错误可能影响程序。行动：清理电脑保存的旧模板，处理新事项时从LTB官方页面重新下载，并核对说明。",
+  "url": "https://tribunalsontario.ca/2026/09/21/ltb-operational-update-legislative-changes-at-the-landlord-and-tenant-board-effective-september-21-2026/"
+},
+{
+  "id": "microsoft-unified-plans-nov18-2026",
+  "date": "2026-11-19",
+  "time": "08:45",
+  "firstHand": true,
+  "heat": 51,
+  "source": "Microsoft官方 · 11月18日；图：Microsoft",
+  "tags": [
+    "AI工作流",
+    "任务管理"
+  ],
+  "points": [
+    "统一任务与计划平台",
+    "Copilot可结合计划处理任务",
+    "To Do计划2027年6月30日退役"
+  ],
+  "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTczOTU4LWt6QjNIbA?revision=19",
+  "title": "Microsoft统一任务与计划：Copilot工作流整合，To Do公布退役日期",
+  "summary": "Microsoft11月18日介绍统一计划平台，将个人与团队任务整合到Planner及Copilot体验。部分功能已开放、部分逐步推出，付费功能仍取决于许可。To Do应用计划2027年6月30日退役，现有任务不会自动迁入新的私人计划。",
+  "wendyNote": "四人团队可先试一个挂牌准备清单，明确负责人、日期与完成条件。行动：若使用Microsoft To Do，盘点个人与工作账户的清单及整合，先测试迁移，不急着更换全部工具。",
+  "url": "https://techcommunity.microsoft.com/blog/plannerblog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958"
+},
+{
+  "id": "google-marketing-platform-nov18-2026",
+  "date": "2026-11-19",
+  "time": "08:45",
+  "firstHand": true,
+  "heat": 43,
+  "source": "Google官方 · 11月18日；图：Google",
+  "tags": [
+    "数字营销",
+    "广告渠道"
+  ],
+  "points": [
+    "DV360新增Pinterest库存",
+    "加拿大Loblaw媒体整合",
+    "不等于普通Google Ads自动开放"
+  ],
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ss_0108-GMP_Drop_November___Design_Frame01_.max-1440x810.png",
+  "title": "Google营销平台新增Pinterest与加拿大Loblaw整合，小型地产业务先核对适用性",
+  "summary": "Google11月18日公布Marketing Platform更新：Display & Video 360可访问Pinterest广告库存，并新增加拿大Loblaw Advance受众与销售衡量整合。Spotify相关Google受众功能则注明美国和印度；这些不是所有普通Google Ads账户都自动获得的功能。",
+  "wendyNote": "大型零售媒体工具未必适合本地地产获客。行动：先核对广告平台与住房广告限制，把预算评估落到实际咨询和预约，不凭新功能或曝光量就增加支出。",
+  "url": "https://blog.google/products/marketingplatform/360/google-marketing-platform-drop-november/"
+},
+{
   "id": "teranet-hpi-oct2026",
   "heat": 72,
-  "source": "Teranet–National Bank 房价指数 · 11月18日发布",
+  "source": "Teranet–National Bank官方 · 11月18日；示意图：本简报依官方数据绘制",
   "tags": [
     "房价指数",
     "转售市场",
     "多伦多"
   ],
   "points": [
-    "综合指数环比+0.2%",
-    "同比-3.5% 跌幅持平",
-    "多伦多较峰值-19.8%"
+    "多伦多季调环比+0.6%",
+    "多伦多同比-5.2%",
+    "综合季调+0.2%；未季调-0.6%"
   ],
-  "image": "/summaries/teranet-hpi-oct2026.jpg",
-  "title": "Teranet 10月房价指数环比微涨0.2%，多伦多仍比2022峰值低19.8%",
-  "summary": "Teranet–National Bank 11月18日发布10月房价指数：综合指数环比上涨0.2%，为四个月内第三次微涨，但同比仍跌3.5%、与9月持平；11个市场中仅4个上涨，涨幅主要由哈利法克斯单月+5.8%的一次性跳升带动。多伦多房价较2022年4月峰值低19.8%，全国综合指数较峰值低7.9%；报告提醒，今秋房贷利率上行、就业走软与贸易不确定性将继续压制涨价空间。",
-  "wendyNote": "指数企稳不等于反转：多伦多离峰值还有近两成，买家仍有议价空间，但固定利率已在走高，锁定成本要算进预算。卖家别把单月微涨当回暖信号，定价仍要贴着最新成交走。",
-  "url": "https://housepriceindex.ca/category/pr/",
+  "image": "/summaries/teranet-oct2026-verified.svg",
+  "title": "Teranet 10月：多伦多房价指数季调环比升0.6%，同比仍跌5.2%",
+  "summary": "Teranet–National Bank11月18日发布10月指数：多伦多季调环比+0.6%，同比-5.2%；11个都会区综合指数季调环比+0.2%，未季调环比则为-0.6%，同比-3.5%。该指数采用土地登记资料的重复销售法，不等于TRREB当月平均成交价，也不是Toronto 416每个社区的表现。",
+  "wendyNote": "单月回升不能作为某套房升值的依据。行动：为正在谈价的416房源，更新同楼或同街近期成交与直接竞争盘；向客户同时展示月度和年度口径。",
+  "url": "https://housepriceindex.ca/2026/11/october2026/",
   "date": "2026-11-19",
   "time": "07:00",
   "firstHand": true
@@ -45,22 +111,22 @@ export const radarItems: RadarItem[] = [
 {
   "id": "gravelle-scenarios-dec-odds-nov2026",
   "heat": 66,
-  "source": "Canadian Mortgage Trends / 路透 · 11月18日",
+  "source": "加拿大央行讲话；市场定价补充：CMT / Bloomberg（11月18日）",
   "tags": [
     "央行",
     "加息预期",
     "12月议息"
   ],
   "points": [
-    "4月情景已预示加息",
-    "10月CPI仍为3.1%",
-    "12月加息概率约60%"
+    "高油价情景风险已部分实现",
+    "政策利率2.50%并非房贷报价",
+    "下次12月9日决定尚未发生"
   ],
   "image": "/summaries/gravelle-scenarios-dec-odds-nov2026.jpg",
-  "title": "央行副行长：4月情景分析早已预示加息，12月加息概率回升至约60%",
-  "summary": "加拿大央行副行长 Gravelle 11月18日在埃德蒙顿表示，央行4月货币政策报告中的情景分析已预示了10月加息至2.50%：当时假设油价持续高企、中东局势升级，通胀将在3%附近停留一年以上，需要连续加息。10月通胀仍为3.1%，央行预计明年全年通胀均值3.1%；隔夜掉期显示12月9日再加息概率约60%，高于CPI公布后的约41–45%。",
-  "wendyNote": "加息不是小概率事件了：年底交割或续贷的客户，按再加25基点做压力测试，别按不加息做预算。浮动利率客户尤其要提前和贷款经纪确认锁定方案，12月9日之前把报价拿到手。",
-  "url": "https://www.canadianmortgagetrends.com/2026/11/bank-of-canada-says-april-scenario-analysis-telegraphed-hike/",
+  "title": "央行11月18日讲话强调情景分析：风险提示不等于确定利率路径",
+  "summary": "Gravelle11月18日说明，4月高油价情景与随后实际情况较接近，该情景涉及通胀更持久和进一步加息。情景用于说明条件变化下的可能反应，并不承诺某次会议结果。CMT转载Bloomberg所引隔夜掉期约60%加息概率属于市场定价，不能直接与其他预测平台概率混用或视为央行承诺。",
+  "wendyNote": "政策利率与贷款机构实际报价不同。行动：给年底续贷或交割客户比较当前方案与利率再上升0.25个百分点的月供，实际影响让贷款经纪按合同核实。",
+  "url": "https://www.bankofcanada.ca/2026/11/setting-the-scenario-monetary-policy-communications-in-uncertain-times/",
   "date": "2026-11-19",
   "time": "07:00",
   "firstHand": false
@@ -75,15 +141,15 @@ export const radarItems: RadarItem[] = [
     "多伦多"
   ],
   "points": [
-    "全国新房价环比-0.2%",
-    "同比-1.9% 指数119.9",
-    "多伦多同比-4.3%"
+    "全国环比-0.2%",
+    "安省环比-0.1%",
+    "仅新独立屋、半独立屋、联排"
   ],
   "image": "/summaries/statcan-nhpi-oct2026.jpg",
-  "title": "统计局：10月全国新房价环比跌0.2%，多伦多同比跌4.3%",
-  "summary": "加拿大统计局11月18日发布10月新住房价格指数：全国环比下跌0.2%，低于市场预期的+0.1%，同比跌1.9%、指数119.9。多伦多新房价格指数104.7，同比跌4.3%，较9月的105.0继续回落。该指数跟踪开发商新房售价，不含二手转售。",
-  "wendyNote": "新房价也在跌，说明开发商让价压力真实存在，楼花与新盘买家可以拿这个指数当谈判依据。但注意这是指数变化、不是成交价，个别楼盘的折扣力度要逐盘核对。",
-  "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810020502",
+  "title": "统计局10月新住房指数：全国环比跌0.2%，安省跌0.1%",
+  "summary": "统计局11月18日发布10月新住房价格指数：全国环比-0.2%，安省环比-0.1%。调查覆盖新建独立屋、半独立屋和联排屋，按开发商与买家签约价格、扣除增值税跟踪变化；不含二手转售，也不能直接当作高层公寓楼花价格指标。",
+  "wendyNote": "新房市场走势可作背景，但具体项目要比较净价、优惠、交付风险及同类竞品。行动：不要把这份低层新房指数套用于高层Condo楼花。",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261118/dq261118d-eng.htm",
   "date": "2026-11-19",
   "time": "07:00",
   "firstHand": true
@@ -91,7 +157,7 @@ export const radarItems: RadarItem[] = [
 {
   "id": "urbanation-oct2026-entry-condo",
   "heat": 60,
-  "source": "Urbanation 10月报告 · 11月18–19日",
+  "source": "近期报告补充：Urbanation 10月报告经经纪博客解读；TRREB月报交叉核对",
   "tags": [
     "Condo市场",
     "首置买家",
@@ -104,9 +170,9 @@ export const radarItems: RadarItem[] = [
   ],
   "image": "/summaries/urbanation-oct2026-entry-condo.jpg",
   "title": "10月Condo：50万以下销量大涨28%、占成交42%，低价盘带回买家",
-  "summary": "Urbanation 10月报告显示，GTA Condo均价$621,400、同比跌约6%，在售约8,100套、同比减少9%，供应收紧至5.8个月。价格下跌正把首置买家与投资者带回来：50万美元以下Condo销量同比大涨28%、占全部Condo成交的42%；60万美元以下低层住宅销量也跳涨53%。但全市10月总成交仍同比跌7.9%，回暖只集中在入门价位。",
-  "wendyNote": "便宜的Condo先动了：50万以下成交占比42%，说明首置买家在用价格投票。卖这个价位的房源要趁热度定价、别拖；买家则要抢在供应进一步收紧前看房，但仍要逐套验房、别为低价牺牲楼况。",
-  "url": "https://rolandbrunner.ca/Blog/october-2026-urbanation-report-condos",
+  "summary": "近期Urbanation10月GTA报告的经纪解读指出，50万加元以下Condo成交占比42%，该价位成交同比+28%。TRREB10月月报列全部Condo成交1,385套、均价$621,400、在售8,100套。这里是10月统计与近期解读，并非11月19日新成交；数字不代表所有416大楼。",
+  "wendyNote": "低总价不是唯一筛选条件。行动：对入门Condo比较同楼成交、管理费、储备基金及贷款预算，不根据某价位成交比例推断即将涨价。",
+  "url": "https://www.antonymalfara.com/blog/gta-housing-market-october-2026-urbanation",
   "date": "2026-11-19",
   "time": "07:00",
   "firstHand": false
