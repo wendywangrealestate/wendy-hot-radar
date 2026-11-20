@@ -130,6 +130,75 @@ export const radarItems: RadarItem[] = [
   "firstHand": true
 },
 {
+  "id": "macklem-step-down-jun2027",
+  "heat": 64,
+  "source": "加拿大央行 · 11月16日宣布",
+  "tags": [
+    "央行行长",
+    "利率前景",
+    "换届"
+  ],
+  "points": [
+    "任期2027年6月2日结束",
+    "继任遴选明春完成",
+    "12月议息仍由他主持"
+  ],
+  "image": "/summaries/macklem-step-down-jun2027.jpg",
+  "title": "央行行长 Macklem 明年6月卸任，继任者明春揭晓",
+  "summary": "加拿大央行11月16日宣布，行长 Tiff Macklem 不寻求连任，七年任期将于2027年6月2日结束；董事会已成立遴选委员会并委托 Egon Zehnder 寻访继任者，遴选预计2027年春季完成，新行长任期七年、自2027年6月3日起。换届期间 Macklem 继续履职，12月9日议息仍由他主持。",
+  "wendyNote": "行长换人本身不改变12月议息：Macklem 仍主持12月9日决策，市场定价的约60%加息概率不受影响。真正的变量在明春——新行长的政策倾向要到人选揭晓才明朗，2027年续贷或长锁固定利率的客户，别把远期利率路径当成已定局。",
+  "url": "https://www.bankofcanada.ca/2026/11/bank-of-canada-governor-tiff-macklem-to-step-down-in-june-2027/",
+  "date": "2026-11-20",
+  "time": "07:00",
+  "firstHand": true
+},
+{
+  "id": "movesmartly-oct2026-over-asking",
+  "heat": 58,
+  "source": "Move Smartly 10月月报",
+  "tags": [
+    "议价空间",
+    "416独立屋",
+    "10月成交"
+  ],
+  "points": [
+    "416独立屋30%超挂牌成交",
+    "郊区仅19% 库存3.4个月",
+    "GTA独立屋销量低23%"
+  ],
+  "image": "/summaries/movesmartly-oct2026-over-asking.jpg",
+  "title": "416独立屋30%超挂牌价成交，郊区仅19%",
+  "summary": "Move Smartly 10月月报：多伦多市低层独立屋销量同比微增1%、均价仅跌1%，库存3.4个月、远低于郊区的4.3个月，10月有30%的市内独立屋以高于挂牌价成交，郊区仅19%。全GTA独立屋销量同比跌6%、较十年10月均值低23%，Condo销量跌10%、较十年均值低32%，两类库存均较去年收紧。",
+  "wendyNote": "市内好房仍在抢：30%超挂牌成交说明定价准的416独立屋不缺买家，卖家别因大盘疲软就自降身价。郊区与Condo买家议价空间更大，但要盯紧库存——独立屋3.4个月已近平衡，拖久了选择只会更少。",
+  "url": "https://insights.movesmartly.com/articles/higher-rates-keep-toronto-area-buyers-on-the-sidelines-in-october",
+  "date": "2026-11-20",
+  "time": "07:00",
+  "firstHand": false
+},
+{
+  "id": "enterhome-nov2026-midmonth-pulse",
+  "heat": 56,
+  "source": "EnterHome 月中快照 · 11月20日",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "成交价"
+  ],
+  "points": [
+    "11月前20天售出3,132套",
+    "中位价$865,500 同比-5%",
+    "售期68天 比10月快8天"
+  ],
+  "image": "/summaries/enterhome-nov2026-midmonth-pulse.jpg",
+  "title": "11月前20天GTA售出3,132套，中位价$865,500",
+  "summary": "EnterHome 11月20日月中快照：GTA 11月前20天售出3,132套，较10月同期多616套、较去年同期少112套；中位成交价$865,500，较10月同期低1.1%、同比低5.0%；中位售期68天，较10月快8天、较去年快3天。注意：该统计为经纪机构索引样本、非全市场普查，仅作11月走势的月中参考。",
+  "wendyNote": "11月成交节奏跑赢了10月、基本追平去年同期，售期还在缩短——市场没有在入冬后熄火。但中位价同比仍低5%，买家手里仍有议价空间；这组数字是抽样快照，TRREB 12月初的11月全月官方数才是定论。",
+  "url": "https://www.enterhome.ca/research/gta",
+  "date": "2026-11-20",
+  "time": "07:00",
+  "firstHand": false
+},
+{
   "id": "ltb-nov30-forms-2026-watch",
   "date": "2026-11-19",
   "time": "08:45",
