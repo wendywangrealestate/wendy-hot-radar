@@ -20,6 +20,116 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "reco-luxury-homes-suspension-nov2026",
+  "heat": 80,
+  "source": "RECO官方注册记录 · 决定日期11月17日；近期实质更新；示意图：本简报",
+  "tags": [
+    "监管进展",
+    "定金安全"
+  ],
+  "points": [
+    "11月17日即时暂停注册",
+    "撤销注册仍为提案",
+    "有权要求听证"
+  ],
+  "image": "/summaries/reco-suspension-nov17-2026-update.svg",
+  "title": "RECO暂停Luxury Homes World注册，拟撤销注册仍待程序",
+  "summary": "相较11月10日账户冻结，RECO记录新增实质进展：11月17日对Luxury Homes World Inc.及其Broker of Record Inthiran Swamy即时暂停注册，并提出撤销注册。提案涉及消费者定金处理及配合检查等指控；当事人有权要求听证，不能写作最终撤销或法院定罪。",
+  "wendyNote": "对416和GTA买卖或租赁合作，注册状态与收款主体需及时核实。行动：若在办交易涉及该公司，立即与自己的Broker of Record及律师确认后续安排，并独立核验付款指示。",
+  "url": "https://registrantsearch.reco.on.ca/RegistrarProposals",
+  "date": "2026-11-20",
+  "time": "08:10",
+  "firstHand": true
+},
+{
+  "id": "boc-macklem-nov24-2026-watch",
+  "heat": 64,
+  "source": "加拿大央行官方活动通知 · 11月24日观察事项；图：加拿大央行",
+  "tags": [
+    "央行观察",
+    "房贷沟通"
+  ],
+  "points": [
+    "11月24日多伦多讲话",
+    "12:25公布稿件；12:40讲话",
+    "不是议息决定"
+  ],
+  "image": "https://www.bankofcanada.ca/wp-content/uploads/2022/01/default-og-image.jpg",
+  "title": "央行观察：Macklem 11月24日在多伦多谈经济与货币政策挑战",
+  "summary": "央行已安排Macklem于11月24日12:40（多伦多时间）向Economic Club of Canada讲话，主题是加拿大经济展望与货币政策面临的挑战；稿件预计12:25公布。这是未来观察事项，不是新的利率决定，不能预先推断讲话结果或客户房贷报价变化。",
+  "wendyNote": "年底续贷和交割客户可留意风险表述变化，但政策利率与贷款机构实际报价不同。行动：先取得书面贷款报价及有效期，讲话后只对实质信息更新预算。",
+  "url": "https://www.bankofcanada.ca/2026/11/speech-tiff-macklem-governor-bank-canada-2026-11-24/",
+  "date": "2026-11-20",
+  "time": "08:10",
+  "firstHand": true
+},
+{
+  "id": "ellesmere-holding-nov27-2026-watch",
+  "heat": 61,
+  "source": "多伦多市府 · 11月13日通知；11月27日期限观察；示意图：本简报",
+  "tags": [
+    "Scarborough",
+    "规划期限"
+  ],
+  "points": [
+    "3307及3313 Ellesmere",
+    "拟11层166户",
+    "11月27日书面意见截止"
+  ],
+  "image": "/summaries/ellesmere-nov27-2026-watch.svg",
+  "title": "Scarborough规划观察：Ellesmere拟建166户项目，11月27日意见截止",
+  "summary": "市府11月13日通知，3307及3313 Ellesmere Road申请移除分区Holding Symbol，以允许11层、166个住宅单位及底层168平方米商业空间。书面意见须在11月27日前提交，决定不早于12月15日作出。本项为已公布程序期限，申请不等于已获施工许可。",
+  "wendyNote": "对附近买家、卖家及出租客户，可用作社区未来建设的尽调线索，不能直接推断物业升值或近期新增可租房。行动：把该地址和申请编号26 216092 ESC 25 OZ加入附近房源的社区核查清单。",
+  "url": "https://secure.toronto.ca/nm/api/individual/notice/8023.do",
+  "date": "2026-11-20",
+  "time": "08:10",
+  "firstHand": true
+},
+{
+  "id": "gemini-api-tool-retrieval-nov19-2026",
+  "heat": 52,
+  "source": "Google官方 · 11月19日；图：Google",
+  "tags": [
+    "AI工具",
+    "开发者预览"
+  ],
+  "points": [
+    "按需加载工具参数",
+    "Interactions API预览",
+    "不等于网站自动升级"
+  ],
+  "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.width-1300.png",
+  "title": "Gemini API新增工具检索预览，供复杂地产AI助手评估",
+  "summary": "Google11月19日宣布Tool Retrieval进入Gemini Interactions API预览。工具较多时，可按任务需要加载参数定义，减少每次请求都传送完整工具说明的开销。它是开发者API能力，不是普通Gemini应用按钮，也不会自动改变现有网站。",
+  "wendyNote": "如果未来AI问答同时连接社区查询、房源与预约工具，可以评估速度和成本收益。行动：先统计现有助手的工具数量、响应时间和输入用量，再决定是否值得测试，保留人工核对。",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+  "date": "2026-11-20",
+  "time": "08:10",
+  "firstHand": true
+},
+{
+  "id": "cloudflare-snapshot-formats-nov19-2026",
+  "heat": 47,
+  "source": "Cloudflare官方 · 11月19日；技术流程示意图：本简报",
+  "tags": [
+    "网站技术",
+    "资料核验"
+  ],
+  "points": [
+    "单次加载支持更多输出",
+    "新增PDF、链接、元素和JSON",
+    "JSON提取涉及Workers AI用量"
+  ],
+  "image": "/summaries/cloudflare-snapshot-nov19-2026.svg",
+  "title": "Cloudflare快照新增PDF和结构化输出，可评估用于新闻来源留档",
+  "summary": "Cloudflare11月19日更新Browser Run的/snapshot接口，新增PDF、链接、抓取元素及JSON格式，可在单次页面加载中获取多种输出；JSON提取涉及Workers AI用量。它是另行使用的开发能力，使用Cloudflare域名或DNS不会自动启用。",
+  "wendyNote": "对Hot Radar和Insights，可评估同时保存来源页面和提取结果，方便核对日期与原文；技术提取仍可能有错。行动：先以一条官方公告测试PDF与链接核对，确认成本和准确性后再考虑接入。",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/",
+  "date": "2026-11-20",
+  "time": "08:10",
+  "firstHand": true
+},
+{
   "id": "ltb-nov30-forms-2026-watch",
   "date": "2026-11-19",
   "time": "08:45",
