@@ -20,6 +20,116 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "boc-slos-q3-nov20-2026",
+  "heat": 77,
+  "source": "加拿大央行 · 11月20日发布安排及Q3调查表；图：加拿大央行",
+  "tags": [
+    "贷款调查",
+    "房贷议价"
+  ],
+  "points": [
+    "Q3房贷条件净值 -26.27",
+    "价格条件 -52.55；非价格 0",
+    "调查净值不是贷款利率"
+  ],
+  "image": "https://www.bankofcanada.ca/wp-content/uploads/2022/01/default-og-image.jpg",
+  "title": "央行Q3贷款调查：房贷价格条件趋松，审批条件未同步放宽",
+  "summary": "央行11月20日安排发布Senior Loan Officer Survey。当前Q3表格中，房贷总体条件意见净值为-26.27（Q2为0.64），价格条件-52.55，非价格条件0；负值表示净宽松，0表示净不变。它反映第三季度受访机构意见，并非房贷利率或降息幅度，也不是新的央行政策利率决定。",
+  "wendyNote": "对安省买家和续贷客户，价格竞争与资格审批要分开理解；季度调查不能替代今天的书面报价。行动：请贷款经纪同时核实利率、费用、审批材料和报价有效期，再更新客户预算。",
+  "url": "https://www.bankofcanada.ca/publications/slos/",
+  "date": "2026-11-21",
+  "time": "09:00",
+  "firstHand": true
+},
+{
+  "id": "king-west-construction-nov23-2026",
+  "heat": 74,
+  "source": "多伦多市府及TTC · 11月20日公告；示意图：本简报依据官方日程制作",
+  "tags": [
+    "416社区",
+    "交通与带看"
+  ],
+  "points": [
+    "Dufferin至Close：11月23日起",
+    "King部分工程延续至2027年",
+    "504/304将改道Queen"
+  ],
+  "image": "/summaries/king-west-nov23-2026.svg",
+  "title": "下周一开始：King Street West多年工程影响通勤和带看",
+  "summary": "市府11月20日公布King Street West供水管及街车轨道更新：Dufferin至Close段11月23日开始，预计至2027年秋；Spadina至Portland段最早12月开始。11月23日起504/304 King街车在Shaw至Roncesvalles之间改行Queen Street West；工程日程可能调整。",
+  "wendyNote": "King West及Parkdale买卖、出租客户的通勤与搬家安排需按实际改道核实，不能继续套用旧路线用时。行动：为附近看房和交接预约重新规划路线，并把市府施工链接加入客户社区资料。",
+  "url": "https://www.toronto.ca/news/city-of-toronto-and-ttc-begin-major-infrastructure-improvements-on-king-street-west/",
+  "date": "2026-11-21",
+  "time": "09:00",
+  "firstHand": true
+},
+{
+  "id": "parkdale-92-affordable-start-nov20-2026",
+  "heat": 70,
+  "source": "多伦多市府 · 11月20日；示意图：本简报依据官方数据制作",
+  "tags": [
+    "出租供应",
+    "住房政策落实"
+  ],
+  "points": [
+    "1337–1339 King St W",
+    "92户含10户租赁替代单位",
+    "已开工；未公布招租日期"
+  ],
+  "image": "/summaries/parkdale-92-nov20-2026.svg",
+  "title": "Parkdale 92户可负担出租房开工：包含10户租赁替代单位",
+  "summary": "市府与联邦政府11月20日宣布1337至1339 King St. W.的10层、92户可负担出租住房开始施工，项目由Parkdale United Church Foundation主导，面向低收入个人和家庭。92户包含10户租赁替代单位，不能全部称为净新增供应；公告没有公布入住或招租时间。市府资本支持超过$1,550万，另有$200万房产税豁免，联邦支持$2,900万。",
+  "wendyNote": "这是既有住房支持计划落地的施工进展，并非新租金法规或即时可租房源，也不足以推断周边市场租金会下降。行动：在社区资料中标注为在建项目，只在正式公布后向租客提供申请条件与渠道。",
+  "url": "https://www.toronto.ca/news/city-of-toronto-and-government-of-canada-begin-construction-on-92-affordable-rental-homes-in-parkdale/",
+  "date": "2026-11-21",
+  "time": "09:00",
+  "firstHand": true
+},
+{
+  "id": "microsoft-ai-ad-transparency-nov19-2026",
+  "heat": 58,
+  "source": "Microsoft Advertising官方 · 11月19日近期更新；图：Microsoft",
+  "tags": [
+    "数字营销",
+    "AI图片"
+  ],
+  "points": [
+    "AI图片与视频申报控件已普遍开放",
+    "可见水印视格式支持",
+    "广告主仍负责申报准确性"
+  ],
+  "image": "https://about.ads.microsoft.com/content/dam/sites/msa-about/global/common/content-lib/blogs/blog/2026/11/pub_NewHero_90713_844x315.png",
+  "title": "近期营销更新：Microsoft广告开放AI图片与视频透明度控件",
+  "summary": "Microsoft 11月19日宣布AI内容透明度控件已普遍开放，允许广告主申报AI生成图片及视频，并在支持的格式中选择可见水印。控件覆盖多种广告格式，实际功能因格式与工作流程而异；平台检测信号仅供参考，申报责任仍由广告主承担。这是平台功能，不代表安省新增了同名法规。",
+  "wendyNote": "使用AI布置或生成房源宣传图时，应让客户清楚区分实拍与生成内容，并核实适用平台要求。行动：保留原图，为AI素材做清楚标注，在投放前检查广告资产申报设置。",
+  "url": "https://about.ads.microsoft.com/en/blog/post/november-2026/put-ai-to-work-engaging-customers-in-more-places-whats-new-in-microsoft-advertising-this-november",
+  "date": "2026-11-21",
+  "time": "09:00",
+  "firstHand": true
+},
+{
+  "id": "google-semantic-governance-nov20-2026",
+  "heat": 55,
+  "source": "Google Developers官方 · 11月20日；开发者预览；图：Google",
+  "tags": [
+    "地产AI工具",
+    "客户资料"
+  ],
+  "points": [
+    "工具调用执行前检查",
+    "对照用户意图与业务规则",
+    "预览功能；先做dry run"
+  ],
+  "image": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-1200x600.png",
+  "title": "Google预览AI执行前规则检查：适用于有发信或文件权限的助手",
+  "summary": "Google 11月20日推出Gemini platform Semantic governance policies预览，经Agent Gateway在工具调用执行前，检查用户意图与自然语言业务规则。判定和理由可记入Cloud Logging；纯文字回复不在检查范围，流式模型回复目前不评估。判定具有概率性，官方建议先dry run测试，与其他控制共同使用。",
+  "wendyNote": "对地产AI助手，发送租客资料和修改客户文件比生成文案更需要明确操作边界；这不是现成的地产插件。行动：先用虚构资料测试“未获人工审核不得向外部发送客户文件”等规则，再考虑由开发者接入。",
+  "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/",
+  "date": "2026-11-21",
+  "time": "09:00",
+  "firstHand": true
+},
+{
   "id": "reco-luxury-homes-suspension-nov2026",
   "heat": 80,
   "source": "RECO官方注册记录 · 决定日期11月17日；近期实质更新；示意图：本简报",
