@@ -20,6 +20,52 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-22",
+  "firstHand": false,
+  "heat": 70,
+  "id": "ratehub-affordability-oct2026",
+  "image": "/summaries/ratehub-affordability-oct2026.jpg",
+  "points": [
+    "13城负担能力全线恶化",
+    "5年固定均值4.99% +43基点",
+    "多伦多月供增约$200"
+  ],
+  "source": "Ratehub.ca 10月负担能力报告 · Wealth Professional 11月20日报道",
+  "summary": "Ratehub.ca 11月负担能力报告：10月加拿大13个主要城市负担能力全线恶化，为春季以来首次；大行五年固定均值一个月跳升43个基点至4.99%，房价小幅回软未能抵消。多伦多买均价房所需收入增加$6,680、平均月供增加约$200；9月12城改善的成果已全部回吐。",
+  "tags": [
+    "负担能力",
+    "固定利率",
+    "10月数据"
+  ],
+  "time": "07:00",
+  "title": "10月负担能力13城全线恶化：多伦多买房所需收入增$6,680",
+  "url": "https://www.wealthprofessional.ca/investments/alternative-investments/canadian-home-affordability-worsens-in-all-13-markets-in-october/394071",
+  "wendyNote": "固定利率一个月跳43个基点，是今年负担能力逆转的主因：房价跌幅赶不上利率涨幅，买家预算要按4.99%的大行均值重算，别再用9月的低利率做计划。卖家也别指望降价就能成交——买家卡在月供上，定价要留出利率空间；续贷客户先锁利率再谈条件。"
+},
+{
+  "date": "2026-11-22",
+  "firstHand": false,
+  "heat": 68,
+  "id": "td-variable-mortgages-35pct-nov2026",
+  "image": "/summaries/td-variable-mortgages-35pct-nov2026.jpg",
+  "points": [
+    "浮动按揭占存量35%创新高",
+    "TD预计1月再加息",
+    "安省拖欠率0.34%逼近危机峰值"
+  ],
+  "source": "TD Economics 11月19日报告 · Wealth Professional 11月20日报道",
+  "summary": "TD Economics 11月19日报告：浮动利率按揭占加拿大存量按揭35%，创历史新高，10月加息25基点立即传导至这批借款人；TD预计1月再加息一次。安省8月按揭拖欠率0.34%，为疫前0.12%的近三倍、逼近金融危机峰值0.43%，约每300宗安省按揭就有一宗拖欠。",
+  "tags": [
+    "浮动按揭",
+    "拖欠率",
+    "利率展望"
+  ],
+  "time": "07:00",
+  "title": "TD：浮动按揭占比35%创新高，安省拖欠率逼近金融危机峰值",
+  "url": "https://www.wealthprofessional.ca/news/industry-news/a-record-35-of-mortgages-now-move-with-the-policy-rate-td/394067",
+  "wendyNote": "三分之一的按揭跟着政策利率走，意味着12月9日和明年1月的议息会直接打到大量家庭的月供上——浮动利率客户现在就要按再加一次留预算。安省拖欠率逼近危机峰值也是信号：急售盘可能增多，买家多留意议价机会；卖家则别把高杠杆买家的出价当成铁板钉钉，定金与交割能力要先核实。"
+},
+{
   "id": "boc-slos-q3-nov20-2026",
   "heat": 77,
   "source": "加拿大央行 · 11月20日发布安排及Q3调查表；图：加拿大央行",
