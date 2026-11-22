@@ -20,18 +20,84 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
-  "date": "2026-11-22",
+  "id": "cosburn-agi-application-nov21-2026",
+  "heat": 66,
+  "source": "TorontoToday · 11月21日报道；LTB现行指引；示意图：本简报",
   "firstHand": false,
+  "tags": [
+    "416租赁",
+    "AGI申请"
+  ],
+  "points": [
+    "50 Cosburn申请额6.67%",
+    "租客提出争议；非已批准",
+    "资本支出申请受LTB审核"
+  ],
+  "image": "/summaries/cosburn-agi-nov21-2026.svg",
+  "title": "50 Cosburn涨租争议：6.67%是AGI申请，不是已批准涨幅",
+  "summary": "TorontoToday 11月21日报道，50 Cosburn Avenue房东提出6.67%的超指导线涨租（AGI）申请，以阳台及车库工程为依据，租客组织正提出争议。报道所述为申请，并无已批准裁决。LTB现行指引要求资本支出申请接受审核，并说明仅有申请或通知不等于额外涨幅已获批准；本案不代表安省出台新租金规则。",
+  "wendyNote": "对出租物业估值及房东建议，应把当前合法租金与尚待审批的收入分开。行动：尽调时索取L5申请、租金通知及LTB命令，不把待批AGI计作确定收入。",
+  "url": "https://www.torontotoday.ca/local/real-estate-housing/toronto-tenants-fourth-unjustified-above-guideline-rent-increase-less-than-10-years-13043824",
+  "date": "2026-11-22",
+  "time": "08:45"
+},
+{
+  "id": "apps-script-gemini-ga-nov16-2026",
+  "heat": 54,
+  "source": "Google Workspace官方 · 11月16日近期更新；图：Google开发者文档",
+  "firstHand": true,
+  "tags": [
+    "AI工具",
+    "地产工作流程"
+  ],
+  "points": [
+    "Apps Script内生成修改调试代码",
+    "可逐项接受或拒绝建议",
+    "需要合资格许可及设置"
+  ],
+  "image": "https://developers.google.com/static/apps-script/images/gemini-accept-reject.gif",
+  "title": "近期AI工具：Apps Script的Gemini侧栏正式开放，支持逐项审阅代码",
+  "summary": "Google 11月16日发布说明，Apps Script编辑器的Gemini侧栏已正式开放，可生成、修改与调试代码，并逐项接受或拒绝建议。官方文档列有合资格Google Workspace或Google AI许可及管理员设置要求，不是所有免费账户自动可用。这是近期功能补充，不是11月22日新发布。",
+  "wendyNote": "可帮助整理看房反馈、表格及文档，但不是开箱即用的地产系统。行动：先用虚构看房反馈测试一个仅生成汇总文档、不发邮件的脚本，逐项检查代码和所需权限。",
+  "url": "https://developers.google.com/apps-script/guides/gemini",
+  "date": "2026-11-22",
+  "time": "08:45"
+},
+{
+  "id": "google-core-nov2026-rollout-watch",
+  "heat": 52,
+  "source": "Google Search官方状态及指引 · 11月22日核查；持续观察；示意图：本简报",
+  "firstHand": true,
+  "tags": [
+    "网站获客",
+    "SEO观察"
+  ],
+  "points": [
+    "11月10日启动全球核心更新",
+    "截至核查未见结束公告",
+    "结束后至少一周再评估"
+  ],
+  "image": "/summaries/google-core-nov22-2026-watch.svg",
+  "title": "网站获客观察：Google 11月核心更新仍未公布结束",
+  "summary": "截至11月22日早间核查，Google官方状态页仍只显示11月10日启动的全球、全语言核心更新，原预计最多约两周，未显示结束公告；不应把约两周视为确定结束日。这是持续观察事项，不是今日新算法发布。Google建议完成后至少等待一整周，再比较Search Console数据。",
+  "wendyNote": "Insights和社区页面的搜索表现需与更新窗口分开分析，不能仅凭短期波动判断改版效果。行动：记录更新前的曝光、点击和查询基线，待官方确认结束后一周再评估，避免因短期波动批量改写页面。",
+  "url": "https://status.search.google.com/incidents/WLxcJyC6jMWMfryxsKMc",
+  "date": "2026-11-22",
+  "time": "08:45"
+},
+{
+  "date": "2026-11-22",
+  "firstHand": true,
   "heat": 70,
   "id": "ratehub-affordability-oct2026",
-  "image": "/summaries/ratehub-affordability-oct2026.jpg",
+  "image": "/summaries/ratehub-oct2026-verified.svg",
   "points": [
     "13城负担能力全线恶化",
     "5年固定均值4.99% +43基点",
     "多伦多月供增约$200"
   ],
-  "source": "Ratehub.ca 10月负担能力报告 · Wealth Professional 11月20日报道",
-  "summary": "Ratehub.ca 11月负担能力报告：10月加拿大13个主要城市负担能力全线恶化，为春季以来首次；大行五年固定均值一个月跳升43个基点至4.99%，房价小幅回软未能抵消。多伦多买均价房所需收入增加$6,680、平均月供增加约$200；9月12城改善的成果已全部回吐。",
+  "source": "Ratehub.ca原始报告 · 11月19日；11月20日媒体跟进；示意图：本简报依据报告数据制作",
+  "summary": "Ratehub.ca 11月19日发布10月负担能力报告：13个研究城市的负担能力均恶化。研究采用的大行五年固定平均利率由9月4.56%升至10月4.99%；多伦多模型所需年收入增加$6,680，月供增加约$200。模型假设首付10%、25年摊销、年地税$4,000、月暖气$150；这不是今日最优惠利率或个人贷款报价。",
   "tags": [
     "负担能力",
     "固定利率",
@@ -39,31 +105,31 @@ export const radarItems: RadarItem[] = [
   ],
   "time": "07:00",
   "title": "10月负担能力13城全线恶化：多伦多买房所需收入增$6,680",
-  "url": "https://www.wealthprofessional.ca/investments/alternative-investments/canadian-home-affordability-worsens-in-all-13-markets-in-october/394071",
-  "wendyNote": "固定利率一个月跳43个基点，是今年负担能力逆转的主因：房价跌幅赶不上利率涨幅，买家预算要按4.99%的大行均值重算，别再用9月的低利率做计划。卖家也别指望降价就能成交——买家卡在月供上，定价要留出利率空间；续贷客户先锁利率再谈条件。"
+  "url": "https://www.ratehub.ca/blog/home-affordability-canada-october-2026/",
+  "wendyNote": "对416及GTA买卖，房价降低不保证月供同步下降；城市模型也不能代替具体房源预算。行动：按客户最新书面贷款报价、实际首付、地税与管理费重算购买上限，再安排出价。"
 },
 {
   "date": "2026-11-22",
-  "firstHand": false,
+  "firstHand": true,
   "heat": 68,
   "id": "td-variable-mortgages-35pct-nov2026",
-  "image": "/summaries/td-variable-mortgages-35pct-nov2026.jpg",
+  "image": "https://economics.td.com/domains/economics.td.com/images/reports/ms/can-consumers-2026/chart4.png",
   "points": [
     "浮动按揭占存量35%创新高",
     "TD预计1月再加息",
     "安省拖欠率0.34%逼近危机峰值"
   ],
-  "source": "TD Economics 11月19日报告 · Wealth Professional 11月20日报道",
-  "summary": "TD Economics 11月19日报告：浮动利率按揭占加拿大存量按揭35%，创历史新高，10月加息25基点立即传导至这批借款人；TD预计1月再加息一次。安省8月按揭拖欠率0.34%，为疫前0.12%的近三倍、逼近金融危机峰值0.43%，约每300宗安省按揭就有一宗拖欠。",
+  "source": "TD Economics原始研究 · 11月19日；11月20日媒体跟进；图表：TD Economics",
+  "summary": "TD 11月19日研究称，浮动利率占加拿大存量按揭35%；安省8月按揭拖欠率0.34%，高于疫前0.12%，但仍低于金融危机峰值0.43%。浮动且付款额调整的借款人更快感受利率变动，固定付款额者主要先受利息占比影响。TD预计1月再加息、安省拖欠率于2027年中趋稳，均为预测，不是央行决定。",
   "tags": [
     "浮动按揭",
     "拖欠率",
     "利率展望"
   ],
   "time": "07:00",
-  "title": "TD：浮动按揭占比35%创新高，安省拖欠率逼近金融危机峰值",
-  "url": "https://www.wealthprofessional.ca/news/industry-news/a-record-35-of-mortgages-now-move-with-the-policy-rate-td/394067",
-  "wendyNote": "三分之一的按揭跟着政策利率走，意味着12月9日和明年1月的议息会直接打到大量家庭的月供上——浮动利率客户现在就要按再加一次留预算。安省拖欠率逼近危机峰值也是信号：急售盘可能增多，买家多留意议价机会；卖家则别把高杠杆买家的出价当成铁板钉钉，定金与交割能力要先核实。"
+  "title": "TD：浮动按揭占35%，安省8月按揭拖欠率升至0.34%",
+  "url": "https://economics.td.com/can-consumers-2026",
+  "wendyNote": "拖欠率上升值得做现金流核查，但不能据此推断GTA将出现大量急售。行动：与续贷或高杠杆客户分别测算当前报价及加息0.25个百分点的现金流，核实付款类型与备用资金。"
 },
 {
   "id": "boc-slos-q3-nov20-2026",
