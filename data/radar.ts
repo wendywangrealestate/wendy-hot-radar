@@ -20,6 +20,95 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "kennedy-danforth-rental-hearing-nov25-2026",
+  "heat": 72,
+  "tags": [
+    "Scarborough",
+    "租赁拆建",
+    "本周观察"
+  ],
+  "title": "Scarborough拆租房听证11月25日举行：拟建276户，含8户替代租赁单位",
+  "summary": "市府11月3日通知已安排11月25日9:30起，由Scarborough Community Council审议411及415 Kennedy Road、636–646 Danforth Road的出租住房拆除申请。方案拟拆8户租赁单位，建设23层、276户混合用途建筑，包含8户替代租赁单位。相关分区申请虽已获OLT批准，但本次租赁拆除程序仍须审议，不能写作已获拆除许可或即将招租。直接发言登记截止11月24日中午12:00。",
+  "wendyNote": "附近买家、房东及租客需关注租赁替代、搬迁安排与未来施工，而非只看总户数。行动：将申请20 211505 ESC 20 RH加入社区尽调清单；如客户需要参与，按公告自行登记，核对会后正式决定。",
+  "url": "https://secure.toronto.ca/nm/api/individual/notice/8007.do",
+  "source": "多伦多市府11月3日公告 · 11月24–25日程序观察；示意图：本简报依据官方资料制作",
+  "date": "2026-11-23",
+  "time": "08:25",
+  "firstHand": true,
+  "image": "/summaries/kennedy-danforth-rental-hearing-nov25-2026.svg"
+},
+{
+  "id": "statcan-payroll-gdp-nov2026-watch",
+  "heat": 69,
+  "tags": [
+    "经济日程",
+    "房贷预算",
+    "观察事项"
+  ],
+  "title": "经济数据观察：11月26日工资与职位空缺，11月30日公布Q3 GDP",
+  "summary": "统计局11月20日更新的日程列明：11月26日发布9月受薪就业、工资、工时及职位空缺；11月30日发布第三季度收入支出法GDP及9月行业GDP。The Daily通常于多伦多时间8:30发布，日程可能调整。目前仅确认发布时间，不能预先报道增长、就业或利率结果。",
+  "wendyNote": "这些数据可帮助评估买家收入稳定性及经济前景，也可能影响市场对利率的判断；统计发布并非央行议息，贷款机构报价另行决定。行动：先记录客户当前贷款报价与有效期，数据发布后只根据实际结果及更新报价调整预算。",
+  "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm?WT.mc_id=twt",
+  "source": "加拿大统计局11月20日发布日程 · 未来观察；示意图：本简报依据官方日程制作",
+  "date": "2026-11-23",
+  "time": "08:25",
+  "firstHand": true,
+  "image": "/summaries/statcan-payroll-gdp-nov2026-watch.svg"
+},
+{
+  "id": "toronto-tax-rent-reduction-dec2026-watch",
+  "heat": 65,
+  "tags": [
+    "租务规则",
+    "年末核查",
+    "期限观察"
+  ],
+  "title": "年末租务核查：符合地税降幅条件的物业，留意12月15日租金减免通知",
+  "summary": "多伦多市府现行指引说明，符合条件的出租物业若年度地税降幅超过2.49%，可触发RTA第131条下的自动减租；市府向租客发通知的年度期限为12月15日，减租通常12月31日生效。租金降幅并不等于地税降幅，须按物业税类乘15%或20%计算并核对适用条件。这是既有规则的年末观察，不是今日新政策，也不是所有出租屋统一减租。",
+  "wendyNote": "租赁续约、出租物业买卖及收益估算，应核对合法租金有没有受税务通知影响。行动：请房东核对2025及2026地税单和市府通知，将适用变动交专业人士确认后更新租金记录。",
+  "url": "https://www.toronto.ca/services-payments/property-taxes-utilities/property-tax/rent-reduction/",
+  "source": "多伦多市府现行指引 · 12月15日及31日观察；示意图：本简报依据官方规则制作",
+  "date": "2026-11-23",
+  "time": "08:25",
+  "firstHand": true,
+  "image": "/summaries/toronto-tax-rent-reduction-dec2026-watch.svg"
+},
+{
+  "id": "cloudflare-pi16-agent-wait-nov20-2026",
+  "heat": 53,
+  "tags": [
+    "AI工作流程",
+    "近期工具更新"
+  ],
+  "title": "近期AI工具：Cloudflare助手可暂停等待人工答复，再恢复执行",
+  "summary": "Cloudflare 11月20日发布Agents SDK v0.34.0对Pi 1.6的支持。工具可等待人工答复、信号或期限，等待期间不保持Durable Object调用运行；beforeTool可用于执行前人工确认。它是开发者能力，不会自动为现有网站增加审批功能。官方提示升级后Pi 1.5无法继续运行新版会话，需评估兼容性。",
+  "wendyNote": "地产AI处理报价草稿、交接安排或待审核文案时，可让流程真正等待人工决定，而非持续运行。行动：只在测试环境用虚构资料验证“生成草稿—等待确认—恢复”的流程，评估成本和兼容性后再决定是否采用。",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-11-20-pi-harness-pi-1-6/",
+  "source": "Cloudflare官方11月20日更新 · 开发者工具；示意图：本简报依据官方流程制作",
+  "date": "2026-11-23",
+  "time": "08:25",
+  "firstHand": true,
+  "image": "/summaries/cloudflare-pi16-agent-wait-nov20-2026.svg"
+},
+{
+  "id": "cloudflare-hosted-images-analytics-nov20-2026",
+  "heat": 51,
+  "tags": [
+    "网站技术",
+    "图片数据",
+    "近期更新"
+  ],
+  "title": "网站技术：Cloudflare Images新增图片请求分析，能查错误和来源",
+  "summary": "Cloudflare 11月20日推出Hosted Images Analytics，可查看最多30天的托管图片传输数据，按来源、国家、状态码等筛选，并查看最常请求的图片及变体。适用范围是存储在Cloudflare Images的资产；图片请求数不是独立访客数、阅读人数或客户线索，也不代表现有网站已接入该服务。",
+  "wendyNote": "对于房源图库和社区页面，可帮助定位图片失效、异常请求与常用尺寸，但不能独立衡量获客成效。行动：先确认网站实际图片托管方式；若使用该服务，再结合页面访问与咨询转化数据评估。",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-11-20-hosted-image-delivery-analytics/",
+  "source": "Cloudflare官方11月20日更新；示意图：本简报依据官方功能资料制作",
+  "date": "2026-11-23",
+  "time": "08:25",
+  "firstHand": true,
+  "image": "/summaries/cloudflare-hosted-images-analytics-nov20-2026.svg"
+},
+{
   "id": "cosburn-agi-application-nov21-2026",
   "heat": 66,
   "source": "TorontoToday · 11月21日报道；LTB现行指引；示意图：本简报",
