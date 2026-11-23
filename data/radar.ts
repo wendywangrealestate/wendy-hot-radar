@@ -35,7 +35,12 @@ export const radarItems: RadarItem[] = [
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/kennedy-danforth-rental-hearing-nov25-2026.svg"
+  "image": "/summaries/kennedy-danforth-rental-hearing-nov25-2026.svg",
+  "points": [
+    "11月25日9:30拆租房听证",
+    "拟276户，含8户替代租赁",
+    "发言登记11月24日中午截止"
+  ]
 },
 {
   "id": "statcan-payroll-gdp-nov2026-watch",
@@ -53,7 +58,12 @@ export const radarItems: RadarItem[] = [
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/statcan-payroll-gdp-nov2026-watch.svg"
+  "image": "/summaries/statcan-payroll-gdp-nov2026-watch.svg",
+  "points": [
+    "11月26日：受薪就业及工资",
+    "11月30日：Q3及9月GDP",
+    "通常8:30 ET发布，非议息"
+  ]
 },
 {
   "id": "toronto-tax-rent-reduction-dec2026-watch",
@@ -71,7 +81,12 @@ export const radarItems: RadarItem[] = [
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/toronto-tax-rent-reduction-dec2026-watch.svg"
+  "image": "/summaries/toronto-tax-rent-reduction-dec2026-watch.svg",
+  "points": [
+    "有条件：地税降幅超过2.49%",
+    "12月15日通知；12月31日生效",
+    "租金降幅须按税类计算"
+  ]
 },
 {
   "id": "cloudflare-pi16-agent-wait-nov20-2026",
@@ -88,7 +103,12 @@ export const radarItems: RadarItem[] = [
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/cloudflare-pi16-agent-wait-nov20-2026.svg"
+  "image": "/summaries/cloudflare-pi16-agent-wait-nov20-2026.svg",
+  "points": [
+    "Pi 1.6工具可暂停等待信号",
+    "可在执行前等待人工确认",
+    "开发者配置；须评估兼容性"
+  ]
 },
 {
   "id": "cloudflare-hosted-images-analytics-nov20-2026",
@@ -106,7 +126,12 @@ export const radarItems: RadarItem[] = [
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/cloudflare-hosted-images-analytics-nov20-2026.svg"
+  "image": "/summaries/cloudflare-hosted-images-analytics-nov20-2026.svg",
+  "points": [
+    "最多30天托管图片请求数据",
+    "支持来源及状态码筛选",
+    "请求数不是独立访客或线索"
+  ]
 },
 {
   "id": "cosburn-agi-application-nov21-2026",
