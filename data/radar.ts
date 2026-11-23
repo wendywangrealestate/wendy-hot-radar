@@ -20,6 +20,75 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-23",
+  "firstHand": false,
+  "heat": 66,
+  "id": "benjamin-tal-eighth-inning-nov2026",
+  "image": "/summaries/benjamin-tal-eighth-inning-nov2026.jpg",
+  "points": [
+    "楼市调整进入第八局",
+    "高层Condo仍处衰退",
+    "低层住宅已在改善"
+  ],
+  "source": "CIBC副首席经济学家Benjamin Tal 11月17日演讲 · Storey Team 11月18日刊出",
+  "summary": "CIBC副首席经济学家Benjamin Tal 11月17日对多伦多经纪人演讲：楼市调整进入“第八局”，未来3–6个月是过渡期，2027下半年至2028年市场将转忙；高层Condo明确处于衰退，低层住宅已在改善；预计央行再加一次息后暂停，利率不会回到疫情低位；转售Condo售价已低于重建成本，新供应正在悄悄断流。",
+  "tags": [
+    "专家展望",
+    "Condo市场",
+    "2027展望"
+  ],
+  "time": "07:00",
+  "title": "CIBC副首席经济学家Tal：楼市调整进入第八局，低层已改善、Condo仍衰退",
+  "url": "https://storeyteam.ca/what-benjamin-tal-just-told-toronto-realtors-about-where-the-market-is-headed/",
+  "wendyNote": "Tal的判断和我们的盘面一致：Condo买家现在有议价窗口，因为转售价低于重建成本、卖家肯谈，但这个窗口不会一直开——新建供应断流两年后会反过来推高价格。低层卖家可以开始收紧议价空间，Condo卖家未来3–6个月仍须按实价定价、好好呈现。"
+},
+{
+  "date": "2026-11-23",
+  "firstHand": false,
+  "heat": 63,
+  "id": "dec-hike-odds-nov23-2026",
+  "image": "/summaries/dec-hike-odds-nov23-2026.jpg",
+  "points": [
+    "Polymarket加息概率49%",
+    "Kalshi仅41%押注加息",
+    "4位经济学家3人押按兵不动"
+  ],
+  "source": "bips 12月议息预测追踪 · 11月23日",
+  "summary": "bips 11月23日追踪：12月9日议息，Polymarket加息概率49%、按兵不动51%，Kalshi加息仅41%；4位已表态的经济学家中3人押按兵不动、仅1人押加息。与11月19日约64%的加息概率相比，市场预期已翻转为按兵不动占优；11月24日行长Macklem在多伦多经济俱乐部讲话或是下一个变数。",
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "time": "07:00",
+  "title": "12月加息概率跌破五成：预测市场转押央行按兵不动",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "wendyNote": "加息概率翻转对浮动利率客户是喘息信号，但49%对41%仍是五五开，绝不是“不会加”。12月9日之前，12月4日就业数据和明天Macklem讲话都可能再翻盘——浮动利率客户按“可能再加一次”留预算，续贷别赌单边。"
+},
+{
+  "date": "2026-11-23",
+  "firstHand": false,
+  "heat": 55,
+  "id": "enterhome-nov23-2026-pulse",
+  "image": "/summaries/enterhome-nov23-2026-pulse.jpg",
+  "points": [
+    "11月至今售出3,515套",
+    "同比+91套反超去年",
+    "中位价$865,000同比-4.9%"
+  ],
+  "source": "EnterHome GTA快照 · 11月23日更新",
+  "summary": "EnterHome 11月23日快照：11月1–23日GTA售出3,515套，同比+91套、环比10月同期+577套；中位成交价$865,000，同比-4.9%、环比基本持平；中位售期68天，比去年同期快3天。销量跑赢去年但价格仍在跌，量价组合仍是买方市场。",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "time": "07:00",
+  "title": "11月至今GTA售出3,515套：销量反超去年同期，中位价同比跌4.9%",
+  "url": "https://www.enterhome.ca/research/gta",
+  "wendyNote": "11月销量反超去年是积极信号，但要冷静：这是成交量，不是价格反转——中位价同比仍跌近5%。对买家，现在是挑房窗口，议价空间还在；对卖家，别把销量回暖当成可以抬价的理由，定价仍要贴着市场走。注意这是抽样快照、非完整MLS统计。"
+},
+{
   "id": "kennedy-danforth-rental-hearing-nov25-2026",
   "heat": 72,
   "tags": [
