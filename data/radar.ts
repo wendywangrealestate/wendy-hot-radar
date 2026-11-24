@@ -20,6 +20,75 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-24",
+  "firstHand": true,
+  "heat": 68,
+  "id": "toronto-pbr-phase2-nov2026",
+  "image": "/summaries/toronto-pbr-phase2-nov2026.jpg",
+  "points": [
+    "19个项目9,667户出租房",
+    "含2,059户可负担租金管制",
+    "12个月内须开工否则失效"
+  ],
+  "source": "多伦多市府11月16日公告（补录）",
+  "summary": "多伦多市府11月16日公布第二轮目的性租赁住房激励计划结果：58份申请（约27,000户）中选定19个项目、横跨12个选区，共9,667户出租房，其中2,059户为可负担、租金管制单位；入选项目须12个月内开工，否则失去激励资格。一、二轮合计34个项目、16,886户出租房、3,849户可负担单位。",
+  "tags": [
+    "租赁供应",
+    "可负担住房",
+    "市府激励"
+  ],
+  "time": "07:00",
+  "title": "多伦多第二轮租赁激励选定19个项目：9,667户出租房，含2,059户可负担单位",
+  "url": "https://www.toronto.ca/news/toronto-moves-nearly-10000-new-rental-homes-closer-to-construction-including-more-than-2000-affordable-homes/",
+  "wendyNote": "这是实打实的租赁供应增量，但要读准：9,667户是“获激励资格”、不是“已开工”，12个月开工大限才是试金石。对租客是利好信号——未来一两年多个选区将有新出租房源入市，租金上行压力有望缓解；对租赁投资者，留意这些项目周边的竞争格局变化。"
+},
+{
+  "date": "2026-11-24",
+  "firstHand": false,
+  "heat": 60,
+  "id": "dec-hike-odds-nov24-2026",
+  "image": "/summaries/dec-hike-odds-nov24-2026.jpg",
+  "points": [
+    "Polymarket加息概率52%",
+    "Kalshi加息49%逼近五成",
+    "经济学家仍3人押按兵不动"
+  ],
+  "source": "bips 12月议息预测追踪 · 11月24日",
+  "summary": "bips 11月24日追踪：12月9日议息，Polymarket加息概率52%、按兵不动48%，较23日的49%翻回五成上方；Kalshi加息49%、按兵不动50%，较23日的41%大幅回升；4位已表态经济学家仍3人押按兵不动、1人押加息。行长Macklem今日12:40在多伦多经济俱乐部讲话，可能是下一个变数。",
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "time": "07:00",
+  "title": "12月加息概率一日翻回五成上方：Polymarket 52%，Macklem今日讲话成变数",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "wendyNote": "概率一天之内翻上又翻下，说明市场自己也没拿定主意——52%对49%本质还是五五开。浮动利率客户继续按“可能再加一次”留预算；今天中午Macklem讲话和12月4日就业数据之前，别对任何单边下注。"
+},
+{
+  "date": "2026-11-24",
+  "firstHand": false,
+  "heat": 56,
+  "id": "enterhome-nov24-2026-pulse",
+  "image": "/summaries/enterhome-nov24-2026-pulse.jpg",
+  "points": [
+    "11月至今售出3,785套",
+    "同比+174套继续领先",
+    "中位价$865,000同比-5.5%"
+  ],
+  "source": "EnterHome GTA快照 · 11月24日更新",
+  "summary": "EnterHome 11月24日快照：11月1–24日GTA售出3,785套，同比+174套、环比10月同期+846套，领先幅度较23日的+91套扩大；中位成交价$865,000，同比-5.5%、环比-0.2%；中位售期69天，比去年同期快2天。量升价跌，仍是买方市场。",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "time": "07:00",
+  "title": "11月至今GTA售出3,785套：领先去年幅度扩大，中位价同比跌5.5%",
+  "url": "https://www.enterhome.ca/research/gta",
+  "wendyNote": "销量连续两天跑赢去年，领先幅度从+91扩大到+174，是个实在的积极信号，但中位价同比跌幅也从-4.9%扩大到-5.5%——量回暖不等于价格反转。买家继续按“可挑、可谈”操作；卖家别被销量数字带偏，定价仍贴市场。注意这是抽样快照、非完整MLS统计。"
+},
+{
   "date": "2026-11-23",
   "firstHand": false,
   "heat": 66,
