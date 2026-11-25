@@ -20,95 +20,73 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
-  "id": "arbo-phase2-3160-application-nov20-2026",
-  "heat": 71,
-  "tags": [
-    "North York",
-    "住房规划",
-    "近期更新"
-  ],
-  "title": "North York Arbo二期申请约3,160户：学校和配套仍属规划",
-  "summary": "多伦多市府11月20日通知收到1350 Sheppard Avenue West的Arbo Phase 2分区修订及分割规划申请：拟建6至35层建筑，约3,160户住宅及10,000平方米非住宅空间，包括零售、社区空间、潜在小学和托儿所，并拟提供1.54公顷公园用地及0.96公顷开放空间。现阶段是申请，不是已获批供应或确定学校；不可将此前一期批准视为本次二期批准。",
-  "wendyNote": "对Downsview附近买卖与租赁客户，这是未来密度及配套的尽调线索，不足以保证升值、学校建成或确定学区。行动：将申请26 257236 NNY 06 OZ及26 257298 NNY 06 SB加入社区资料，清楚标注“拟议”。",
-  "url": "https://secure.toronto.ca/nm/api/individual/notice/8046.do",
-  "source": "多伦多市府11月20日公告 · 近期规划；示意图：本简报依据官方数据制作",
+  "date": "2026-11-25",
+  "firstHand": false,
+  "heat": 72,
+  "id": "dec-hike-odds-nov25-2026",
+  "image": "/summaries/dec-hike-odds-nov25-2026.jpg",
   "points": [
-    "Arbo二期拟约3,160户",
-    "拟6至35层；含社区及商业空间",
-    "申请非批准；小学为潜在配套"
+    "Polymarket加息76%飙升",
+    "Kalshi加息71%紧随",
+    "经济学家仍3人押按兵不动"
   ],
-  "date": "2026-11-24",
-  "time": "08:40",
-  "firstHand": true,
-  "image": "/summaries/arbo-phase2-3160-application-nov20-2026.svg"
+  "source": "bips 12月议息预测追踪 · 11月25日",
+  "summary": "Macklem 11月24日多伦多讲话后，12月9日加息概率大幅跳升：bips 11月25日追踪显示 Polymarket 加息 76%、Kalshi 71%，较24日的52%/49%一日飙升约24个百分点；LSEG 数据显示市场定价加息概率约80%，高于讲话前的65%。Macklem 本人未直接点名12月，只重申通胀若长期过高就会加息，同时承认年底通胀或低于此前预测的3.5%。",
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "time": "07:00",
+  "title": "Macklem讲话后12月加息概率飙升：Polymarket 76%、Kalshi 71%",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "wendyNote": "市场一夜之间从五五开翻到七成押加息，但别忘了经济学家仍是3比1押按兵不动——分歧本身就是信号。浮动利率和HELOC客户按“12月可能再加25基点”留好预算，每50万贷款月供约多$104；固定利率看债券收益率，不必等12月9日，续贷和预批现在就该谈。12月4日就业数据是下一个变数。"
 },
 {
-  "id": "gemini-file-slicing-nov23-2026",
-  "heat": 58,
-  "tags": [
-    "AI工具",
-    "地产文件"
-  ],
-  "title": "Gemini API新增文件分段读取，可只检查指定页或表格区域",
-  "summary": "Google 11月23日发布Gemini API原生文件切片控制，并增加Office及OpenDocument文件上传支持。开发者可指定PDF或文档页码、工作表区域及音视频片段，只为模型实际检查的部分计入相应token；原文件大小和页数限制仍适用。功能面向API及开发流程，不代表所有聊天界面都已具备相同控件。",
-  "wendyNote": "对于Status Certificate附件、楼盘资料及费用表，可先定位章节再精读，减少不相关内容。行动：用公开或虚构文件测试指定页提取，并要求输出原页码、复核遗漏条款；正式法律判断仍由律师完成。",
-  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
-  "source": "Google官方11月23日发布；示意图：本简报依据官方功能制作",
+  "date": "2026-11-25",
+  "firstHand": false,
+  "heat": 60,
+  "id": "enterhome-nov25-2026-pulse",
+  "image": "/summaries/enterhome-nov25-2026-pulse.jpg",
   "points": [
-    "可选页码、单元格及媒体片段",
-    "支持Office/OpenDocument上传",
-    "API功能，原上传限制仍适用"
+    "11月至今售出4,214套",
+    "同比+351套领先扩大",
+    "中位价$864,000同比-5.1%"
   ],
-  "date": "2026-11-24",
-  "time": "08:40",
-  "firstHand": true,
-  "image": "/summaries/gemini-file-slicing-nov23-2026.svg"
+  "source": "EnterHome GTA快照 · 11月25日更新",
+  "summary": "EnterHome 11月25日快照：11月1–25日GTA售出4,214套，同比+351套、环比10月同期+1,106套，领先幅度较24日的+174套翻倍；中位成交价$864,000，同比-5.1%、环比-0.7%；中位售期69天，比去年同期快2天。量升价跌，仍是买方市场。",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "time": "07:00",
+  "title": "11月至今GTA售出4,214套：同比领先扩大至+351套，中位价跌5.1%",
+  "url": "https://www.enterhome.ca/research/gta",
+  "wendyNote": "销量领先幅度一天翻倍到+351套，是11月以来最强的量能信号，但中位价同比跌幅仍在5%以上——买家在挑、也在谈，价格还没跟上量。买家继续按“可挑、可谈”操作；卖家别被销量数字带偏，定价仍贴市场。注意这是抽样快照、非完整MLS统计。"
 },
 {
-  "id": "cloudflare-image-metadata-nov23-2026",
-  "heat": 54,
-  "tags": [
-    "网站图片",
-    "版权资料",
-    "数字营销"
-  ],
-  "title": "Cloudflare图片优化扩展元数据保留，可携带版权署名",
-  "summary": "Cloudflare 11月23日扩展Images的EXIF、XMP及部分IPTC-IIM元数据保留能力，可在支持的输入与输出格式之间保留摄影版权及署名等信息，例如JPEG转WebP。支持范围按格式不同；此更新并未改变原有Content Credentials功能，普通元数据本身不能证明照片真实或未使用AI。",
-  "wendyNote": "房源图片压缩及格式转换时，摄影师署名与使用权资料可能需要保留，但必须同时审查隐私字段。行动：在测试图上检查版权署名是否保留、是否包含不应公开的GPS等信息，再决定设置；不假定现网站已采用该服务。",
-  "url": "https://developers.cloudflare.com/changelog/post/2026-11-23-expanded-metadata-preservation/",
-  "source": "Cloudflare官方11月23日更新；示意图：本简报依据官方格式说明制作",
-  "points": [
-    "扩展EXIF及XMP格式支持",
-    "可保留部分IPTC版权署名",
-    "普通元数据不是照片真实性认证"
-  ],
-  "date": "2026-11-24",
-  "time": "08:40",
+  "date": "2026-11-25",
   "firstHand": true,
-  "image": "/summaries/cloudflare-image-metadata-nov23-2026.svg"
-},
-{
-  "id": "statcan-assessment-values-2025-nov23-2026",
-  "heat": 49,
-  "tags": [
-    "地产数据",
-    "评估口径",
-    "近期发布"
-  ],
-  "title": "统计局开放2025课税年度物业评估值数据，不是新成交价报告",
-  "summary": "统计局11月23日宣布，各省及地区2025课税年度住宅和非住宅物业评估值数据现可按要求索取，并修订2023及2024年数据。简短公告没有列出多伦多房价、成交或租金涨跌，也没有宣布安省住宅重新评估。本条是新数据可用性消息，不应据此推断当前市场价格方向。",
-  "wendyNote": "实务上应把课税评估资料与当前可比成交证据分开解释，避免客户把统计发布当成个别住宅最新估价。行动：在买卖或投资分析表分别注明评估年份、地税账单与可比成交日期；需要研究数据时再向统计局索取。",
-  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261123/dq261123d-eng.htm",
-  "source": "加拿大统计局11月23日发布；示意图：本简报依据官方数据说明制作",
+  "heat": 62,
+  "id": "td-ontario-arrears-nov2026",
+  "image": "/summaries/td-ontario-arrears-nov2026.jpg",
   "points": [
-    "2025课税年度评估值可索取",
-    "2023及2024数据修订",
-    "并非今日成交价格或安省重估"
+    "安省拖欠率0.34%近峰值",
+    "约为疫前0.12%的三倍",
+    "TD料明年中企稳回落"
   ],
-  "date": "2026-11-24",
-  "time": "08:40",
-  "firstHand": true,
-  "image": "/summaries/statcan-assessment-values-2025-nov23-2026.svg"
+  "source": "TD Economics 11月19日报告（补录）",
+  "summary": "TD Economics 11月19日报告《Canadian Consumers: Bending, Not Breaking》：安省房贷拖欠率8月升至0.34%，约为疫前常态0.12%的三倍，逼近2008–09年金融危机峰值0.43%，约每300户就有一户断供90天以上；最脆弱的是2021–22年高点入市的买家。TD预计拖欠率明年年中企稳、下半年逐步回落。",
+  "tags": [
+    "房贷拖欠",
+    "安省",
+    "续贷压力"
+  ],
+  "time": "07:00",
+  "title": "安省房贷拖欠率0.34%逼近金融危机峰值，TD料明年中企稳",
+  "url": "https://economics.td.com/can-consumers-2026",
+  "wendyNote": "0.34%听着小，但已是疫前三倍、离金融危机峰值只差0.09个百分点——压力真实存在，只是还没到系统性层面。对2021–22年高点买入、明年续贷的屋主，现在就该和贷款经纪算好新月供；对买家，这意味着明年可能有更多急售房源出现，但别指望大面积抛售，TD判断明年中企稳。"
 },
 {
   "date": "2026-11-24",
@@ -138,23 +116,23 @@ export const radarItems: RadarItem[] = [
   "firstHand": false,
   "heat": 60,
   "id": "dec-hike-odds-nov24-2026",
-  "image": "https://www.bankofcanada.ca/wp-content/uploads/2022/01/default-og-image.jpg",
+  "image": "/summaries/dec-hike-odds-nov24-2026.jpg",
   "points": [
-    "Polymarket加息52%；Kalshi49%",
-    "今日12:25稿件、12:40讲话",
-    "市场价格信号不是央行决定"
+    "Polymarket加息概率52%",
+    "Kalshi加息49%逼近五成",
+    "经济学家仍3人押按兵不动"
   ],
-  "source": "bips 11月24日报价汇总；加拿大央行最新讲话通知；图：加拿大央行",
-  "summary": "bips 11月24日早间汇总的12月9日议息预测市场报价为：Polymarket加息52%、按兵不动48%；Kalshi加息49%、按兵不动50%、降息1%。这只是不同平台当时的价格信号，不是央行预测或可保证的统计概率。央行最新通知将今天12:40讲话题目列为“Canada’s monetary policy framework: A trusted anchor in uncertain waters”，稿件12:25公开；早间不能预写内容。这是讲话主题及报价快照更新，不是利率决定。",
+  "source": "bips 12月议息预测追踪 · 11月24日",
+  "summary": "bips 11月24日追踪：12月9日议息，Polymarket加息概率52%、按兵不动48%，较23日的49%翻回五成上方；Kalshi加息49%、按兵不动50%，较23日的41%大幅回升；4位已表态经济学家仍3人押按兵不动、1人押加息。行长Macklem今日12:40在多伦多经济俱乐部讲话，可能是下一个变数。",
   "tags": [
     "央行议息",
     "加息概率",
     "12月9日"
   ],
   "time": "07:00",
-  "title": "今日利率观察：预测市场报价分歧，Macklem午间谈货币政策框架",
+  "title": "12月加息概率一日翻回五成上方：Polymarket 52%，Macklem今日讲话成变数",
   "url": "https://bips.ca/resources/bank-of-canada-forecasting",
-  "wendyNote": "浮动房贷客户应关注政策风险，但市场报价不能替代贷款机构报价，固定利率也可能随债券市场变化。行动：对当前书面贷款报价做不变及加息0.25个百分点两种预算，讲话后只跟进实际公布的信息。"
+  "wendyNote": "概率一天之内翻上又翻下，说明市场自己也没拿定主意——52%对49%本质还是五五开。浮动利率客户继续按“可能再加一次”留预算；今天中午Macklem讲话和12月4日就业数据之前，别对任何单边下注。"
 },
 {
   "date": "2026-11-24",
