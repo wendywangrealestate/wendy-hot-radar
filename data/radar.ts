@@ -20,27 +20,119 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "durham-coownership-fraud-nov24-2026",
+  "heat": 70,
+  "tags": [
+    "GTA交易",
+    "合资投资",
+    "警方通报"
+  ],
+  "title": "Durham警方公布地产合资诈骗指控：涉$70,000，称未购入物业",
+  "summary": "Durham警方11月24日通报，一宗8月开始调查的案件涉嫌以共同持有投资物业、出售后分润为由取得受害人$70,000；警方称资金未被投资，也未购买物业。两名Oshawa居民于11月17日被捕，各被控一项超过$5,000诈骗罪；指控尚未经法院证实。公布日期与拘捕日期不同，不应写成昨日才发生拘捕。",
+  "wendyNote": "对地产共同投资客户，漂亮的回报安排不能替代产权、资金流与合同核查。行动：付款前请独立律师核验拟购物业、产权持有结构、书面协议及资金接收安排，不仅凭投资人截图或口头承诺。",
+  "source": "Durham Regional Police官方11月24日通报；示意图：本简报依据警方资料制作",
+  "url": "https://www.drps.ca/news/posts/two-arrested-following-real-estate-investment-fraud-investigation/",
+  "points": [
+    "警方11月24日公布",
+    "涉嫌合资投资取得$70,000",
+    "两人被控；指控未获法院证实"
+  ],
+  "date": "2026-11-25",
+  "time": "08:45",
+  "firstHand": true,
+  "image": "/summaries/durham-coownership-fraud-nov24-2026.svg"
+},
+{
+  "id": "wynford-heritage-council-nov2026-update",
+  "heat": 62,
+  "tags": [
+    "416规划",
+    "文保",
+    "近期决定"
+  ],
+  "title": "39 Wynford文保议项获议会通过，改建尽调须另核对受保护范围",
+  "summary": "市府最新议项记录显示，议会于11月18–19日无修订通过39 Wynford Drive文保事项，维持拟指定决定，并授权引入依据Ontario Heritage Act的指定条例；记录列示By-law 10-2027。11月24日媒体再次报道此事。本条描述议会记录中的决定，不据此声称地产重建方案获批；涉及修改、搬移或拆除时仍应核查最终条例、受保护属性及所需许可。",
+  "wendyNote": "对Don Mills一带拟改建或投资物业，分区容量与文保要求需要同时审查。行动：把市府议项2027.CC1.5及最终条例交规划专业人士或律师核对，再评估成本和开发时间，不将文保简单理解为完全不能开发。",
+  "source": "多伦多市议会11月18–19日决定记录；11月24日媒体跟进；示意图：本简报依据官方记录制作",
+  "url": "https://secure.toronto.ca/council/agenda-item.do?item=2027.CC1.5",
+  "points": [
+    "议会11月18–19日通过议项",
+    "39 Wynford拟指定文保决定维持",
+    "重建方案和文保许可分开核查"
+  ],
+  "date": "2026-11-25",
+  "time": "08:45",
+  "firstHand": true,
+  "image": "/summaries/wynford-heritage-council-nov2026-update.svg"
+},
+{
+  "id": "google-core-complete-dec-preview-nov24-2026",
+  "heat": 60,
+  "tags": [
+    "网站获客",
+    "SEO",
+    "实质更新"
+  ],
+  "title": "Google确认11月核心更新结束；12月下一轮仅作预告，尚未推出",
+  "summary": "Google官方状态页11月24日确认11月核心更新完成，改变了此前“仍在推出”的状态；同日预告12月核心更新，计划12月发布，涉及理解复杂问题、内容相关性及个性化结果。这是预告，不能写作12月更新已于11月24日启动。官方通用指引建议核心更新完成后至少等一整周，再评估Search Console表现。",
+  "wendyNote": "Insights及社区页面现在可以准备前后对照，但不应将短期波动直接归因于内容优劣。行动：以11月24日为完成节点，12月1日或之后比较查询、页面及点击表现，并将下一轮更新单独标注。",
+  "source": "Google Search官方11月24日状态更新；示意图：本简报依据官方时间线制作",
+  "url": "https://status.search.google.com/incidents/AXrqxXXdtSjj3672ux7X",
+  "points": [
+    "11月更新于11月24日完成",
+    "12月更新仅预告，未开始",
+    "至少等待一整周再评估"
+  ],
+  "date": "2026-11-25",
+  "time": "08:45",
+  "firstHand": true,
+  "image": "/summaries/google-core-complete-dec-preview-nov24-2026.svg"
+},
+{
+  "id": "cloudflare-search-for-agents-nov25-2026",
+  "heat": 56,
+  "tags": [
+    "AI工具",
+    "网站检索",
+    "Beta"
+  ],
+  "title": "Cloudflare推出Search for Agents，让AI助手检索网站公开内容",
+  "summary": "Cloudflare 11月25日推出Search for Agents，控制台示例标为Beta；启用后会创建AI Search实例、索引网站内容，并提供域名下的搜索端点及发现元数据。它返回相关Markdown内容，不是替网站生成AI答案。所有计划可用，但受AI Search计费及额度限制；并不保证Google排名提升或AI推荐。",
+  "wendyNote": "社区介绍、房源FAQ和Insights可评估作为可检索资料，但不应默认索引客户私人文件或受限房源数据。行动：先在测试环境列出公开内容范围、过期内容处理和费用上限，再决定是否接入；本次不修改网站访问设置。",
+  "source": "Cloudflare官方11月25日发布；示意图：本简报依据官方功能制作",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-11-25-search-for-agents/",
+  "points": [
+    "创建AI Search索引及搜索端点",
+    "返回Markdown相关内容而非AI答案",
+    "Beta；适用计费与额度"
+  ],
+  "date": "2026-11-25",
+  "time": "08:45",
+  "firstHand": true,
+  "image": "/summaries/cloudflare-search-for-agents-nov25-2026.svg"
+},
+{
   "date": "2026-11-25",
   "firstHand": false,
   "heat": 72,
   "id": "dec-hike-odds-nov25-2026",
-  "image": "/summaries/dec-hike-odds-nov25-2026.jpg",
+  "image": "https://www.bankofcanada.ca/wp-content/uploads/2022/01/default-og-image.jpg",
   "points": [
-    "Polymarket加息76%飙升",
-    "Kalshi加息71%紧随",
-    "经济学家仍3人押按兵不动"
+    "2%总CPI目标不变",
+    "更重视CPI-trim及CPIX并推仪表板",
+    "市场报价76%/71%，非央行决定"
   ],
-  "source": "bips 12月议息预测追踪 · 11月25日",
-  "summary": "Macklem 11月24日多伦多讲话后，12月9日加息概率大幅跳升：bips 11月25日追踪显示 Polymarket 加息 76%、Kalshi 71%，较24日的52%/49%一日飙升约24个百分点；LSEG 数据显示市场定价加息概率约80%，高于讲话前的65%。Macklem 本人未直接点名12月，只重申通胀若长期过高就会加息，同时承认年底通胀或低于此前预测的3.5%。",
+  "source": "加拿大央行11月24日讲话；bips 11月25日市场报价汇总；图：加拿大央行",
+  "summary": "Macklem 11月24日在多伦多讲话：2%目标针对总CPI，核心通胀仅是判断依据；央行将更重视CPI-trim及CPIX，并上线更广泛的通胀仪表板。若通胀过高持续太久，需要提高政策利率，但这不是12月9日的加息承诺。bips 11月25日早间汇总的预测市场加息报价为Polymarket 76%、Kalshi 71%，高于24日52%及49%；这些是平台价格信号，不是央行预测或保证的概率。",
   "tags": [
     "央行议息",
     "加息概率",
     "12月9日"
   ],
   "time": "07:00",
-  "title": "Macklem讲话后12月加息概率飙升：Polymarket 76%、Kalshi 71%",
-  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
-  "wendyNote": "市场一夜之间从五五开翻到七成押加息，但别忘了经济学家仍是3比1押按兵不动——分歧本身就是信号。浮动利率和HELOC客户按“12月可能再加25基点”留好预算，每50万贷款月供约多$104；固定利率看债券收益率，不必等12月9日，续贷和预批现在就该谈。12月4日就业数据是下一个变数。"
+  "title": "Macklem讲话实质更新：更重视CPI-trim与CPIX，市场加息报价上升",
+  "url": "https://www.bankofcanada.ca/2026/11/canadas-monetary-policy-framework-a-trusted-anchor-in-uncertain-waters/",
+  "wendyNote": "对买家及续贷客户，不能把讲话、市场报价或通胀目标当作个人贷款报价。行动：向贷款经纪索取当前书面条款及有效期，分别测算利率不变和增加0.25个百分点；实际月供变化取决于本金、摊销期及付款类型，不能把仅利息增量当作月供增量。"
 },
 {
   "date": "2026-11-25",
