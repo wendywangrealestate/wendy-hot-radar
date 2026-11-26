@@ -20,6 +20,75 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "statcan-september-payroll-vacancies-nov26-2026",
+  "date": "2026-11-26",
+  "time": "08:30",
+  "source": "Statistics Canada · 11月26日08:30发布（9月数据）",
+  "firstHand": true,
+  "tags": [
+    "就业收入",
+    "租赁审核",
+    "利率背景"
+  ],
+  "heat": 76,
+  "points": [
+    "9月全国受薪就业基本持平",
+    "安省平均周薪同比增3.2%",
+    "全国职位空缺环比增3.4%"
+  ],
+  "image": "/summaries/statcan-september-payroll-vacancies-nov26-2026.svg",
+  "title": "今早数据：9月受薪就业基本持平，安省平均周薪同比增3.2%",
+  "summary": "统计局11月26日08:30发布9月数据：全国受薪就业增加9,700（+0.1%），属基本持平；全国平均周薪同比增3.3%至$1,357.92，安省增3.2%至$1,393.46。全国职位空缺528,100个，环比增3.4%，为2025年12月以来首次增加；安省职位空缺小幅增加5,200（+3.0%）。这是9月统计，不是11月即时就业或个人工资保证。",
+  "wendyNote": "收入与招聘数据为购房预算、租客支付能力及央行评估经济提供背景，不能据此断定下一次议息方向；当前政策利率2.50%也不是客户的房贷报价。行动：对近期买家及租赁申请继续核实实际收入、工作持续性与贷款资格；如评估利率变化影响，请贷款顾问按客户余额、摊还期和合同类型重算月供。",
+  "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/261126/dq261126a-eng.htm"
+},
+{
+  "id": "microsoft-agent-framework-advisory-nov25-2026",
+  "date": "2026-11-26",
+  "time": "08:30",
+  "source": "Microsoft Dev Blogs · 11月25日",
+  "firstHand": true,
+  "tags": [
+    "AI工具",
+    "开发组件",
+    "安全通告"
+  ],
+  "heat": 66,
+  "points": [
+    "涉及Python版本1.26.1及1.26.2",
+    "微软11月25日公布处置指引",
+    "先核查开发商依赖清单"
+  ],
+  "image": "/summaries/microsoft-agent-framework-advisory-nov25-2026.svg",
+  "title": "AI工作流：微软披露两版Agent Framework Python组件含窃密代码",
+  "summary": "微软11月25日确认，11月17日未经授权上传到PyPI的agent-framework Python元包1.26.1及1.26.2包含窃取凭证的代码，已被移除。1.26.0及以前版本、其他Agent Framework Python包、.NET及Semantic Kernel不受此次事件影响。微软给出版本核查及受影响环境的处置指引；框架并未停止开发。",
+  "wendyNote": "若Amy语音助理或网站自动化由外包开发，此通告值得先做适用性核查；不能仅因使用AI就认定受影响。行动：请维护方核查锁定文件及11月17日以来构建记录是否出现这两个版本，如确认使用，再按微软指引处置。",
+  "url": "https://devblogs.microsoft.com/agent-framework/microsoft-agent-framework-repository-update/"
+},
+{
+  "id": "cloudflare-d1-index-recommendations-nov25-2026",
+  "date": "2026-11-26",
+  "time": "08:30",
+  "source": "Cloudflare 官方更新 · 11月25日",
+  "firstHand": true,
+  "tags": [
+    "网站技术",
+    "数据库",
+    "性能"
+  ],
+  "heat": 42,
+  "points": [
+    "D1 Insights新增索引建议",
+    "展示受益查询及使用指标",
+    "先测试查询速度与写入成本"
+  ],
+  "image": "/summaries/cloudflare-d1-index-recommendations-nov25-2026.svg",
+  "title": "网站技术：Cloudflare D1新增索引建议，可辅助排查社区查询慢的问题",
+  "summary": "Cloudflare于11月25日宣布D1 Insights可为D1数据库提供索引建议，包括CREATE INDEX语句、预期受益的查询及这些查询的使用指标；可从控制台、CLI或API开启或关闭建议。功能针对D1，不代表其他数据库也自动获得相同能力。",
+  "wendyNote": "如果未来社区、学校或交通查询模块采用D1，这可帮助开发人员定位慢查询，改善访客体验；目前不能据此认定Wendy网站正使用D1或性能已经改善。行动：先确认模块实际数据库，只有使用D1时才用测试数据评估建议及写入成本，再决定是否采用。",
+  "url": "https://developers.cloudflare.com/changelog/post/2026-11-25-d1-index-recommendations/"
+},
+{
   "date": "2026-11-26",
   "firstHand": false,
   "heat": 72,
@@ -40,21 +109,21 @@ export const radarItems: RadarItem[] = [
   "time": "07:00",
   "title": "12月加息概率再升：Polymarket 78%、Kalshi 74%",
   "url": "https://bips.ca/resources/bank-of-canada-forecasting",
-  "wendyNote": "加息押注又涨了2–3个点，但经济学家阵营没动——市场与专家继续各说各话。浮动利率和HELOC客户仍按“12月可能再加25基点”留预算，每50万贷款月供约多$104；固定利率看债券收益率。11月30日GDP和12月4日就业数据是下一个变数，之前不必押注单边。"
+  "wendyNote": "预测市场概率是会波动的预期，不是央行决定，也不是银行房贷报价。浮动利率、固定月供浮息贷款及HELOC的调整方式各异；不能统一写成每50万元贷款加息25基点后月供多$104。行动：让贷款顾问按客户实际余额、摊还期、合同类型分别测算利率上行情景，再决定预算与融资安排。"
 },
 {
   "date": "2026-11-26",
   "firstHand": false,
   "heat": 68,
   "id": "gta-standoff-nov25-2026",
-  "image": "/summaries/gta-standoff-nov25-2026.jpg",
+  "image": "/summaries/gta-standoff-nov25-2026-verified.svg",
   "points": [
     "买卖双方年底僵持",
     "降价房源重获买家关注",
     "1月重挂未必更划算"
   ],
   "source": "The Globe and Mail 11月25日 · Starke Group 整理",
-  "summary": "《环球邮报》11月25日报道：GTA买卖双方年底陷入僵持，经纪称双方都在按兵不动；定价合理的房源仍能吸引买家，定价过高的坐冷板凳。案例：34 Edgecombe Ave. 从$318.9万三度降至$279.5万，最终以$265万成交；67 Heath St. W. 从$489.5万降至$349.5万仍未售出。TRREB去年数据显示1月新挂牌10,774套、仅售出3,082套，等1月重挂未必更划算。",
+  "summary": "Starke Group于11月25日整理《环球邮报》当天的GTA市场报道：部分经纪观察到买卖双方观望，定价合理的房源仍吸引买家，偏高房源则较难成交。其对比的2025年12月与2026年1月TRREB数据中，新挂牌从5,299增至10,774套，成交从3,697降至3,082套；这是一个冬季的历史比较，不能预测今年年底及明年1月走势。",
   "tags": [
     "买卖僵持",
     "年底策略",
@@ -63,7 +132,7 @@ export const radarItems: RadarItem[] = [
   "time": "07:00",
   "title": "Globe：GTA买卖双方年底僵持，降价、撤牌还是等1月？",
   "url": "https://raph.thestarkegroup.com/blog/selling-a-toronto-home-before-year-end-cut-the-price-pull-the-listing-or-relist-in-january",
-  "wendyNote": "僵持的本质是价格锚定错位：卖家锚定昨天的价，买家等明天的折扣。数据很实在——1月新挂牌会翻倍、成交反而更少，撤牌等1月不是免费午餐。卖家：降价要一次降到位、贴合已成交价；买家：定价合理的房源仍有竞争，别只等降价盘。10月成交5,603套、均价$1,024,108，仍是买方市场。"
+  "wendyNote": "年底是否降价或撤牌，应按同社区、同户型近期成交和持续持有成本测算。报道对比的是2025年12月与2026年1月：新挂牌由5,299增至10,774、成交由3,697降至3,082；一个冬季的数据不能预测2027年1月必然重复。行动：给卖家同时列出现价继续营销、调整价格、等候重挂三种净收益情景。"
 },
 {
   "date": "2026-11-26",
@@ -77,7 +146,7 @@ export const radarItems: RadarItem[] = [
     "中位价$860,000同比-5.0%"
   ],
   "source": "EnterHome GTA快照 · 11月26日更新",
-  "summary": "EnterHome 11月26日快照：11月1–26日GTA售出4,454套，同比-37套（去年同期4,491套），一天前还是+351套领先；环比10月同期+1,185套。中位成交价$860,000，同比-5.0%、环比-0.6%；中位售期69天，比去年同期快2天。量价仍是买方市场。",
+  "summary": "EnterHome 11月26日快照：11月1–26日GTA售出4,454套，同比-37套（去年同期4,491套），一天前还是+351套领先；环比10月同期+1,185套。中位成交价$860,000，同比-5.0%、环比-0.6%；中位售期69天，比去年同期快2天。本条为第三方滚动快照，并非TRREB完整月报。",
   "tags": [
     "11月成交",
     "月中快照",
@@ -90,26 +159,26 @@ export const radarItems: RadarItem[] = [
 },
 {
   "date": "2026-11-26",
-  "firstHand": false,
-  "heat": 60,
+  "firstHand": true,
+  "heat": 64,
   "id": "alto-expropriation-nov24-2026",
-  "image": "/summaries/alto-expropriation-nov24-2026.jpg",
+  "image": "/summaries/alto-expropriation-nov24-2026-verified.svg",
   "points": [
-    "Alto征地拟绕过听证",
-    "优先购买权可冻8年",
-    "禁建令最长4年"
+    "11月20日联邦动议草案",
+    "拟设书面异议及处理程序",
+    "优先购买权不等于禁止出售"
   ],
-  "source": "CBC 11月24日报道 · Condoinvest 整理",
-  "summary": "联邦11月20日公布的521页预算实施法案动议草案（Division 44）拟为多伦多–魁北克城高铁Alto设单独征地规则：征地无需公开听证、可直接过户给私人财团；优先购买权可冻结产权最长8年、禁建令最长4年，期间增值不计入补偿。土地律师Ajay Gajaria向CBC称，这或是“现代加拿大史上最大征地项目”，影响沿线数千处物业。",
+  "source": "加拿大财政部 · 11月20日动议草案 Division 44",
+  "summary": "11月20日公布的预算实施动议草案Division 44拟修改High-Speed Rail Network Act。拟议第21条规定，在征地意向公告后30天内提出书面异议，第22条规定部长考虑异议汇总报告后在180天内确认或放弃征地意向；草案也调整优先购买权、禁建通知等条款。这是拟议文本，不能当作新条款已经生效。",
   "tags": [
+    "政策草案",
     "高铁征地",
-    "产权冻结",
-    "联邦预算"
+    "产权尽调"
   ],
   "time": "07:00",
-  "title": "联邦预算草案拟给Alto高铁单独征地权：无听证、产权可冻8年",
-  "url": "https://www.condoinvest.ca/alto-expropriation/",
-  "wendyNote": "这是草案、不是已通过的法律，措辞仍可能改——但方向值得沿线业主警惕：优先购买权一挂上产权，房子8年内很难正常买卖，禁建期间加建也不计补偿。多伦多市区的具体线路尚未公布，市内业主先别慌；有意在走廊沿线（多伦多–彼得伯勒一带）买卖的客户，交割前务必查产权上有无相关登记。"
+  "title": "政策观察：Alto高铁征地程序拟调整，须区分草案与现行法",
+  "url": "https://www.canada.ca/en/department-finance/corporate/laws-regulations/draft-legislation/2026/11-nwmm-amvm.html",
+  "wendyNote": "对可能涉及高铁走廊的交易，核查具体物业上的登记、通知、拟征权益及适用期限，比按笼统的走廊地图推断更重要。优先购买权不等于八年禁止出售，也不能据草案判断所有沿线物业已被冻结。行动：将任何具体Alto通知或产权登记交由客户律师核查，并跟进正式法案进度。"
 },
 {
   "id": "durham-coownership-fraud-nov24-2026",
