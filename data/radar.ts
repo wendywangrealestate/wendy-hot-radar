@@ -20,6 +20,98 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-26",
+  "firstHand": false,
+  "heat": 72,
+  "id": "dec-hike-odds-nov26-2026",
+  "image": "/summaries/dec-hike-odds-nov26-2026.jpg",
+  "points": [
+    "Polymarket加息78%再升",
+    "Kalshi加息74%跟进",
+    "经济学家仍3人押按兵不动"
+  ],
+  "source": "bips 12月议息预测追踪 · 11月26日",
+  "summary": "bips 11月26日追踪：12月9日加息概率 Polymarket 78%、Kalshi 74%，较25日的76%/71%继续上行；LSEG数据显示市场定价加息概率约79%–80%。4位已表态经济学家仍3人押按兵不动、1人押加息，Desjardins称12月是“coin flip”，CIBC料12月按兵不动、明年1月再加。Macklem称议息前将参考11月30日三季度GDP与12月4日就业数据。",
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "time": "07:00",
+  "title": "12月加息概率再升：Polymarket 78%、Kalshi 74%",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "wendyNote": "加息押注又涨了2–3个点，但经济学家阵营没动——市场与专家继续各说各话。浮动利率和HELOC客户仍按“12月可能再加25基点”留预算，每50万贷款月供约多$104；固定利率看债券收益率。11月30日GDP和12月4日就业数据是下一个变数，之前不必押注单边。"
+},
+{
+  "date": "2026-11-26",
+  "firstHand": false,
+  "heat": 68,
+  "id": "gta-standoff-nov25-2026",
+  "image": "/summaries/gta-standoff-nov25-2026.jpg",
+  "points": [
+    "买卖双方年底僵持",
+    "降价房源重获买家关注",
+    "1月重挂未必更划算"
+  ],
+  "source": "The Globe and Mail 11月25日 · Starke Group 整理",
+  "summary": "《环球邮报》11月25日报道：GTA买卖双方年底陷入僵持，经纪称双方都在按兵不动；定价合理的房源仍能吸引买家，定价过高的坐冷板凳。案例：34 Edgecombe Ave. 从$318.9万三度降至$279.5万，最终以$265万成交；67 Heath St. W. 从$489.5万降至$349.5万仍未售出。TRREB去年数据显示1月新挂牌10,774套、仅售出3,082套，等1月重挂未必更划算。",
+  "tags": [
+    "买卖僵持",
+    "年底策略",
+    "降价"
+  ],
+  "time": "07:00",
+  "title": "Globe：GTA买卖双方年底僵持，降价、撤牌还是等1月？",
+  "url": "https://raph.thestarkegroup.com/blog/selling-a-toronto-home-before-year-end-cut-the-price-pull-the-listing-or-relist-in-january",
+  "wendyNote": "僵持的本质是价格锚定错位：卖家锚定昨天的价，买家等明天的折扣。数据很实在——1月新挂牌会翻倍、成交反而更少，撤牌等1月不是免费午餐。卖家：降价要一次降到位、贴合已成交价；买家：定价合理的房源仍有竞争，别只等降价盘。10月成交5,603套、均价$1,024,108，仍是买方市场。"
+},
+{
+  "date": "2026-11-26",
+  "firstHand": false,
+  "heat": 60,
+  "id": "enterhome-nov26-2026-pulse",
+  "image": "/summaries/enterhome-nov26-2026-pulse.jpg",
+  "points": [
+    "11月至今售出4,454套",
+    "同比由+351转为-37套",
+    "中位价$860,000同比-5.0%"
+  ],
+  "source": "EnterHome GTA快照 · 11月26日更新",
+  "summary": "EnterHome 11月26日快照：11月1–26日GTA售出4,454套，同比-37套（去年同期4,491套），一天前还是+351套领先；环比10月同期+1,185套。中位成交价$860,000，同比-5.0%、环比-0.6%；中位售期69天，比去年同期快2天。量价仍是买方市场。",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "time": "07:00",
+  "title": "11月至今GTA售出4,454套：同比领先一日翻转为-37套，中位价跌5.0%",
+  "url": "https://www.enterhome.ca/research/gta",
+  "wendyNote": "同比领先一天翻转为小幅落后，别把单日快照当趋势——去年11月26日单日基数高达628套，基数效应就能翻转数字。真正稳定的信号是中位价同比仍跌5%、售期69天。买家继续按“可挑、可谈”操作；卖家定价仍贴市场。注意这是抽样快照、非完整MLS统计。"
+},
+{
+  "date": "2026-11-26",
+  "firstHand": false,
+  "heat": 60,
+  "id": "alto-expropriation-nov24-2026",
+  "image": "/summaries/alto-expropriation-nov24-2026.jpg",
+  "points": [
+    "Alto征地拟绕过听证",
+    "优先购买权可冻8年",
+    "禁建令最长4年"
+  ],
+  "source": "CBC 11月24日报道 · Condoinvest 整理",
+  "summary": "联邦11月20日公布的521页预算实施法案动议草案（Division 44）拟为多伦多–魁北克城高铁Alto设单独征地规则：征地无需公开听证、可直接过户给私人财团；优先购买权可冻结产权最长8年、禁建令最长4年，期间增值不计入补偿。土地律师Ajay Gajaria向CBC称，这或是“现代加拿大史上最大征地项目”，影响沿线数千处物业。",
+  "tags": [
+    "高铁征地",
+    "产权冻结",
+    "联邦预算"
+  ],
+  "time": "07:00",
+  "title": "联邦预算草案拟给Alto高铁单独征地权：无听证、产权可冻8年",
+  "url": "https://www.condoinvest.ca/alto-expropriation/",
+  "wendyNote": "这是草案、不是已通过的法律，措辞仍可能改——但方向值得沿线业主警惕：优先购买权一挂上产权，房子8年内很难正常买卖，禁建期间加建也不计补偿。多伦多市区的具体线路尚未公布，市内业主先别慌；有意在走廊沿线（多伦多–彼得伯勒一带）买卖的客户，交割前务必查产权上有无相关登记。"
+},
+{
   "id": "durham-coownership-fraud-nov24-2026",
   "heat": 70,
   "tags": [
