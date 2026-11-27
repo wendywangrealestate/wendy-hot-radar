@@ -20,18 +20,64 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "vercel-standard-build-billing-nov25-2026",
+  "date": "2026-11-27",
+  "time": "08:20",
+  "firstHand": true,
+  "source": "Vercel官方 · 11月25日（近期技术变化）",
+  "heat": 60,
+  "tags": [
+    "网站成本",
+    "构建计费",
+    "内容更新"
+  ],
+  "points": [
+    "现有Pro团队Standard构建计费改变",
+    "每构建分钟$0.014（平台报价）",
+    "月度用量抵扣适用于构建"
+  ],
+  "title": "网站成本：Vercel现有Pro团队Standard构建改按用量计费",
+  "summary": "Vercel 11月25日公告，现有Pro团队不再包含Standard构建槽位，Standard构建进入按用量计费，平台报价每构建分钟$0.014；月度usage credit可用于抵扣构建用量，计费覆盖团队下所有项目。公告针对Pro团队，不能据此认定Wendy的套餐、实际账单或已经产生额外费用。",
+  "wendyNote": "每日新闻、行情及折扣若每次写入都触发完整构建，可能增加用量；实际影响须先看团队套餐、构建分钟与抵扣。行动：由维护方核对Usage/Billing，并评估把高频内容改为读取现有数据库、缓存及定时更新；这是后续架构建议，本次仅发布新闻并合并一次生产构建。",
+  "url": "https://vercel.com/changelog/standard-builds-for-existing-pro-teams-have-moved-to-usage-based-billing",
+  "image": "/summaries/vercel-standard-build-billing-nov25-2026-brief.svg"
+},
+{
+  "id": "copilot-sourced-field-assistant-nov26-2026",
+  "date": "2026-11-27",
+  "time": "08:20",
+  "firstHand": true,
+  "source": "Microsoft UK Stories · 11月26日案例",
+  "heat": 48,
+  "tags": [
+    "AI工具",
+    "带来源回答",
+    "知识库"
+  ],
+  "points": [
+    "Copilot Studio案例11月26日公布",
+    "检索至少1,200份内部资料",
+    "回答链接回原始SharePoint文件"
+  ],
+  "title": "AI案例：Openreach用可追溯原文的手机助手查现场资料",
+  "summary": "微软11月26日介绍Openreach的Engineer Buddy：以Copilot Studio构建，从至少1,200份内部政策和操作资料中用自然语言寻找答案，并提供原始SharePoint文件链接供核查。这是英国电信企业案例，并非加拿大地产专用新产品或普遍效率保证。",
+  "wendyNote": "可借鉴到经纪团队查交接清单、物业管理流程及公开FAQ：答案附来源、日期，资料不足时转人工。本案例不代表Amy已具备这些能力。行动：先用十个不含客户隐私的真实问题和已核准资料做小范围测试，检查回答、原文链接与过期资料处理，再决定是否接入网站。",
+  "url": "https://ukstories.microsoft.com/features/how-ai-is-helping-bt-group-openreach-engineers-in-the-field/",
+  "image": "/summaries/copilot-sourced-field-assistant-nov26-2026-brief.svg"
+},
+{
   "date": "2026-11-27",
   "firstHand": true,
   "heat": 70,
   "id": "bild-newhome-oct2026",
-  "image": "/summaries/bild-newhome-oct2026.jpg",
+  "image": "/summaries/bild-newhome-oct2026-brief.svg",
   "points": [
     "10月新房售1,340套",
     "低层958套超十年均值21%",
     "高层库存44个月"
   ],
   "source": "BILD 11月26日官方发布（Altus Group 数据）",
-  "summary": "BILD 11月26日发布10月数据：GTA新房售出1,340套，为三年最佳10月，但仍比十年均值2,729套低51%。低层958套、超十年均值21%，高层382套、同比-28%；新低层基准价$1,259,190、同比-12.2%，高层$1,053,085、同比+2%。待售库存19,202套，低层约11个月、高层约44个月；BILD称HST退税是主因，近9,000个家庭已受益，退税2027年3月31日到期。",
+  "summary": "BILD于11月26日公布Altus Group的10月GTA新房数据：总销量1,340套，仍比十年均值低51%。低层958套，比十年均值高21%；高层382套，同比少28%，包括公寓及叠拼联排。低层库存约11个月、高层约44个月，按过去12个月平均销售速度计算。新低层基准价$1,259,190、高层$1,053,085，均为未扣除HST退税的价格。BILD将销售改善部分归因于退税，属行业协会判断。",
   "tags": [
     "新房销量",
     "HST退税",
@@ -40,7 +86,7 @@ export const radarItems: RadarItem[] = [
   "time": "07:00",
   "title": "BILD：10月GTA新房售1,340套，三年最佳10月、低层领跑",
   "url": "https://www.bildgta.ca/gta-new-homes-sales-rise-in-october-as-temporary-hst-rebate-continues-to-provide-relief-for-new-home-purchasers/",
-  "wendyNote": "新房回暖是真的，但分化更真：低层已经跑赢十年均值，高层库存44个月还在压顶。想买新房的客户，低层要抓紧HST退税窗口（3月31日截止）；Condo楼花继续等，竣工盘议价空间更大。转售卖家注意：带退税的新低层就是你的直接竞争对手，定价要按扣完退税后的价来比。"
+  "wendyNote": "新房数据不能代替TRREB转售市场数据，高低层分化也不能直接套到每个社区或楼盘。行动：为买家比较具体项目的净合同价、退税资格、交付时间及转售可比成交；为转售卖家核对周边新房竞争。退税资格及适用截止日应以政府现行规则和律师核查为准，不仅凭行业协会倡议决定签约。"
 },
 {
   "date": "2026-11-27",
@@ -77,7 +123,7 @@ export const radarItems: RadarItem[] = [
     "中位价$860,000同比-5.0%"
   ],
   "source": "EnterHome GTA快照 · 11月27日更新",
-  "summary": "EnterHome 11月27日快照：11月1–27日GTA售出4,452套，同比-632套（去年同期5,084套）、环比10月同期+860套；中位成交价$860,000，同比-5.0%、环比-1.1%；中位售期69天，比去年同期快3天。同比落后扩大主因是去年11月27日单日基数高达593套；累计数较昨日快照微降2套，系索引修正。量价仍是买方市场。",
+  "summary": "EnterHome 11月27日快照：11月1–27日GTA售出4,452套，同比-632套（去年同期5,084套）、环比10月同期+860套；中位成交价$860,000，同比-5.0%、环比-1.1%；中位售期69天，比去年同期快3天。同比落后扩大主因是去年11月27日单日基数高达593套；累计数较昨日快照微降2套，具体修订原因尚未独立核实；此为第三方滚动快照，非TRREB完整月报。",
   "tags": [
     "11月成交",
     "月中快照",
@@ -90,39 +136,39 @@ export const radarItems: RadarItem[] = [
 },
 {
   "date": "2026-11-27",
-  "firstHand": false,
+  "firstHand": true,
   "heat": 70,
   "id": "equifax-negative-equity-q3-2026",
-  "image": "/summaries/equifax-negative-equity-q3-2026.jpg",
+  "image": "/summaries/equifax-negative-equity-q3-2026-brief.svg",
   "points": [
-    "年轻房贷26%已负资产",
-    "Condo负资产率7.2%",
-    "全国拖欠0.32%创13年新高"
+    "11月24日报告：模型估计",
+    "年轻安省借款人更集中",
+    "负资产不等于拖欠供款"
   ],
-  "source": "Equifax Q3报告 · Real Estate Magazine 11月24日",
-  "summary": "Equifax Q3《Market Pulse》：安省26–35岁持有的房贷约四分之一已负资产（欠款超房价）；全省负资产房贷占全国约70%、为安省全部房贷的5%，BC仅1.85%、魁北克1.10%。Condo房贷负资产率7.2%、为独立屋2.7%的近三倍；2022年高点买入者8.4%已负资产。全国90天以上房贷拖欠率0.32%，同比+31.1%、为2013年有记录以来最高，安省与BC占新增严重拖欠的91%。",
+  "source": "Equifax Canada官方Q3报告摘要 · 11月24日（近期重点）",
+  "summary": "Equifax 11月24日Q3报告估计，安省26–35岁借款人所持房贷约四分之一可能处于负资产，即房贷余额高于估计物业价值；安省整体约5%的房贷涉及负资产，全国公寓房贷约7.2%，freehold house房贷约2.7%。这些是模型估计，不是全部物业的实际成交或即时估价，负资产也不等于已拖欠供款。",
   "tags": [
     "负资产",
     "年轻买家",
     "Condo风险"
   ],
   "time": "07:00",
-  "title": "Equifax：安省年轻房贷四分之一已负资产，Condo负资产率7.2%",
-  "url": "https://realestatemagazine.ca/one-in-four-mortgages-held-by-younger-ontarians-may-be-underwater-equifax/",
-  "wendyNote": "负资产最集中的画像很清晰：安省、年轻人、Condo、2022年高点买入——这正是GTA最常见的首套组合。能继续供款就不算即时危机，但想卖想换就卡住了：卖了要补差价、转按揭要补首付。手里有这类客户的，现在就该算清“卖房要补多少钱”再谈换房；买家则要明白，明年可能有更多这类急售盘，但别指望大面积抛售。"
+  "title": "近期重点：Equifax估计安省26–35岁借款人约四分之一房贷存在负资产风险",
+  "url": "https://www.equifax.ca/business/blog/all-news/-/story/rising-interest-rates-could-put-nearly-1-in-4-mortgage-holders-at-risk-of-added-financial-stress-as-mortgage-delinquencies-reach-13-year-high/",
+  "wendyNote": "对2022年前后买入、准备换房或再融资的客户，先核算出售净额与还款差额更重要。行动：取得贷款余额及可能的解约费用，配合近期可比成交估价，测算交割资金，再谈下一套预算。央行政策利率2.50%与客户银行房贷报价不同；下次议息为12月9日，不据预测市场概率断言将加息。"
 },
 {
   "date": "2026-11-27",
-  "firstHand": false,
+  "firstHand": true,
   "heat": 58,
   "id": "kennedy-danforth-decision-nov25-2026",
-  "image": "/summaries/kennedy-danforth-decision-nov25-2026.jpg",
+  "image": "/summaries/kennedy-danforth-decision-nov25-2026-brief.svg",
   "points": [
-    "社区议会建议市议会批准",
-    "8套替代租屋限租20年",
-    "租户援助计划须配套"
+    "11月25日通过社区议会建议",
+    "替代8套租屋至少维持20年",
+    "12月9–10日交市议会审议"
   ],
-  "source": "The Public Gallery 11月25日 · 市议会 SC1.1 记录整理",
+  "source": "多伦多市府议项2027.SC1.1 · 11月25日社区议会决定",
   "summary": "Scarborough社区议会11月25日建议市议会批准411/415 Kennedy Road与636–646 Danforth Road的拆租申请：拆除8套出租单位，在23层、276户新楼中建8套替代租赁单位，须维持出租至少20年；其中6套一房与1套单间须以不高于市均租金的“可负担租金”出租至少10年，另1套单间为中档租金。业主须提供租户援助计划，替代单位须配独立洗衣与中央空调、不另收费。最终决定待市议会审议。",
   "tags": [
     "Scarborough",
@@ -131,8 +177,8 @@ export const radarItems: RadarItem[] = [
   ],
   "time": "07:00",
   "title": "Scarborough社区议会建议批准拆8套租屋：替代单位限租20年",
-  "url": "https://publicgallery.app/toronto/items/2027.SC1.1",
-  "wendyNote": "这是建议、不是最终批准，决定权还在市议会手里——但条件已经写得很具体：替代单位限租20年、可负担租金10年，租户援助计划也列入。附近买家、房东与租客可把申请20 211505 ESC 20 RH加入尽调清单；租客留意市议会审议时间，房东别把“已获批”当成事实去谈租金。"
+  "url": "https://secure.toronto.ca/council/agenda-item.do?item=2027.SC1.1",
+  "wendyNote": "这是社区议会向市议会提出的建议，并非最终拆除许可；市府记录列明将于12月9–10日提交市议会。行动：附近买家、房东与租客将申请20 211505 ESC 20 RH及租户援助条件加入尽调，追踪最终决定，不把建议写成项目已经全面获批。"
 },
 {
   "id": "statcan-september-payroll-vacancies-nov26-2026",
