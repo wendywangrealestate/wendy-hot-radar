@@ -20,6 +20,121 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-27",
+  "firstHand": true,
+  "heat": 70,
+  "id": "bild-newhome-oct2026",
+  "image": "/summaries/bild-newhome-oct2026.jpg",
+  "points": [
+    "10月新房售1,340套",
+    "低层958套超十年均值21%",
+    "高层库存44个月"
+  ],
+  "source": "BILD 11月26日官方发布（Altus Group 数据）",
+  "summary": "BILD 11月26日发布10月数据：GTA新房售出1,340套，为三年最佳10月，但仍比十年均值2,729套低51%。低层958套、超十年均值21%，高层382套、同比-28%；新低层基准价$1,259,190、同比-12.2%，高层$1,053,085、同比+2%。待售库存19,202套，低层约11个月、高层约44个月；BILD称HST退税是主因，近9,000个家庭已受益，退税2027年3月31日到期。",
+  "tags": [
+    "新房销量",
+    "HST退税",
+    "低层领跑"
+  ],
+  "time": "07:00",
+  "title": "BILD：10月GTA新房售1,340套，三年最佳10月、低层领跑",
+  "url": "https://www.bildgta.ca/gta-new-homes-sales-rise-in-october-as-temporary-hst-rebate-continues-to-provide-relief-for-new-home-purchasers/",
+  "wendyNote": "新房回暖是真的，但分化更真：低层已经跑赢十年均值，高层库存44个月还在压顶。想买新房的客户，低层要抓紧HST退税窗口（3月31日截止）；Condo楼花继续等，竣工盘议价空间更大。转售卖家注意：带退税的新低层就是你的直接竞争对手，定价要按扣完退税后的价来比。"
+},
+{
+  "date": "2026-11-27",
+  "firstHand": false,
+  "heat": 72,
+  "id": "dec-hike-odds-nov27-2026",
+  "image": "/summaries/dec-hike-odds-nov27-2026.jpg",
+  "points": [
+    "Polymarket加息82%再升",
+    "Kalshi加息81%跟进",
+    "经济学家仍3人押按兵不动"
+  ],
+  "source": "bips 12月议息预测追踪 · 11月27日",
+  "summary": "bips 11月27日追踪：12月9日加息概率 Polymarket 82%、Kalshi 81%，较26日的78%/74%继续上行；4位已表态经济学家仍3人押按兵不动、1人押加息，Desjardins称12月是“coin flip”，CIBC料12月按兵不动、明年1月再加。11月26日统计局9月数据显示职位空缺回升、工资同比+3.3%，劳动市场未明显走弱。Macklem称议息前将参考11月30日三季度GDP与12月4日就业数据。",
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "time": "07:00",
+  "title": "12月加息概率再升：Polymarket 82%、Kalshi 81%",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "wendyNote": "加息押注三天连涨：76%→78%→82%，市场几乎一边倒，但经济学家阵营纹丝不动——分歧本身就是信号。预测市场概率是会波动的预期，不是央行决定，也不是银行房贷报价；浮动利率、固定月供浮息贷款及HELOC的调整方式各异，留预算要让贷款顾问按实际余额、摊还期与合同类型分别测算。11月30日GDP和12月4日就业数据是下一个变数，之前不必押注单边。"
+},
+{
+  "date": "2026-11-27",
+  "firstHand": false,
+  "heat": 60,
+  "id": "enterhome-nov27-2026-pulse",
+  "image": "/summaries/enterhome-nov27-2026-pulse.jpg",
+  "points": [
+    "11月至今售出4,452套",
+    "同比-632套落后扩大",
+    "中位价$860,000同比-5.0%"
+  ],
+  "source": "EnterHome GTA快照 · 11月27日更新",
+  "summary": "EnterHome 11月27日快照：11月1–27日GTA售出4,452套，同比-632套（去年同期5,084套）、环比10月同期+860套；中位成交价$860,000，同比-5.0%、环比-1.1%；中位售期69天，比去年同期快3天。同比落后扩大主因是去年11月27日单日基数高达593套；累计数较昨日快照微降2套，系索引修正。量价仍是买方市场。",
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "time": "07:00",
+  "title": "11月至今GTA售出4,452套：同比落后扩大至-632套，中位价跌5.0%",
+  "url": "https://www.enterhome.ca/research/gta",
+  "wendyNote": "同比-632看着吓人，其实是去年11月27日单日593套的基数在作怪——单日快照别当趋势读。真正稳定的信号还是中位价同比跌5%、售期69天。买家继续按“可挑、可谈”操作；卖家定价仍贴市场。注意这是抽样快照、非完整MLS统计。"
+},
+{
+  "date": "2026-11-27",
+  "firstHand": false,
+  "heat": 70,
+  "id": "equifax-negative-equity-q3-2026",
+  "image": "/summaries/equifax-negative-equity-q3-2026.jpg",
+  "points": [
+    "年轻房贷26%已负资产",
+    "Condo负资产率7.2%",
+    "全国拖欠0.32%创13年新高"
+  ],
+  "source": "Equifax Q3报告 · Real Estate Magazine 11月24日",
+  "summary": "Equifax Q3《Market Pulse》：安省26–35岁持有的房贷约四分之一已负资产（欠款超房价）；全省负资产房贷占全国约70%、为安省全部房贷的5%，BC仅1.85%、魁北克1.10%。Condo房贷负资产率7.2%、为独立屋2.7%的近三倍；2022年高点买入者8.4%已负资产。全国90天以上房贷拖欠率0.32%，同比+31.1%、为2013年有记录以来最高，安省与BC占新增严重拖欠的91%。",
+  "tags": [
+    "负资产",
+    "年轻买家",
+    "Condo风险"
+  ],
+  "time": "07:00",
+  "title": "Equifax：安省年轻房贷四分之一已负资产，Condo负资产率7.2%",
+  "url": "https://realestatemagazine.ca/one-in-four-mortgages-held-by-younger-ontarians-may-be-underwater-equifax/",
+  "wendyNote": "负资产最集中的画像很清晰：安省、年轻人、Condo、2022年高点买入——这正是GTA最常见的首套组合。能继续供款就不算即时危机，但想卖想换就卡住了：卖了要补差价、转按揭要补首付。手里有这类客户的，现在就该算清“卖房要补多少钱”再谈换房；买家则要明白，明年可能有更多这类急售盘，但别指望大面积抛售。"
+},
+{
+  "date": "2026-11-27",
+  "firstHand": false,
+  "heat": 58,
+  "id": "kennedy-danforth-decision-nov25-2026",
+  "image": "/summaries/kennedy-danforth-decision-nov25-2026.jpg",
+  "points": [
+    "社区议会建议市议会批准",
+    "8套替代租屋限租20年",
+    "租户援助计划须配套"
+  ],
+  "source": "The Public Gallery 11月25日 · 市议会 SC1.1 记录整理",
+  "summary": "Scarborough社区议会11月25日建议市议会批准411/415 Kennedy Road与636–646 Danforth Road的拆租申请：拆除8套出租单位，在23层、276户新楼中建8套替代租赁单位，须维持出租至少20年；其中6套一房与1套单间须以不高于市均租金的“可负担租金”出租至少10年，另1套单间为中档租金。业主须提供租户援助计划，替代单位须配独立洗衣与中央空调、不另收费。最终决定待市议会审议。",
+  "tags": [
+    "Scarborough",
+    "租赁拆建",
+    "社区议会"
+  ],
+  "time": "07:00",
+  "title": "Scarborough社区议会建议批准拆8套租屋：替代单位限租20年",
+  "url": "https://publicgallery.app/toronto/items/2027.SC1.1",
+  "wendyNote": "这是建议、不是最终批准，决定权还在市议会手里——但条件已经写得很具体：替代单位限租20年、可负担租金10年，租户援助计划也列入。附近买家、房东与租客可把申请20 211505 ESC 20 RH加入尽调清单；租客留意市议会审议时间，房东别把“已获批”当成事实去谈租金。"
+},
+{
   "id": "statcan-september-payroll-vacancies-nov26-2026",
   "date": "2026-11-26",
   "time": "08:30",
