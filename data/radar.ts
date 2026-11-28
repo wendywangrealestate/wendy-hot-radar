@@ -20,6 +20,98 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "date": "2026-11-28",
+  "time": "08:30",
+  "firstHand": true,
+  "id": "cmhc-1117-danforth-funding-nov27-2026",
+  "heat": 78,
+  "tags": [
+    "416租赁",
+    "Danforth",
+    "住房供给"
+  ],
+  "points": [
+    "11月27日公布住房资金",
+    "1117 Danforth拟提供108套租屋",
+    "资金公告不等于已经交付"
+  ],
+  "title": "Danforth新增租赁供给：CMHC公布约$3,500万资金支持108套住房",
+  "summary": "CMHC于11月27日宣布，通过Affordable Housing Fund向1117 Danforth Avenue项目提供资金，帮助建设108套租赁住房；公告正文称超过$3,500万、资金明细列示$3,500万。项目为14层混合用途建筑，户型从单间至四卧。此为资金支持公告，不证明已竣工、开始招租或所有住房均可按市场方式申请。",
+  "wendyNote": "对Danforth沿线家庭及租赁客户，这是需要跟踪的供给项目；不能据单一项目推断整个416租金将下跌。行动：把项目加入社区介绍中的“规划及建设中住房”，另核查预计交付、实际租金和申请资格后再给客户推荐，不标成现有可租房源。",
+  "source": "CMHC官方 · 11月27日资金公告",
+  "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/minister-julie-dabrusin-announces-more-affordable-housing-toronto-danforth",
+  "image": "/summaries/cmhc-1117-danforth-funding-nov27-2026-nov28.svg"
+},
+{
+  "date": "2026-11-28",
+  "time": "08:30",
+  "firstHand": true,
+  "id": "boc-housing-transmission-research-nov2026",
+  "heat": 60,
+  "tags": [
+    "央行研究",
+    "购房需求",
+    "住房供给"
+  ],
+  "points": [
+    "本月研究解读，不是利率决定",
+    "利率对需求的作用较快",
+    "新增住房供给调整较慢"
+  ],
+  "title": "本月研究：央行研究人员解释，利率影响需求快，住房供给反应较慢",
+  "summary": "央行网站11月Sparks at Bank研究解读指出，较高利率可较快压低购房需求和房价，住房开工及许可也受影响，但对未来住房总存量的作用较慢、较有限；利率无法持续解决分区、审批等结构性供给障碍。页面只标明2026年11月，不将其写成昨日发布。文章为作者观点，独立于央行管理委员会，并非新的政策决定。",
+  "wendyNote": "为GTA客户解释房价和借贷成本时，应区分短期购买力与长期供应，不能把“利率下降”机械等同所有社区房价立即上升。行动：向买家同时列出月供测算、同社区近期成交和未来项目交付，按持有期限及现金流决策。",
+  "source": "Bank of Canada · Sparks at Bank · 2026年11月研究解读",
+  "url": "https://www.bankofcanada.ca/2026/11/sparks-at-bank-article-2026-26/",
+  "image": "/summaries/boc-housing-transmission-research-nov2026-nov28.svg"
+},
+{
+  "date": "2026-11-28",
+  "time": "08:30",
+  "firstHand": true,
+  "id": "google-hfe-reliability-nov24-2026",
+  "heat": 52,
+  "tags": [
+    "AI工具",
+    "可靠性",
+    "资料核对"
+  ],
+  "points": [
+    "11月24日公布可靠性基准",
+    "544个基础文字与图片问题",
+    "检验反复回答是否稳定正确"
+  ],
+  "title": "近期AI进展：Google用日常问题检验模型可靠性，地产工作应重复核对",
+  "summary": "Google DeepMind于11月24日公布Humanity’s First Exam基准，以544个文字及图片提示、20项基础能力，测试模型能否在简单问题及细微变体中持续给出正确答案。配套Kaggle活动截至12月15日。这是可靠性评测进展，不是新地产软件，也不证明某模型可独立审核交易文件。",
+  "wendyNote": "金额、日期、户型图数字和条款整理即使看起来简单，也值得核对原件；一次答对不代表稳定可靠。行动：用匿名样本把同一租约或交接问题换三种问法测试，再逐项对照原文；涉及金额、期限及法律含义的结论由经纪和相关专业人士复核。",
+  "source": "Google DeepMind官方 · 11月24日（近期技术进展）",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+  "image": "/summaries/google-hfe-reliability-nov24-2026-nov28.svg"
+},
+{
+  "date": "2026-11-28",
+  "time": "08:30",
+  "firstHand": true,
+  "id": "vercel-workflow-sdk58-nov25-2026",
+  "heat": 44,
+  "tags": [
+    "网站技术",
+    "AI工作流",
+    "SDK更新"
+  ],
+  "points": [
+    "11月25日：Workflow SDK 5.8",
+    "厂商测试：步骤切换开销下降",
+    "发布流程先检查重复执行"
+  ],
+  "title": "近期网站技术：Vercel Workflow SDK 5.8降低多步骤执行开销",
+  "summary": "Vercel于11月25日宣布Workflow SDK 5.8的新执行引擎。其对比5.2.0与5.8.0的测试中，p75步骤切换开销由85ms降至7ms；这些是厂商测试、不是Wendy网站的实测速度。新运行默认使用新引擎，已开始的旧版本运行继续使用原版本。部分优化涉及可重试步骤的推测执行，需确保重复执行不会造成重复副作用。",
+  "wendyNote": "对新闻抓取、审核、去重、发布这类多步骤网站流程，值得维护方评估；仅部署在Vercel并不代表已使用此SDK。行动：先确认实际依赖，若适用，在测试环境检查同一故事或提交重复运行时不会重复发布，再比较延迟与费用；本次不升级运行库或改网站架构。",
+  "source": "Vercel官方 · 11月25日（近期技术变化）",
+  "url": "https://vercel.com/changelog/workflows-speculative-execution",
+  "image": "/summaries/vercel-workflow-sdk58-nov25-2026-nov28.svg"
+},
+{
   "id": "dec-hike-odds-nov28-2026",
   "date": "2026-11-28",
   "time": "07:00",
@@ -808,19 +900,19 @@ export const radarItems: RadarItem[] = [
     "房贷预算",
     "观察事项"
   ],
-  "title": "经济数据观察：11月26日工资与职位空缺，11月30日公布Q3 GDP",
-  "summary": "统计局11月20日更新的日程列明：11月26日发布9月受薪就业、工资、工时及职位空缺；11月30日发布第三季度收入支出法GDP及9月行业GDP。The Daily通常于多伦多时间8:30发布，日程可能调整。目前仅确认发布时间，不能预先报道增长、就业或利率结果。",
-  "wendyNote": "这些数据可帮助评估买家收入稳定性及经济前景，也可能影响市场对利率的判断；统计发布并非央行议息，贷款机构报价另行决定。行动：先记录客户当前贷款报价与有效期，数据发布后只根据实际结果及更新报价调整预算。",
-  "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm?WT.mc_id=twt",
-  "source": "加拿大统计局11月20日发布日程 · 未来观察；示意图：本简报依据官方日程制作",
+  "title": "下周观察：11月30日GDP、12月4日就业；12月9日央行议息",
+  "summary": "统计局11月27日更新的日程确认，11月30日08:30公布第三季度收入支出法GDP及9月行业GDP，12月4日08:30公布11月劳动力调查。此前11月26日薪资与职位空缺统计已发布，旧观察项在此更新其状态。央行官方日程列示下一次议息为12月9日，当前政策利率为2.50%；这些是未来事件日程，不是尚未公布的数据结果或加息决定。",
+  "wendyNote": "下周数据可改变市场预期，但央行政策利率不是客户的银行房贷报价。行动：周末先向贷款顾问确认买家的当前报价、锁定有效期及融资条件截止，数据实际公布后再按客户合同和新报价调整预算，不因预测平台小幅波动提前放弃融资条件。",
+  "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+  "source": "统计局11月27日日程；央行官方利率及议息日程 · 11月28日复核",
   "date": "2026-11-23",
   "time": "08:25",
   "firstHand": true,
-  "image": "/summaries/statcan-payroll-gdp-nov2026-watch.svg",
+  "image": "/summaries/statcan-payroll-gdp-nov2026-watch-nov28.svg",
   "points": [
-    "11月26日：受薪就业及工资",
-    "11月30日：Q3及9月GDP",
-    "通常8:30 ET发布，非议息"
+    "11月30日08:30：Q3及9月GDP",
+    "12月4日08:30：11月就业",
+    "12月9日：央行议息，方向未定"
   ]
 },
 {
