@@ -158,29 +158,6 @@ export const radarItems: RadarItem[] = [
   "image": "/summaries/enterhome-nov28-2026-pulse.jpg"
 },
 {
-  "id": "ontario-tax-arrears-2025-nov13-2026",
-  "date": "2026-11-28",
-  "time": "07:00",
-  "firstHand": false,
-  "source": "Better Dwelling 11月13日分析 · 安省市政申报",
-  "heat": 68,
-  "tags": [
-    "地税拖欠",
-    "屋主压力",
-    "GTA"
-  ],
-  "points": [
-    "安省拖欠率7.2%创24年新高",
-    "Brampton 11.9%全省最高",
-    "多伦多6.6%亦为2001年以来最高"
-  ],
-  "title": "近期重点：安省地税拖欠率7.2%创24年新高，Brampton 11.9%居首",
-  "summary": "Better Dwelling 11月13日按安省市政申报统计：2025年底未缴地税$24.3亿，占全年$341亿税基的7.2%，为2001年以来最高，较2024年升0.48个百分点、较2019年升2.46个百分点。大城市中Brampton拖欠率11.9%最高（2004年以来最高），Vaughan 9.9%、多伦多6.6%（亦为2001年以来最高，占全省拖欠额逾五分之一）。统计覆盖已申报的316个市镇、Hamilton未申报，属单一机构对申报数据的解读。",
-  "wendyNote": "地税拖欠是屋主现金流压力的先行信号，但它不等于法拍、也不等于房价要跌——拖欠可以拖一阵，真正到挂牌急售还要看贷款续期与收入。行动：对Brampton、Vaughan等高拖欠率区域的卖家与买家，尽调时多问一句地税与贷款状态；对考虑急售房源的买家，这类区域值得多留意，但别把拖欠率直接当成折扣依据。",
-  "url": "https://betterdwelling.com/ontario-property-tax-arrears-hit-24-year-high-brampton-leads-at-11-9/",
-  "image": "/summaries/ontario-tax-arrears-2025-nov13-2026.jpg"
-},
-{
   "id": "vercel-standard-build-billing-nov25-2026",
   "date": "2026-11-27",
   "time": "08:20",
