@@ -20,6 +20,75 @@ export interface RadarItem {
 
 export const radarItems: RadarItem[] = [
 {
+  "id": "dec-hike-odds-nov28-2026",
+  "date": "2026-11-28",
+  "time": "07:00",
+  "firstHand": false,
+  "source": "bips 12月议息预测追踪 · 11月28日",
+  "heat": 70,
+  "tags": [
+    "央行议息",
+    "加息概率",
+    "12月9日"
+  ],
+  "points": [
+    "Polymarket加息83%微升",
+    "Kalshi加息80%微降",
+    "经济学家仍3人押按兵不动"
+  ],
+  "title": "12月加息概率高位横盘：Polymarket 83%、Kalshi 80%",
+  "summary": "bips 11月28日追踪：12月9日加息概率 Polymarket 83%、Kalshi 80%，较27日的82%/81%一升一降、基本横盘；4位已表态经济学家仍3人押按兵不动、1人押加息，Desjardins称12月是“coin flip”，CIBC料12月按兵不动、明年1月再加。Macklem称议息前将参考11月30日三季度GDP与12月4日就业数据。",
+  "wendyNote": "加息押注连续四天站在八成上下，但两家平台一升一降、经济学家阵营纹丝不动——分歧本身就是信号。预测市场概率是会波动的预期，不是央行决定，也不是银行房贷报价；浮动利率、固定月供浮息贷款及HELOC的调整方式各异，留预算要让贷款顾问按实际余额、摊还期与合同类型分别测算。11月30日GDP和12月4日就业数据是下一个变数，之前不必押注单边。",
+  "url": "https://bips.ca/resources/bank-of-canada-forecasting",
+  "image": "/summaries/dec-hike-odds-nov28-2026.jpg"
+},
+{
+  "id": "enterhome-nov28-2026-pulse",
+  "date": "2026-11-28",
+  "time": "07:00",
+  "firstHand": false,
+  "source": "EnterHome GTA快照 · 11月28日更新",
+  "heat": 60,
+  "tags": [
+    "11月成交",
+    "月中快照",
+    "中位价"
+  ],
+  "points": [
+    "11月至今售出4,450套",
+    "同比-635套落后持平",
+    "中位价$860,000同比-5.0%"
+  ],
+  "title": "11月至今GTA售出4,450套：同比落后-635套，中位价跌5.0%",
+  "summary": "EnterHome 11月28日快照：11月1–28日GTA售出4,450套，同比-635套（去年同期5,085套）、环比10月同期+355套；中位成交价$860,000，同比-5.0%、环比-1.1%；中位售期70天，比去年同期快2天。累计数较昨日快照再微降2套，具体修订原因尚未独立核实；此为第三方滚动快照，非TRREB完整月报。",
+  "wendyNote": "同比-635与昨日-632基本持平，仍是去年11月下旬单日高基数在作怪——单日快照别当趋势读。真正稳定的信号还是中位价同比跌5%、售期70天。买家继续按“可挑、可谈”操作；卖家定价仍贴市场。注意这是抽样快照、非完整MLS统计。",
+  "url": "https://www.enterhome.ca/research/gta",
+  "image": "/summaries/enterhome-nov28-2026-pulse.jpg"
+},
+{
+  "id": "ontario-tax-arrears-2025-nov13-2026",
+  "date": "2026-11-28",
+  "time": "07:00",
+  "firstHand": false,
+  "source": "Better Dwelling 11月13日分析 · 安省市政申报",
+  "heat": 68,
+  "tags": [
+    "地税拖欠",
+    "屋主压力",
+    "GTA"
+  ],
+  "points": [
+    "安省拖欠率7.2%创24年新高",
+    "Brampton 11.9%全省最高",
+    "多伦多6.6%亦为2001年以来最高"
+  ],
+  "title": "近期重点：安省地税拖欠率7.2%创24年新高，Brampton 11.9%居首",
+  "summary": "Better Dwelling 11月13日按安省市政申报统计：2025年底未缴地税$24.3亿，占全年$341亿税基的7.2%，为2001年以来最高，较2024年升0.48个百分点、较2019年升2.46个百分点。大城市中Brampton拖欠率11.9%最高（2004年以来最高），Vaughan 9.9%、多伦多6.6%（亦为2001年以来最高，占全省拖欠额逾五分之一）。统计覆盖已申报的316个市镇、Hamilton未申报，属单一机构对申报数据的解读。",
+  "wendyNote": "地税拖欠是屋主现金流压力的先行信号，但它不等于法拍、也不等于房价要跌——拖欠可以拖一阵，真正到挂牌急售还要看贷款续期与收入。行动：对Brampton、Vaughan等高拖欠率区域的卖家与买家，尽调时多问一句地税与贷款状态；对考虑急售房源的买家，这类区域值得多留意，但别把拖欠率直接当成折扣依据。",
+  "url": "https://betterdwelling.com/ontario-property-tax-arrears-hit-24-year-high-brampton-leads-at-11-9/",
+  "image": "/summaries/ontario-tax-arrears-2025-nov13-2026.jpg"
+},
+{
   "id": "vercel-standard-build-billing-nov25-2026",
   "date": "2026-11-27",
   "time": "08:20",
